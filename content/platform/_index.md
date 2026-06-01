@@ -2,7 +2,7 @@
 layout: "page"
 title: "Platform"
 description: "CCASH provides a complete legal infrastructure and technology platform for regulated financial services. Entity framework, compliance operations, and a Go and HTMX application platform."
-keywords: ["platform", "legal infrastructure", "technology platform", "Go", "HTMX", "encrypted SQLite", "Solana", "CCASH"]
+keywords: ["platform", "legal infrastructure", "technology platform", "Go", "HTMX", "encrypted SQLite", "Ed25519", "CCASH"]
 ogImage: "/og-image.png"
 stylesheets:
   - "/css/main.css"
@@ -32,7 +32,7 @@ sitemap:
 
         <div class="concept-box">
             <h4>Technology Layer</h4>
-            <p>The technology layer provides a Go and HTMX application platform with encrypted SQLite storage, Solana Ed25519 signature security, and single-binary deployment. The platform delivers a mobile-first responsive interface for operations management, with no JavaScript build step required. Every write operation is cryptographically signed, creating a tamper-evident audit trail.</p>
+            <p>The technology layer provides a Go and HTMX application platform with encrypted SQLite storage, Ed25519 signature security, and single-binary deployment. The platform delivers a mobile-first responsive interface for operations management, with no JavaScript build step required. Every write operation is cryptographically signed, creating a tamper-evident audit trail.</p>
         </div>
 
         <div class="concept-box">

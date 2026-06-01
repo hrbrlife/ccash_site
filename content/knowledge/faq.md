@@ -24,7 +24,7 @@ faqItems:
     answer: "The CCASH platform is available to qualified financial service operators, regulated entities, and their authorized service providers under applicable agreements."
     category: "general"
   - question: "How does platform security work?"
-    answer: "Security is built on least privilege, defense in depth, and capability security. Every write operation uses Solana Ed25519 signatures for tamper-evident audit trails. All data is encrypted at rest and in transit."
+    answer: "Security is built on least privilege, defense in depth, and capability security. Every write operation uses Ed25519 signatures for tamper-evident audit trails. All data is encrypted at rest and in transit."
     category: "technical"
   - question: "What is the entity framework?"
     answer: "CCASH provides a legal entity framework with isolated compartments for each client operation, ensuring separation of assets, liabilities, and governance while maintaining operational efficiency."

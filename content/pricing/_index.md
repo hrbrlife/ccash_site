@@ -31,7 +31,7 @@ sitemap:
             <thead><tr><th>Tier</th><th>Includes</th><th>Structure</th></tr></thead>
             <tbody>
                 <tr><td><strong>Tier 1: Legal Framework</strong></td><td>Entity documentation, compliance policies, governance procedures, operational frameworks</td><td>Fixed periodic fee</td></tr>
-                <tr><td><strong>Tier 2: Technology Platform</strong></td><td>Go application, deployment, encrypted storage, Solana security, platform support</td><td>Platform fee plus usage-based pricing</td></tr>
+                <tr><td><strong>Tier 2: Technology Platform</strong></td><td>Go application, deployment, encrypted storage, Ed25519 security, platform support</td><td>Platform fee plus usage-based pricing</td></tr>
                 <tr><td><strong>Tier 3: Full Stack</strong></td><td>Legal framework and technology platform combined</td><td>Combined pricing with volume adjustment</td></tr>
             </tbody>
         </table>
@@ -43,7 +43,7 @@ sitemap:
 
         <div class="concept-box">
             <h4>Tier 2: Technology Platform</h4>
-            <p>The technology layer covers the Go and HTMX application platform, encrypted SQLite storage, Solana Ed25519 security infrastructure, and deployment support. This tier is priced as a platform fee plus usage-based pricing for transaction volume and storage. Deployment assistance and ongoing platform support are included.</p>
+            <p>The technology layer covers the Go and HTMX application platform, encrypted SQLite storage, Ed25519 security infrastructure, and deployment support. This tier is priced as a platform fee plus usage-based pricing for transaction volume and storage. Deployment assistance and ongoing platform support are included.</p>
         </div>
 
         <div class="concept-box">

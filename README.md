@@ -1,6 +1,6 @@
-# Sails.to Hugo Website
+# CCASH Hugo Website
 
-This is the Hugo-powered version of the Sails.to website with complete 1:1 parity with the original HTML version.
+This is the Hugo-powered version of the CCASH website.
 
 ## Structure
 

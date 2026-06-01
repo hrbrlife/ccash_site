@@ -2,7 +2,7 @@
 title: "Compliance Framework - Documentation"
 description: "KYC credential NFTs, ComplianceConfig PDAs, transfer enforcement, regulatory reporting, and the 7-year audit trail - compliance as code, not as afterthought."
 ogImage: "/og-image.png"
-keywords: ["compliance", "KYC", "regulatory reporting", "audit trail", "accredited investor", "Reg D"]
+keywords: ["compliance", "KYC", "regulatory reporting", "audit trail", "qualified investor", "regulatory exemption"]
 stylesheets:
   - "/css/main.css"
   - "/css/pages/glossary.css"
@@ -29,7 +29,7 @@ ogtype: "article"
 ├── expires_at: i64               // Credential expiration
 ├── aml_clear: bool               // Anti-money laundering clearance
 └── pep_clear: bool               // Politically exposed person clearance</code></pre>
-        <p>The <code>investor_class</code> determines which offerings an investor can access. An <span class="glossary-term" data-term="accredited-investor">Accredited Investor</span> can participate in <span class="glossary-term" data-term="reg-d">Reg D 506(b)</span> and 506(c) offerings. A <span class="glossary-term" data-term="professional-investor">Professional Investor</span> can access institutional tranches. A Retail investor is limited to <span class="glossary-term" data-term="reg-d">Reg A</span> and Reg CF offerings. The smart contract checks this on every mint, every transfer, every distribution claim.</p>
+        <p>The <code>investor_class</code> determines which offerings an investor can access. An <span class="glossary-term" data-term="qualified-investor">Qualified Investor</span> can participate in <span class="glossary-term" data-term="reg-d">regulatory exemption compliance framework</span> and compliance framework offerings. A <span class="glossary-term" data-term="professional-investor">Professional Investor</span> can access institutional tranches. A Retail investor is limited to <span class="glossary-term" data-term="reg-d">Reg A</span> and Reg CF offerings. The smart contract checks this on every mint, every transfer, every distribution claim.</p>
         <p>The <code>jurisdiction_hash</code> is a SHA-256 hash of the investor's ISO country code - anonymized so that the blockchain reveals nothing about the investor's location, but the <span class="glossary-term" data-term="transfer-hook">Transfer Hook</span> can still enforce jurisdiction whitelists by comparing hashes.</p>
         <p>Credentials expire. When <code>expires_at</code> passes, the investor's KYC is no longer valid, and the smart contract will reject any new minting or transfer operations until a fresh credential is issued. The platform does not wait for expiration to bite - the KYC Grain tracks expiration windows and triggers re-verification workflows proactively.</p>
         <h2>Compliance Configuration</h2>
@@ -39,23 +39,23 @@ ogtype: "article"
 ├── allowed_jurisdictions: Vec&lt;[u8; 32]&gt;  // SHA256 hashes of allowed ISO codes
 ├── min_investment: u64            // Minimum investment amount (in cents)
 ├── lock_up_days: u32              // Mandatory holding period before transfer
-├── max_investors: u32             // Maximum number of investors (e.g., 2000 for Reg D)
+├── max_investors: u32             // Maximum number of investors (e.g., 2000 for regulatory exemption)
 ├── accreditation_required: bool   // Whether accredited status is mandatory
 ├── reg_exemption: enum            // Which regulatory exemption applies
 ├── features: u64                  // Bitmask for feature flags (pause, etc.)
 └── version: u8                    // PDA version for migration support</code></pre>
-        <p>The <code>max_investors</code> field is critical for <span class="glossary-term" data-term="reg-d">Reg D</span> offerings - 506(b) limits non-accredited investors to 35, while the total investor count must remain under SEC thresholds. The smart contract tracks the current investor count in the <code>OfferingState</code> PDA and rejects any mint that would exceed the limit.</p>
-        <p>The <code>lock_up_days</code> field enforces mandatory holding periods. For Reg D securities, this is typically 6-12 months. The <code>transfer_with_compliance</code> instruction checks the investor's <code>locked_until</code> timestamp against the current slot time - if the lock-up hasn't expired, the transfer is rejected at the protocol level.</p>
+        <p>The <code>max_investors</code> field is critical for <span class="glossary-term" data-term="reg-d">regulatory exemption</span> offerings - compliance framework limits non-qualified investors to 35, while the total investor count must remain under SEC thresholds. The smart contract tracks the current investor count in the <code>OfferingState</code> PDA and rejects any mint that would exceed the limit.</p>
+        <p>The <code>lock_up_days</code> field enforces mandatory holding periods. For regulatory exemption securities, this is typically 6-12 months. The <code>transfer_with_compliance</code> instruction checks the investor's <code>locked_until</code> timestamp against the current slot time - if the lock-up hasn't expired, the transfer is rejected at the protocol level.</p>
         <h2>Transfer Enforcement</h2>
         <p>Every token transfer on the platform passes through compliance enforcement. There are no unverified transfers. The <code>transfer_with_compliance</code> instruction performs the following checks before allowing any movement of <span class="glossary-term" data-term="security-token">security tokens</span>:</p>
         <ol>
             <li><strong>KYC Validity:</strong> Both the sender and receiver must hold valid, unexpired KYC Credential NFTs. If either credential has expired or been revoked, the transfer is rejected.</li>
             <li><strong>Lock-Up Period:</strong> The sender's <code>locked_until</code> timestamp must be in the past. If the mandatory holding period hasn't elapsed, the transfer is rejected.</li>
-            <li><strong>Jurisdiction Whitelist:</strong> The receiver's <code>jurisdiction_hash</code> must appear in the offering's <code>allowed_jurisdictions</code> list. A <span class="glossary-term" data-term="reg-s">Reg S</span> offering restricted to non-US investors will reject any transfer to a US-jurisdiction wallet.</li>
-            <li><strong>Accreditation Tier:</strong> The receiver must meet the offering's accreditation requirements. A <span class="glossary-term" data-term="reg-d">Reg D 506(c)</span> offering requires the receiver to be an <span class="glossary-term" data-term="accredited-investor">Accredited Investor</span> or above.</li>
+            <li><strong>Jurisdiction Whitelist:</strong> The receiver's <code>jurisdiction_hash</code> must appear in the offering's <code>allowed_jurisdictions</code> list. A <span class="glossary-term" data-term="reg-s">international framework</span> offering restricted to non-US investors will reject any transfer to a US-jurisdiction wallet.</li>
+            <li><strong>Accreditation Tier:</strong> The receiver must meet the offering's accreditation requirements. A <span class="glossary-term" data-term="reg-d">regulatory exemption compliance framework</span> offering requires the receiver to be an <span class="glossary-term" data-term="qualified-investor">Qualified Investor</span> or above.</li>
             <li><strong>Investor Count:</strong> The transfer must not cause the offering to exceed its <code>max_investors</code> limit (relevant when the receiver is a new investor, not an existing holder).</li>
         </ol>
-        <p>These checks are enforced by the SPL-2022 <span class="glossary-term" data-term="transfer-hook">Transfer Hook</span> - a program extension that the Solana runtime invokes on every token transfer. Non-compliant transfers are not logged and ignored; they are <strong>rejected</strong>. The tokens do not move. See the <a href="/knowledge/docs/transfer-rules/">Transfer Rules documentation</a> for the complete enforcement mechanism.</p>
+        <p>These checks are enforced by the platform's compliance system at the transfer layer. Non-compliant transfers are not logged and ignored; they are <strong>rejected</strong>. The tokens do not move. See the <a href="/knowledge/docs/transfer-rules/">Transfer Rules documentation</a> for the complete enforcement mechanism.</p>
         <h2>Regulatory Reporting</h2>
         <p>Compliance is not just enforcement - it is reporting. The platform generates the following regulatory filings and reports, automated where possible, human-reviewed where required:</p>
         <table>
@@ -93,7 +93,7 @@ ogtype: "article"
                     <td>Partner's share of income for LLC pass-through taxation. Generated from on-chain <span class="glossary-term" data-term="distributions">distribution</span> records and <span class="glossary-term" data-term="cap-table">cap table</span> snapshots at tax year end.</td>
                 </tr>
                 <tr>
-                    <td><strong><span class="glossary-term" data-term="reg-s">Reg S</span> Compliance</strong></td>
+                    <td><strong><span class="glossary-term" data-term="reg-s">international framework</span> Compliance</strong></td>
                     <td>SEC</td>
                     <td>Ongoing</td>
                     <td>Non-US investor tracking, flowback restrictions, and distribution compliance period monitoring.</td>

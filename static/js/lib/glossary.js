@@ -115,19 +115,14 @@
                 "shortDefinition": "Laws and procedures designed to prevent criminals from disguising illegally obtained funds as legitimate income.",
                 "category": "Compliance"
             },
-            "isin": {
-                "term": "ISIN",
-                "shortDefinition": "International Securities Identification Number - a 12-character code that uniquely identifies a security globally.",
-                "category": "Finance"
+            "grain": {
+                "term": "Grain",
+                "shortDefinition": "The fundamental isolation unit in Sandstorm/Melusina OS — a sandboxed application instance with its own journal store, capability set, and lifecycle.",
+                "category": "Technology"
             },
-            "clearstream": {
-                "term": "Clearstream",
-                "shortDefinition": "A major international securities depository enabling custody and settlement across 110+ markets worldwide.",
-                "category": "Finance"
-            },
-            "wyoming-dao-llc": {
-                "term": "Wyoming DAO Series LLC",
-                "shortDefinition": "Wyoming's legally-recognized DAO structure with Series LLC capability — each offering gets its own isolated series with separate assets/liabilities.",
+            "entity-framework": {
+                "term": "Entity Framework",
+                "shortDefinition": "Pre-built legal structures (Series LLC, DAO LLC) that provide legal isolation between operating compartments.",
                 "category": "Legal"
             },
             "series-llc": {
@@ -160,64 +155,39 @@
                 "shortDefinition": "SEC regulation providing exemptions from registration for private placements to accredited investors in the US.",
                 "category": "Compliance"
             },
-            "solana": {
-                "term": "Solana",
-                "shortDefinition": "High-performance blockchain with 400ms finality and sub-cent transaction fees used for CrossSecurities settlement.",
+            "credential-nft": {
+                "term": "Credential NFT",
+                "shortDefinition": "Non-fungible token representing verified identity and role authorization — used for capability-based access control.",
                 "category": "Technology"
             },
             "smart-contract": {
                 "term": "Smart Contract",
-                "shortDefinition": "Self-executing code on blockchain that automatically enforces agreement terms — handles distributions, transfers, and compliance.",
+                "shortDefinition": "Self-executing code that automatically enforces agreement terms — handles operations, transfers, and compliance.",
                 "category": "Technology"
             },
-            "tradfi-bridge": {
-                "term": "TradFi Bridge",
-                "shortDefinition": "Infrastructure enabling conversion between blockchain tokens and traditional securities via ISIN/Clearstream.",
-                "category": "Finance"
-            },
-            "tokenization": {
-                "term": "Tokenization",
-                "shortDefinition": "Creating a digital token on blockchain representing ownership of a real-world asset like securities or real estate.",
-                "category": "Finance"
+            "capability-based-access": {
+                "term": "Capability-Based Access",
+                "shortDefinition": "A security model where access is granted through unforgeable tokens (capabilities) rather than identity-based permissions.",
+                "category": "Technology"
             },
             "custody": {
                 "term": "Custody",
-                "shortDefinition": "Safekeeping of securities by a regulated custodian — on Sails.to, either on-chain (Solana wallet) or via Clearstream.",
+                "shortDefinition": "Safekeeping of assets by a regulated custodian — on CCASH, managed through the platform's capability-based access control and journal storage.",
                 "category": "Finance"
             },
             "secondary-trading": {
                 "term": "Secondary Trading",
-                "shortDefinition": "Buying and selling securities between investors after the initial offering, via our multi-broker OTC network.",
+                "shortDefinition": "Buying and selling securities between investors after the initial offering, through authorized channels.",
                 "category": "Finance"
             },
             "cap-table": {
                 "term": "Cap Table",
-                "shortDefinition": "A record showing ownership stakes, equity dilution, and value of equity — maintained on-chain for transparency.",
+                "shortDefinition": "A record showing ownership stakes, equity dilution, and value of equity — maintained with transparency and auditability.",
                 "category": "Finance"
             },
             "distributions": {
                 "term": "Distributions",
                 "shortDefinition": "Payments to security holders including coupon payments, dividends, or return of capital — automated via smart contract.",
-                "category": "Finance"
-            },
-            "crosssecurities": {
-                "term": "CrossSecurities",
-                "shortDefinition": "Hybrid securities that exist on-chain (Solana) but can CrossConvert to bankable ISIN form via Clearstream.",
-                "category": "Finance"
-            },
-            "crossconversion": {
-                "term": "CrossConversion",
-                "shortDefinition": "The process of converting CrossSecurities between on-chain (Solana) and bankable (ISIN/Clearstream) forms.",
-                "category": "Finance"
-            },
-            "soft-cap": {
-                "term": "Soft Cap",
-                "shortDefinition": "Minimum funding target for an offering. If not reached, all investments are automatically refunded.",
-                "category": "Finance"
-            },
-            "hard-cap": {
-                "term": "Hard Cap",
-                "shortDefinition": "Maximum amount an offering can raise. No investments accepted beyond this limit.",
                 "category": "Finance"
             },
             "coupon": {
@@ -237,112 +207,57 @@
             },
             "escrow": {
                 "term": "Escrow",
-                "shortDefinition": "Funds held by a neutral third party until conditions are met — used during soft cap phase to protect investors.",
+                "shortDefinition": "Funds held by a neutral third party until specified conditions are met — providing protection for all parties.",
                 "category": "Finance"
             },
             "trustee": {
                 "term": "Trustee",
-                "shortDefinition": "Independent party who oversees issuer compliance, holds security interests, and acts in bondholders' interests.",
+                "shortDefinition": "Independent party who oversees compliance with governing documents and acts in participants' interests.",
                 "category": "Legal"
             },
             "otc": {
                 "term": "OTC (Over-the-Counter)",
-                "shortDefinition": "Trading directly between parties rather than on a public exchange — our broker network facilitates OTC trading of CrossSecurities.",
+                "shortDefinition": "Trading directly between parties rather than on a public exchange — facilitated through authorized intermediaries.",
                 "category": "Finance"
             },
             "atomic-settlement": {
                 "term": "Atomic Settlement",
-                "shortDefinition": "Simultaneous exchange of securities and payment in a single transaction — impossible for one side to fail without the other.",
+                "shortDefinition": "Simultaneous exchange of assets and payment in a single transaction — impossible for one side to fail without the other.",
                 "category": "Technology"
             },
-            "vienna-mtf": {
-                "term": "Vienna MTF",
-                "shortDefinition": "Multilateral Trading Facility operated by Vienna Stock Exchange where CrossSecurities in ISIN form can be listed and traded.",
-                "category": "Finance"
-            },
-            "distribution-fee": {
-                "term": "Distribution Fee",
-                "shortDefinition": "6% fee on capital raised through our broker network (vs 1% for direct referrals). Covers broker commissions and platform costs.",
-                "category": "Finance"
-            },
-            "brokerage-fee": {
-                "term": "Brokerage Fee",
-                "shortDefinition": "0.5% fee on secondary trades split between platform and brokers. Deferred during soft cap, charged when cap is reached.",
-                "category": "Finance"
-            },
-            "security-deposit": {
-                "term": "Security Deposit",
-                "shortDefinition": "$15,000 refundable deposit from issuers, held until end of term or offering cancellation. Ensures commitment.",
-                "category": "Finance"
-            },
-            "operating-series": {
-                "term": "Operating Series",
-                "shortDefinition": "The DAO LLC series that holds pledged assets, revenue streams, and operational agreements backing the securities.",
+            "governance-framework": {
+                "term": "Governance Framework",
+                "shortDefinition": "The rules and procedures governing decision-making within an entity structure, often encoded in the entity's operating agreement.",
                 "category": "Legal"
             },
-            "treasury-series": {
-                "term": "Treasury Series",
-                "shortDefinition": "The DAO LLC series managing reserves, distribution pools, and funds awaiting deployment or return to investors.",
-                "category": "Legal"
-            },
-            "crossconversion-series": {
-                "term": "CrossConversion Series",
-                "shortDefinition": "The DAO LLC series handling the bridge between on-chain tokens and Clearstream-held ISIN securities.",
-                "category": "Legal"
-            },
-            "operational-trust": {
-                "term": "Operational Trust",
-                "shortDefinition": "Trust structure holding investor funds during offering phase and managing distributions throughout the security's life.",
-                "category": "Legal"
+            "journal-store": {
+                "term": "Journal Store",
+                "shortDefinition": "Append-only encrypted log used by each grain for durable state storage — enables deterministic replay for audit and disaster recovery.",
+                "category": "Technology"
             },
             "private-placement": {
                 "term": "Private Placement",
-                "shortDefinition": "Sale of securities directly to qualified investors without public offering registration — how most CrossSecurities are issued.",
+                "shortDefinition": "Sale of securities directly to qualified investors without public offering registration.",
                 "category": "Finance"
             },
             "offering-memorandum": {
                 "term": "Offering Memorandum",
-                "shortDefinition": "Legal document detailing investment terms, risks, use of proceeds, and issuer information — required for all offerings.",
+                "shortDefinition": "Legal document detailing terms, risks, use of proceeds, and issuer information — required for regulated offerings.",
                 "category": "Legal"
-            },
-            "broker-dealer": {
-                "term": "Broker-Dealer",
-                "shortDefinition": "Licensed securities professional who can execute trades and place investors in offerings through our network.",
-                "category": "Finance"
             },
             "liquidity": {
                 "term": "Liquidity",
-                "shortDefinition": "Ease of buying/selling a security without affecting its price — our OTC network provides liquidity for CrossSecurities.",
-                "category": "Finance"
-            },
-            "minimum-investment": {
-                "term": "Minimum Investment",
-                "shortDefinition": "$150,000 per CrossSecurity — set to comply with professional/accredited investor regulations globally.",
+                "shortDefinition": "Ease of buying or selling an asset without affecting its price.",
                 "category": "Finance"
             },
             "compliance": {
                 "term": "Compliance",
-                "shortDefinition": "Adherence to legal/regulatory requirements — automated on-chain via KYC/AML, investor eligibility, and transfer restrictions.",
+                "shortDefinition": "Adherence to legal and regulatory requirements — managed through automated workflows, identity verification, and audit trails.",
                 "category": "Compliance"
             },
-            "on-chain": {
-                "term": "On-Chain",
-                "shortDefinition": "Recorded directly on blockchain — CrossSecurities exist on Solana with ownership, transfers, and compliance enforced by smart contracts.",
-                "category": "Technology"
-            },
-            "bankable": {
-                "term": "Bankable",
-                "shortDefinition": "Securities recognized by traditional banking — CrossSecurities can CrossConvert to ISIN form held via Clearstream.",
-                "category": "Finance"
-            },
-            "commission": {
-                "term": "Commission",
-                "shortDefinition": "Fees paid to brokers/introducers for placing investors — up to 5% primary, 0.5% secondary, 25% of platform fee for introducers.",
-                "category": "Finance"
-            },
-            "investor-verification": {
-                "term": "Investor Verification",
-                "shortDefinition": "Process confirming identity, financial status, and eligibility to invest — KYC/AML plus accredited/professional status check.",
+            "identity-verification": {
+                "term": "Identity Verification",
+                "shortDefinition": "Process confirming a participant's identity through document verification, credential checks, and ongoing monitoring.",
                 "category": "Compliance"
             }
         };

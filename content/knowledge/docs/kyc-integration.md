@@ -2,7 +2,7 @@
 title: "KYC Integration - Documentation"
 description: "KYC as a grain, not a service - the 10-step verification workflow, investor classifications, credential NFT lifecycle, Cap'n Proto interface."
 ogImage: "/og-image.png"
-keywords: ["KYC", "investor onboarding", "credential NFT", "accredited investor", "verification workflow", "Cap'n Proto", "Powerbox"]
+keywords: ["KYC", "investor onboarding", "credential NFT", "qualified investor", "verification workflow", "Cap'n Proto", "Powerbox"]
 stylesheets:
   - "/css/main.css"
   - "/css/pages/glossary.css"
@@ -37,11 +37,11 @@ ogtype: "article"
         <h3>Step 7: Risk Assessment</h3>
         <p>The grain performs regulatory risk screening. This includes <strong>jurisdiction analysis</strong> (mapping the investor's country of residence to applicable regulatory regimes), <strong>PEP screening</strong> (checking the investor against politically exposed persons databases), and <strong>sanctions screening</strong> (checking against OFAC, EU, and UN sanctions lists). A positive hit on any sanctions list is an automatic rejection. A PEP hit triggers enhanced due diligence and mandatory Respondent Review. Jurisdiction analysis determines which regulatory exemptions and offering types the investor can access.</p>
         <h3>Step 8: Accreditation Verification</h3>
-        <p>For offerings under <span class="glossary-term" data-term="reg-d">Reg D</span> 506(b) or 506(c), the investor must demonstrate <span class="glossary-term" data-term="accredited-investor">accredited investor</span> status. The grain collects income documentation (tax returns, W-2s, or third-party verification letters for income-based qualification) or asset documentation (bank statements, brokerage statements, or third-party verification for net-worth-based qualification). For 506(c) offerings, the verification must be performed by an independent third party - the platform cannot self-certify. The grain stores the verification method, the verifier identity, and the result. For Reg A and Reg CF offerings, this step is skipped automatically.</p>
+        <p>For offerings under <span class="glossary-term" data-term="reg-d">regulatory exemption</span> compliance framework or compliance framework, the investor must demonstrate <span class="glossary-term" data-term="qualified-investor">qualified investor</span> status. The grain collects income documentation (tax returns, W-2s, or third-party verification letters for income-based qualification) or asset documentation (bank statements, brokerage statements, or third-party verification for net-worth-based qualification). For compliance framework offerings, the verification must be performed by an independent third party - the platform cannot self-certify. The grain stores the verification method, the verifier identity, and the result. For Reg A and Reg CF offerings, this step is skipped automatically.</p>
         <h3>Step 9: Respondent Review</h3>
         <p>A human compliance officer (the "Respondent") reviews the verification case. This step is mandatory for PEP hits, low AI confidence scores, document discrepancies, and enhanced due diligence cases. It is also triggered randomly for a configurable percentage of standard verifications (default: 10%) as a quality control measure. The Respondent sees the full case file - documents, AI results, risk assessment - within the KYC grain's UI. They can approve, reject, or request additional information from the investor. Every Respondent action is logged with the officer's identity and timestamp.</p>
         <h3>Step 10: Approval → Mint KYC NFT</h3>
-        <p>On approval, the grain triggers the minting of a <span class="glossary-term" data-term="kyc">KYC</span> Credential NFT on <a href="/knowledge/glossary/solana/">Solana</a>. The NFT is minted by the KYC Issuer's License NFT (a <span class="glossary-term" data-term="nft-hierarchy">pNFT</span> in the <span class="glossary-term" data-term="melusina">Melusina</span> hierarchy) to the investor's wallet. The NFT contains zero PII - only classification flags and cryptographic attestations. The grain then links the credential to any pending Offering Grains via <span class="glossary-term" data-term="powerbox">Powerbox</span> capability grants, enabling the investor to participate in offerings immediately.</p>
+        <p>On approval, the grain triggers the minting of a <span class="glossary-term" data-term="kyc">KYC</span> Credential NFT through the Melusina authority layer. The NFT is minted by the KYC Issuer's License NFT (a <span class="glossary-term" data-term="nft-hierarchy">pNFT</span> in the <span class="glossary-term" data-term="melusina">Melusina</span> hierarchy) to the participant's wallet. The NFT contains zero PII - only classification flags and cryptographic attestations. The grain then links the credential to any pending Offering Grains via <span class="glossary-term" data-term="powerbox">Powerbox</span> capability grants, enabling the participant to engage in operations immediately.</p>
         <pre><code>Verification State Machine:
 ┌─────────────────────────────────────────────────────────────────────┐
 │  terms_accepted → contact_verification → document_upload →          │
@@ -72,7 +72,7 @@ enum CaseStatus {
                 <tr>
                     <td><strong>Accredited</strong></td>
                     <td>Income &gt;$200K (individual) or &gt;$300K (joint) for 2 consecutive years; or net worth &gt;$1M excluding primary residence</td>
-                    <td><span class="glossary-term" data-term="reg-d">Reg D</span> 506(b), Reg D 506(c), Reg A, Reg CF, <span class="glossary-term" data-term="reg-s">Reg S</span></td>
+                    <td><span class="glossary-term" data-term="reg-d">regulatory exemption</span> compliance framework, regulatory exemption compliance framework, Reg A, Reg CF, <span class="glossary-term" data-term="reg-s">international framework</span></td>
                     <td>No investment caps</td>
                 </tr>
                 <tr>
@@ -123,7 +123,7 @@ enum CaseStatus {
         <p>Credentials can be revoked before expiration for cause: adverse information discovered after issuance, sanctions list updates, regulatory orders, or investor request. Revocation is executed by the KYC Issuer's License NFT or by the Platform Operator's <span class="glossary-term" data-term="threshold-signing">3-of-5 threshold</span> ceremony. The on-chain credential is marked as revoked, the KYC grain logs the reason and the revoking authority, and any pending operations involving the investor are halted. Revocation is permanent for that credential - the investor must complete a full re-verification to obtain a new one.</p>
         <h2>Cap'n Proto Interface</h2>
         <p>The KYC grain exposes its functionality through a <span class="glossary-term" data-term="cap-n-proto">Cap'n Proto</span> RPC interface. This is the programmatic API that other grains use to interact with KYC verification - there is no REST API, no GraphQL endpoint, no shared database. Inter-grain communication is exclusively via Cap'n Proto over the <span class="glossary-term" data-term="powerbox">Powerbox</span> capability system:</p>
-        <pre><code># sails/kyc.capnp (extends BLOOM's capnp/kyc.capnp)
+        <pre><code># ccash/kyc.capnp (extends BLOOM's capnp/kyc.capnp)
 
 interface KYCVerifier {
     startVerification @0 (investorData :InvestorSubmission) -> (caseId :Text);
@@ -170,6 +170,6 @@ KYC Grain ──(Powerbox offer: KYC result)──► Offering Grain
         <p>The Investor Self-Service grain is the primary UI for individual investors. When a new investor signs up, the Self-Service grain calls <code>startVerification</code> on the KYCVerifier interface to spawn a KYC grain instance. The Self-Service grain then embeds the KYC grain's HTMX-rendered UI directly - each step of the 10-step workflow is rendered by the KYC grain and served to the investor through the Self-Service grain's iframe. The Self-Service grain polls <code>getStatus</code> to update its own UI (showing progress indicators, enabling offering browsing on completion).</p>
         <h3>DAO Manager Grain → KYC Grain</h3>
         <p>The DAO Manager grain (used by Issuers and Platform Operators) holds administrative capabilities on KYC grains. It can view verification statistics, trigger bulk re-verification campaigns for expiring credentials, and invoke <code>revokeCredential</code> when compliance officers identify issues. The DAO Manager receives KYC status change events via Powerbox - every approval, rejection, and expiration is surfaced in the operator dashboard for compliance monitoring.</p>
-        <h3>Solana Event Watcher → KYC Grain</h3>
-        <p>The credential minting and revocation happen on-chain via the <span class="glossary-term" data-term="melusina">Melusina</span> program. The Solana Event Watcher grain monitors the chain for KYC-related events (<code>KycMinted</code>, <code>KycRevoked</code>) and routes confirmations back to the originating KYC grain. This closes the loop - the grain initiates the mint, the on-chain program executes it, the Event Watcher confirms it, and the grain updates its journal. If the on-chain transaction fails (insufficient SOL, network congestion), the grain retries with exponential backoff.</p>
+        <h3>Event Watcher → KYC Grain</h3>
+        <p>The credential minting and revocation happen through the <span class="glossary-term" data-term="melusina">Melusina</span> program. The Event Watcher grain monitors for KYC-related events (<code>KycMinted</code>, <code>KycRevoked</code>) and routes confirmations back to the originating KYC grain. This closes the loop — the grain initiates the mint, the on-chain program executes it, the Event Watcher confirms it, and the grain updates its journal.</p>
     </div>

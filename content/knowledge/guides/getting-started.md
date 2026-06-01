@@ -40,10 +40,10 @@ ogtype: "article"
             </ul>
             <h3>Key Features</h3>
             <ul>
-                <li><strong>Compliant by design:</strong> <span class="glossary-term" data-term="reg-d">Reg D 506(c)</span> / <span class="glossary-term" data-term="reg-s">Reg S</span> framework with full <span class="glossary-term" data-term="kyc">KYC</span>/<span class="glossary-term" data-term="aml">AML</span></li>
-                <li><strong>Hybrid custody:</strong> Self-custody on <span class="glossary-term" data-term="solana">Solana</span> or institutional via <span class="glossary-term" data-term="clearstream">Clearstream</span></li>
-                <li><strong>Wyoming DAO LLC:</strong> <span class="glossary-term" data-term="wyoming-dao-llc">Legal entity recognition</span> with <span class="glossary-term" data-term="series-llc">Series LLC</span> protection</li>
-                <li><strong>Secondary trading:</strong> <span class="glossary-term" data-term="secondary-trading">Compliant peer-to-peer transfers</span></li>
+                <li><strong>Compliant by design:</strong> Built-in compliance workflows with full verification and audit trail</li>
+                <li><strong>Self-hosted sovereignty:</strong> Deploy on your own infrastructure with full data control</li>
+                <li><strong>Legal frameworks:</strong> <span class="glossary-term" data-term="series-llc">Series LLC</span> and DAO LLC structures for legal isolation</li>
+                <li><strong>Grain architecture:</strong> OS-level isolation for every platform component</li>
             </ul>
         </section>
         <section id="issuers" class="guide-section">
@@ -80,8 +80,8 @@ ogtype: "article"
             <div class="step-card">
                 <div class="step-number">5</div>
                 <div class="step-content">
-                    <h4>Token Deployment</h4>
-                    <p>We deploy compliant tokens on Solana with embedded transfer restrictions, whitelist enforcement, and distribution capabilities.</p>
+                    <h4>Platform Deployment</h4>
+                    <p>We deploy the CCASH platform on your infrastructure with configured compliance rules, credential management, and operational workflows.</p>
                 </div>
             </div>
             <div class="step-card">
@@ -122,16 +122,15 @@ ogtype: "article"
                 <div class="step-number">3</div>
                 <div class="step-content">
                     <h4>Verify Investor Status</h4>
-                    <p><strong>US Investors:</strong> Provide <span class="glossary-term" data-term="accredited-investor">accredited investor</span> documentation (income/net worth verification or professional certification).<br>
+                    <p><strong>US Investors:</strong> Provide <span class="glossary-term" data-term="qualified-investor">qualified investor</span> documentation (income/net worth verification or professional certification).<br>
                     <strong>Non-US:</strong> Confirm <span class="glossary-term" data-term="professional-investor">professional/qualified investor</span> status per your jurisdiction.</p>
                 </div>
             </div>
             <div class="step-card">
                 <div class="step-number">4</div>
                 <div class="step-content">
-                    <h4>Choose Your Custody Model</h4>
-                    <p><strong>On-Chain Form:</strong> Connect or create a Solana wallet for direct token ownership.<br>
-                    <strong>Bankable Form:</strong> Select institutional custody via <span class="glossary-term" data-term="crossconversion">CrossConversion</span> to Clearstream with <span class="glossary-term" data-term="isin">ISIN</span> assignment.</p>
+                    <h4>Configure Your Workspace</h4>
+                    <p>Your platform instance is provisioned with your credentials and capabilities. Configure your operational preferences, notification settings, and integration points.</p>
                 </div>
             </div>
             <div class="step-card">
@@ -144,8 +143,8 @@ ogtype: "article"
             <div class="step-card">
                 <div class="step-number">6</div>
                 <div class="step-content">
-                    <h4>Receive Tokens & Distributions</h4>
-                    <p>Tokens arrive in your chosen custody. <span class="glossary-term" data-term="distributions">Distributions</span> are automated - stablecoin to wallet or cash via custodian.</p>
+                    <h4>Begin Operations</h4>
+                    <p>Your platform is live. Participants can access their dashboards, workflows execute as configured, and compliance operations run automatically with full audit trail.</p>
                 </div>
             </div>
             <div class="requirement-box">
@@ -217,8 +216,8 @@ ogtype: "article"
                 <li>Liveness check (selfie matching ID photo)</li>
             </ul>
             <p>Most verifications complete automatically in under 5 minutes.</p>
-            <h3>Accredited Investor Verification (US)</h3>
-            <p>For <span class="glossary-term" data-term="reg-d">Reg D 506(c)</span> offerings, we must verify accreditation:</p>
+            <h3>Qualified Investor Verification (US)</h3>
+            <p>For <span class="glossary-term" data-term="reg-d">regulatory exemption compliance framework</span> offerings, we must verify accreditation:</p>
             <ul>
                 <li><strong>Income method:</strong> Tax returns or written verification from CPA/attorney</li>
                 <li><strong>Net worth method:</strong> Statements showing $1M+ (excluding primary residence)</li>
@@ -251,7 +250,7 @@ ogtype: "article"
         </section>
         <div class="cta-box">
             <h3>Ready to get started?</h3>
-            <p>Create your account and begin your journey with tokenized securities.</p>
+            <p>Create your account and begin your journey with CCASH.</p>
             <a href="/signup/" class="btn">Create Account</a>
         </div>
     </div>

@@ -32,7 +32,7 @@ sitemap:
 
         <div class="concept-box">
             <h4>Engineering Teams</h4>
-            <p>A modern Go and HTMX application platform with encrypted SQLite storage, Solana Ed25519 signature security, and single-binary deployment. No JavaScript build step, no container orchestration overhead. Build and deploy financial applications quickly.</p>
+            <p>A modern Go and HTMX application platform with encrypted SQLite storage, Ed25519 signature security, and single-binary deployment. No JavaScript build step, no container orchestration overhead. Build and deploy financial applications quickly.</p>
         </div>
 
         <div class="concept-box">
@@ -46,7 +46,7 @@ sitemap:
         </div>
 
         <h2>Two Layers, One Platform</h2>
-        <p>CCASH operates at two layers simultaneously. The <strong>Legal Infrastructure Layer</strong> provides entity frameworks, compliance policies, governance documentation, and operational procedures. The <strong>Technology Layer</strong> provides a Go and HTMX application platform, encrypted SQLite storage, Solana security, and single-binary deployment. Together, they form a complete operating environment for regulated financial services.</p>
+        <p>CCASH operates at two layers simultaneously. The <strong>Legal Infrastructure Layer</strong> provides entity frameworks, compliance policies, governance documentation, and operational procedures. The <strong>Technology Layer</strong> provides a Go and HTMX application platform, encrypted SQLite storage, Ed25519 signature security, and single-binary deployment. Together, they form a complete operating environment for regulated financial services.</p>
     </div>
 </section>
 

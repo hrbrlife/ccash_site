@@ -31,8 +31,8 @@ sitemap:
         <h2>Encryption at Rest</h2>
         <p>All persistent data is stored using encrypted SQLite databases. Encryption keys are managed through a secure key hierarchy and are never stored alongside the data they protect. Each tenant's data is isolated and encrypted separately.</p>
 
-        <h2>Signed Writes with Solana Ed25519</h2>
-        <p>Every write operation on the CCASH platform is signed using Solana Ed25519 cryptographic signatures. This provides a tamper-evident audit trail for every state change, enabling independent verification of data integrity at any point in time. Signatures are verified before any write is committed.</p>
+        <h2>Signed Writes with Ed25519</h2>
+        <p>Every write operation on the CCASH platform is signed using Ed25519 cryptographic signatures. This provides a tamper-evident audit trail for every state change, enabling independent verification of data integrity at any point in time. Signatures are verified before any write is committed.</p>
 
         <h2>No Single Point of Failure</h2>
         <p>The CCASH platform is designed with no single point of failure. Critical systems are redundantly distributed, failover is automated, and the platform continues operating through infrastructure disruptions. Multi-region and multi-provider strategies ensure availability.</p>

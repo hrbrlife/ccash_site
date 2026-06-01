@@ -29,7 +29,7 @@ sitemap:
             <li>Compliance policy documentation and operational procedures</li>
             <li>Go and HTMX application platform for operations management</li>
             <li>Multi-entity governance structure with defined authority tiers</li>
-            <li>Encrypted SQLite storage with Solana Ed25519 signature security</li>
+            <li>Encrypted SQLite storage with Ed25519 signature security</li>
         </ul>
 
         <h2>Legal Entity Framework</h2>
@@ -39,7 +39,7 @@ sitemap:
         <p>Compliance policy documentation covering operational procedures, reporting requirements, recordkeeping standards, and regulatory filing calendars. The framework is designed to adapt to changing regulatory requirements across jurisdictions and is reviewed and updated regularly.</p>
 
         <h2>Application Platform</h2>
-        <p>The CCASH technology platform provides a Go and HTMX application for day-to-day operations management. The application runs as a single static binary with no JavaScript build step, making deployment straightforward. Encrypted SQLite storage keeps data at rest secure, while every write operation is signed using Solana Ed25519 keys for tamper-evident audit trails.</p>
+        <p>The CCASH technology platform provides a Go and HTMX application for day-to-day operations management. The application runs as a single static binary with no JavaScript build step, making deployment straightforward. Encrypted SQLite storage keeps data at rest secure, while every write operation is signed using Ed25519 keys for tamper-evident audit trails.</p>
 
         <h2>Multi-Entity Governance</h2>
         <p>For operators managing multiple entities, CCASH provides governance structures that define authority across the group. Multi-signature controls, defined approval workflows, and role-based access ensure that critical actions require appropriate authorization. Audit logs capture every action with cryptographic signatures.</p>
