@@ -1,13 +1,13 @@
 ---
-title: "FinCEN - Glossary"
-description: "The Financial Crimes Enforcement Network — a bureau of the US Department of the Treasury that administers the BSA and collects financial intelligence."
+title: "Regulatory Framework - Glossary"
+description: "The body of regulations and compliance requirements that CCASH's legal infrastructure is designed to address."
 category: "regulatory"
 relatedTerms:
-  - slug: "msb"
-    label: "MSB"
-  - slug: "bsa-aml"
-    label: "BSA/AML"
+  - slug: "compliance-framework"
+    label: "Compliance Framework"
+  - slug: "regulated-operator"
+    label: "Regulated Operator"
 date: "2026-06-01"
 ---
 
-<section class="term-section"><h2>Full Definition</h2><p>The Financial Crimes Enforcement Network — a bureau of the US Department of the Treasury that administers the BSA, collects financial intelligence, and registers Money Services Businesses under 31 CFR Chapter X.</p></section>
+<section class="term-section"><h2>Full Definition</h2><p>The regulatory framework encompasses the laws, regulations, and compliance requirements that govern financial services. CCASH provides legal infrastructure and technology platform tools designed to help operators establish and maintain compliant operations within their applicable regulatory environment.</p></section>

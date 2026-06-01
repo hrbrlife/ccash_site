@@ -2,56 +2,44 @@
   "hero": {
     "label": "Oversight",
     "title": "Continuous Monitoring & Accountability",
-    "desc": "Active oversight mechanisms that protect investors and ensure issuers deliver on their commitments."
+    "desc": "Active oversight mechanisms that protect operators and ensure compliance throughout the platform lifecycle."
   },
   "features": [
     {
       "icon": "target",
-      "title": "Issuer Monitoring",
-      "text": "Ongoing monitoring of issuer financial health, milestone delivery, and covenant compliance throughout the <span class=\"glossary-term\" data-term=\"security-token\">security</span> lifecycle."
+      "title": "Operator Monitoring",
+      "text": "Ongoing monitoring of operational health, compliance posture, and governance adherence throughout the platform lifecycle."
     },
     {
       "icon": "chart",
       "title": "Reporting Requirements",
-      "text": "Mandatory quarterly reporting from issuers. Financial statements, operational updates, and material event disclosures per <span class=\"glossary-term\" data-term=\"offering-memorandum\">offering memorandum</span> terms."
+      "text": "Mandatory reporting from operators. Operational updates, compliance status, and material event disclosures per framework terms."
     },
     {
       "icon": "legal",
       "title": "Dispute Resolution",
-      "text": "Established procedures for investor complaints and disputes. Escalation paths and arbitration mechanisms built into offering terms."
+      "text": "Established procedures for complaints and disputes. Escalation paths and resolution mechanisms built into framework terms."
     },
     {
       "icon": "alert",
       "title": "Early Warning System",
-      "text": "Automated monitoring of payment schedules, covenant triggers, and issuer communications. Proactive investor alerts."
+      "text": "Automated monitoring of compliance triggers, operational metrics, and communications. Proactive alerts for deviations."
     }
   ],
   "info_blocks": [
     {
-      "title": "Trust Indicators",
-      "intro": "Each <span class=\"glossary-term\" data-term=\"crosssecurities\">CrossSecurities</span> offering displays verified trust indicators:",
-      "items": [
-        "<strong>Audited:</strong> Financial statements verified by independent auditors",
-        "<strong>CPA/Big Four:</strong> Level of auditor credentialing",
-        "<strong>PPM:</strong> Private placement memorandum filed or delivered",
-        "<strong>Regulated:</strong> Issuer operates in regulated industry or jurisdiction",
-        "<strong>Collateralized:</strong> Security backed by pledged assets"
-      ]
-    },
-    {
       "title": "Governance Framework",
-      "intro": "<span class=\"glossary-term\" data-term=\"crosssecurities\">CrossSecurities</span> offerings include governance provisions protecting investor rights via <span class=\"glossary-term\" data-term=\"smart-contract\">smart contract</span> enforcement:",
+      "intro": "CCASH platform includes governance provisions protecting all parties:",
       "items": [
-        "Bondholder voting on material changes",
+        "Multi-party voting on material changes",
         "Information rights and inspection provisions",
         "Default triggers and remediation procedures",
-        "Transfer agent and <span class=\"glossary-term\" data-term=\"distributions\">paying agent</span> appointments",
-        "<span class=\"glossary-term\" data-term=\"trustee\">Trustee</span> oversight on every offering"
+        "Independent oversight on critical operations"
       ]
     },
     {
       "title": "Multi-Party Controls",
-      "intro": "No single person can make critical changes unilaterally—not the issuer, not the platform, not anyone:",
+      "intro": "No single person can make critical changes unilaterally:",
       "items": [
         "<strong>Multiple approvers required:</strong> Sensitive operations need sign-off from independent keyholders",
         "<strong>Recorded decisions:</strong> Every approval is logged with an immutable audit trail",
@@ -61,8 +49,8 @@
     }
   ],
   "cta": {
-    "title": "Learn More About Investor Protection",
-    "text": "Understand how our oversight framework protects your investment.",
+    "title": "Learn More About Platform Oversight",
+    "text": "Understand how the oversight framework protects your operation.",
     "label": "Contact Us",
     "href": "/company/contact/"
   }

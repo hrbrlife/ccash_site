@@ -1,11 +1,13 @@
 ---
-title: "Sailor Beware - Glossary"
-description: "CCA.SH's disclosure principle that all services are AI-first, experimental, and carry inherent risk. Counterparties accept these risks knowingly."
+title: "Platform Disclaimer - Glossary"
+description: "CCASH's disclosure principle that all platform services are experimental in nature and carry inherent risk. Participants accept these risks knowingly."
 category: "compliance"
 relatedTerms:
   - slug: "four-eyes"
     label: "Four-Eyes"
+  - slug: "compliance-framework"
+    label: "Compliance Framework"
 date: "2026-06-01"
 ---
 
-<section class="term-section"><h2>Full Definition</h2><p>CCA.SH's disclosure principle that all services are AI-first, experimental in nature, carry inherent risk, and may produce unforeseen consequences. All counterparties must acknowledge these risks before doing business with CCA.SH.</p></section>
+<section class="term-section"><h2>Full Definition</h2><p>CCASH's disclosure principle that all platform services are experimental in nature, carry inherent risk, and may produce unforeseen consequences. All participants must acknowledge these risks before using the CCASH platform. This disclosure ensures that operators and their customers engage with the platform with full awareness of its experimental character.</p></section>

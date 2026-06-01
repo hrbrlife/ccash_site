@@ -35,26 +35,26 @@ content_types:
 
 # ─── GLOSSARY CATEGORIES ──────────────────────────────────────────────────
 glossary_categories:
-  finance:
-    en: "Finance"
-    fr: "Finance"
-    icon: "💰"
-    color: "var(--neon-orange)"
-  compliance:
-    en: "Compliance"
-    fr: "Conformité"
-    icon: "⚖️"
-    color: "var(--neon-blue)"
   legal:
     en: "Legal"
     fr: "Juridique"
-    icon: "📜"
-    color: "var(--neon-pink)"
+    icon: "⚖️"
+    color: "var(--brand-gold)"
+  compliance:
+    en: "Compliance"
+    fr: "Conformité"
+    icon: "📋"
+    color: "var(--brand-teal)"
   technology:
     en: "Technology"
     fr: "Technologie"
     icon: "⚙️"
-    color: "var(--neon-teal)"
+    color: "var(--brand-plum)"
+  platform:
+    en: "Platform"
+    fr: "Plateforme"
+    icon: "🏗️"
+    color: "var(--brand-amber)"
 
 # ─── CONTENT CATEGORIES ───────────────────────────────────────────────────
 # Used on guide, doc, FAQ & roadmap cards
@@ -62,63 +62,51 @@ content_categories:
   beginner:
     en: "Beginner"
     fr: "Débutant"
-    color: "var(--neon-teal)"
+    color: "var(--brand-teal)"
   technical:
     en: "Technical"
     fr: "Technique"
-    color: "var(--neon-purple)"
+    color: "var(--brand-plum)"
   legal:
     en: "Legal"
     fr: "Juridique"
-    color: "var(--neon-pink)"
+    color: "var(--brand-gold)"
   compliance:
     en: "Compliance"
     fr: "Conformité"
-    color: "var(--neon-blue)"
+    color: "var(--brand-teal)"
   overview:
     en: "Overview"
     fr: "Vue d'ensemble"
-    color: "var(--neon-teal)"
+    color: "var(--brand-teal)"
   development:
     en: "Development"
     fr: "Développement"
-    color: "var(--neon-purple)"
-  api:
-    en: "API"
-    fr: "API"
-    color: "var(--neon-orange)"
+    color: "var(--brand-plum)"
   architecture:
     en: "Architecture"
     fr: "Architecture"
-    color: "var(--neon-blue)"
+    color: "var(--brand-gold)"
   getting-started:
     en: "Getting Started"
     fr: "Premiers pas"
-    color: "var(--neon-teal)"
+    color: "var(--brand-teal)"
   support:
     en: "Support"
     fr: "Assistance"
-    color: "var(--neon-orange)"
+    color: "var(--brand-amber)"
   general:
     en: "General"
     fr: "Général"
     color: "var(--slate)"
-  for-issuers:
-    en: "For Issuers"
-    fr: "Pour les émetteurs"
-    color: "var(--neon-orange)"
-  for-investors:
-    en: "For Investors"
-    fr: "Pour les investisseurs"
-    color: "var(--neon-teal)"
   product:
     en: "Product"
     fr: "Produit"
-    color: "var(--neon-blue)"
+    color: "var(--brand-gold)"
   business:
     en: "Business"
     fr: "Affaires"
-    color: "var(--neon-orange)"
+    color: "var(--brand-amber)"
 
 # ─── ROADMAP STATUSES ──────────────────────────────────────────────────────
 roadmap_statuses:
@@ -155,9 +143,6 @@ tags:
   milestone:
     en: "Milestone"
     fr: "Jalon"
-  trading:
-    en: "Trading"
-    fr: "Négociation"
   partnerships:
     en: "Partnerships"
     fr: "Partenariats"
@@ -177,14 +162,6 @@ faq_categories:
     en: "General"
     fr: "Général"
     icon: "💬"
-  for-issuers:
-    en: "For Issuers"
-    fr: "Pour les émetteurs"
-    icon: "🏢"
-  for-investors:
-    en: "For Investors"
-    fr: "Pour les investisseurs"
-    icon: "💼"
   compliance:
     en: "Compliance"
     fr: "Conformité"

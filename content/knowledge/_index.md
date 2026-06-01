@@ -1,12 +1,12 @@
 ---
 layout: "knowledge-index"
 title: "Knowledge Base"
-description: "Learn everything about CCA.SH's regulated whitelabel infrastructure, compliance framework, and platform architecture."
+description: "Learn everything about CCASH's legal infrastructure and technology platform, compliance framework, and platform architecture."
 keywords:
-  - CCA.SH guide
-  - whitelabel education
-  - MSB compliance
+  - CCASH guide
   - knowledge base
+  - legal infrastructure
+  - technology platform
 ogImage: "/og-image.png"
 stylesheets:
   - "/css/main.css"
@@ -25,7 +25,7 @@ sitemap:
 <section class="page-hero">
     <span class="section-label">Learn</span>
     <h1 class="section-title">Knowledge Base</h1>
-    <p class="section-desc">Everything you need to understand CCA.SH's regulated infrastructure platform — from whitelabel basics to compliance and technical specifications.</p>
+    <p class="section-desc">Everything you need to understand CCASH's legal infrastructure and technology platform — from the dual-layer model to compliance and technical specifications.</p>
 </section>
 
 <section class="kb-tabs-section">
@@ -43,7 +43,7 @@ sitemap:
                 <div class="kb-card-content">
                     <span class="kb-card-category">Getting Started</span>
                     <h3>Quick Start Guide</h3>
-                    <p>New to CCA.SH? This guide walks you through the platform, from introduction to your first Series.</p>
+                    <p>New to CCASH? This guide walks you through the platform, from introduction to your first deployment.</p>
                 </div>
                 <span class="kb-card-arrow">→</span>
             </a>
@@ -52,7 +52,7 @@ sitemap:
                 <div class="kb-card-content">
                     <span class="kb-card-category">Architecture</span>
                     <h3>Platform Architecture</h3>
-                    <p>How CCA.SH's multi-entity, multi-Series structure provides legal separation and regulatory compliance.</p>
+                    <p>How CCASH's dual-layer model provides legal infrastructure and technology platform capabilities.</p>
                 </div>
                 <span class="kb-card-arrow">→</span>
             </a>
@@ -61,7 +61,7 @@ sitemap:
                 <div class="kb-card-content">
                     <span class="kb-card-category">Support</span>
                     <h3>Frequently Asked Questions</h3>
-                    <p>Answers to the most common questions about whitelabel MSB infrastructure, compliance, and graduation.</p>
+                    <p>Answers to the most common questions about CCASH's legal framework, platform architecture, and scaling.</p>
                 </div>
                 <span class="kb-card-arrow">→</span>
             </a>

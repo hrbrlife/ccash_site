@@ -1,8 +1,8 @@
 ---
 layout: "page"
-title: "For VASPs"
-description: "Virtual asset service provider infrastructure: crypto/fiat on-ramps, exchange operations, blockchain transaction screening, and Travel Rule compliance."
-keywords: ["VASP", "crypto", "exchange", "virtual asset", "blockchain", "Travel Rule"]
+title: "For Digital Asset Operators"
+description: "Legal framework, Go and HTMX application platform, Solana Ed25519 security, and segregated wallet infrastructure for digital asset operations. CCASH provides the infrastructure for regulated digital asset services."
+keywords: ["digital asset", "crypto", "Solana", "Ed25519", "wallet", "application platform", "CCASH", "HTMX"]
 ogImage: "/og-image.png"
 stylesheets:
   - "/css/main.css"
@@ -17,24 +17,31 @@ sitemap:
 
 <section class="page-hero bg-soft">
     <span class="section-label">Solutions</span>
-    <h1 class="section-title">For Virtual Asset Service Providers</h1>
-    <p class="section-desc">Crypto/fiat on-ramps, exchange operations, and VASP compliance under CCA.SH's regulated infrastructure. Solana and Ethereum supported with segregated wallets and blockchain screening.</p>
+    <h1 class="section-title">For Digital Asset Operators</h1>
+    <p class="section-desc">Legal framework and technology platform purpose-built for digital asset operations. Entity documentation, a Go and HTMX operator console, Solana Ed25519 security, and segregated wallet infrastructure in a single integrated platform.</p>
 </section>
 
 <section class="content-section">
     <div class="content-container">
         <h2>What You Get</h2>
         <ul>
-            <li>Crypto/fiat on-ramp and off-ramp rails</li>
-            <li>Blockchain transaction screening and Travel Rule handoff</li>
-            <li>Segregated hot and cold wallets under multi-signature security</li>
-            <li>AI-assisted compliance monitoring for all transactions</li>
-            <li>Graduation to independent VASP operation</li>
+            <li>Legal framework documentation for digital asset operations</li>
+            <li>Go and HTMX application platform for operator console</li>
+            <li>Solana Ed25519 signature security for every write operation</li>
+            <li>Segregated wallet infrastructure with multi-signature controls</li>
+            <li>Tamper-evident audit trails on all transactions</li>
         </ul>
 
-        <h2>Technical Details</h2>
-        <p>Currently supporting Solana and Ethereum. Ed25519 signatures, HD wallets, USDT/USDC. On-chain settlement with tamper-evident audit. Sidecar authorization model through Melusina OS identity gate.</p>
+        <h2>Legal Framework for Digital Asset Operations</h2>
+        <p>CCASH provides legal entity documentation, compliance policies, governance procedures, and operational frameworks designed for digital asset operations. The legal infrastructure establishes the foundation for regulated digital asset activities, with documentation covering entity formation, operational policies, and regulatory compliance.</p>
 
-        <p>CCA.SH reserves the right to migrate across chains, smart contracts, token standards, signature algorithms, and custody models on 30 days' notice (shorter in emergencies).</p>
+        <h2>Go and HTMX Operator Console</h2>
+        <p>The CCASH technology platform delivers an operator console built with Go and HTMX. The console runs as a single static binary with no JavaScript build step, deploying easily to any environment. The mobile-first responsive interface provides complete operational control over digital asset operations, including transaction management, wallet oversight, and compliance monitoring.</p>
+
+        <h2>Solana Ed25519 Signature Security</h2>
+        <p>Every write operation on the CCASH platform is signed using Solana Ed25519 cryptographic keys. This creates a tamper-evident audit trail where every action can be verified independently. Multi-party signing requirements ensure that critical operations require authorization from multiple authorized parties before execution.</p>
+
+        <h2>Segregated Wallet Infrastructure</h2>
+        <p>Digital asset wallets are segregated per operator with multi-signature security controls. Wallet operations follow defined authorization workflows, and all transactions are signed and recorded on the audit trail. The infrastructure supports hot and cold wallet configurations with configurable approval thresholds.</p>
     </div>
 </section>

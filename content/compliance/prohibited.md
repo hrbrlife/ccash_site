@@ -1,7 +1,7 @@
 ---
 layout: "page"
 title: "Prohibited Activities"
-description: "Activities CCA.SH does not serve and the permissive stance on lawful high-risk verticals."
+description: "Activities not permitted on the CCASH platform and the permissive stance on lawful high-risk verticals."
 keywords: ["prohibited", "restricted", "activities", "compliance", "high-risk"]
 ogImage: "/og-image.png"
 stylesheets:
@@ -21,30 +21,29 @@ sitemap:
 <section class="content-section">
     <div class="content-container">
         <h2>Hard Prohibitions</h2>
-        <p>CCA.SH does not serve clients engaged in:</p>
+        <p>The CCASH platform does not serve operators or end-customers engaged in:</p>
         <ul>
             <li>Money laundering</li>
-            <li>Terror finance</li>
+            <li>Terrorism finance</li>
             <li>Human trafficking</li>
             <li>Child sexual abuse material</li>
             <li>Fraud</li>
-            <li>Unlicensed money transmission</li>
-            <li>Unlicensed MSB operations (where licensing is required)</li>
+            <li>Unlicensed financial services activity where licensing is required</li>
             <li>Unlicensed securities offerings or unregistered broker-dealer activity</li>
             <li>Mixers or tumblers</li>
             <li>Darknet markets</li>
-            <li>Transactions with OFAC-sanctioned persons or jurisdictions</li>
+            <li>Transactions with sanctioned persons or jurisdictions</li>
         </ul>
 
         <h2>Permissive Industry Stance</h2>
-        <p>CCA.SH is a legal conduit for lawful commerce. If an activity is lawful for a US-resident participant under US federal and Montana state law, CCA.SH serves it, subject to KYC, AML, sanctions, fraud, and risk-classification controls. Lawful high-risk verticals within our appetite include:</p>
+        <p>CCASH provides legal infrastructure and technology for lawful commerce. If an activity is lawful for participants under applicable law, CCASH serves it, subject to customer verification, monitoring, sanctions screening, fraud controls, and risk classification. Lawful high-risk verticals within our appetite include:</p>
         <ul>
             <li>Regulated gambling and online gaming</li>
-            <li>Foreign exchange (forex) platforms</li>
+            <li>Foreign exchange platforms</li>
             <li>Adult content and online-erotic platforms</li>
-            <li>Crypto exchanges and VASPs</li>
-            <li>Marijuana-touching businesses (per FinCEN guidance)</li>
-            <li>Firearms dealers (FFL)</li>
+            <li>Digital asset exchanges and custodians</li>
+            <li>Cannabis-adjacent businesses where lawful</li>
+            <li>Firearms dealers where lawfully licensed</li>
             <li>Nutraceuticals and CBD</li>
         </ul>
         <p>Screening is for risk, not for taste.</p>

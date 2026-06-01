@@ -1,21 +1,17 @@
 ---
-title: "CCA.SH"
-description: "Launch under our regulated infrastructure. Graduate to your own when ready. CCA.SH lets qualified partners launch a branded MSB, PSP, or VASP as a Whitelabel Partner Series."
+title: "CCASH"
+description: "CCASH provides a complete legal infrastructure and technology platform for regulated financial services. Entity framework, compliance operations, and a full Go + HTMX application platform."
 keywords:
-- CCA.SH
-- MSB
-- FinCEN
-- whitelabel
-- Montana Series LLC
-- payment infrastructure
-- graduation
+- CCASH
+- legal infrastructure
+- technology platform
+- Go
+- HTMX
+- compliance
+- entity framework
 ogImage: "/og-image.png"
 stylesheets:
 - "/css/main.css"
-- "/css/pages/home.css"
-scripts:
-- "/js/pages/home.js"
-- "/js/pages/home-stories.js"
 date: "2026-06-01"
 lastmod: "2026-06-01"
 sitemap:

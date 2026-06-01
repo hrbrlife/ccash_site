@@ -1,18 +1,25 @@
 <header class="site-header">
   <div class="container">
     <nav class="nav" aria-label="Primary">
-      <a class="brand" href="/" aria-label="cca.sh home">
-        <span class="brand-mark">C</span>
-        <span class="brand-word">cca.sh</span>
+      <a class="brand" href="/" aria-label="ccash home">
+        <span class="logo-mark">CC</span>
+        <span>
+          <span class="brand-word ccash-text">CCASH</span>
+          <span class="logo-sub">Legal &amp; Platform</span>
+        </span>
       </a>
       <ul class="nav-links">
-        <li><a class="nav-link" href="#about">About</a></li>
-        <li><a class="nav-link" href="#whitelabel">Whitelabel</a></li>
-        <li><a class="nav-link" href="#compliance">Compliance</a></li>
-        <li><a class="nav-link" href="#solutions">Solutions</a></li>
-        <li><a class="nav-link" href="#graduation">Graduation</a></li>
-        <li><a class="btn btn-primary btn-sm nav-cta" href="#contact">Get in touch</a></li>
+        <li><a class="nav-link" href="{{ "platform/" | relURL }}">Platform</a></li>
+        <li><a class="nav-link" href="{{ "solutions/" | relURL }}">Solutions</a></li>
+        <li><a class="nav-link" href="{{ "whitelabel/" | relURL }}">Framework</a></li>
+        <li><a class="nav-link" href="{{ "compliance/" | relURL }}">Compliance</a></li>
+        <li><a class="nav-link" href="{{ "knowledge/" | relURL }}">Docs</a></li>
+        <li><a class="btn-nav-outline" href="{{ "company/contact/" | relURL }}">Contact</a></li>
+        <li><a class="btn-nav" href="mailto:legal@cca.sh?subject=CCASH%20Inquiry">Get Started</a></li>
       </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
     </nav>
   </div>
 </header>

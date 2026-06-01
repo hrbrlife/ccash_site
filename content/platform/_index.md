@@ -1,8 +1,8 @@
 ---
 layout: "page"
-title: "Operating Platform"
-description: "CCA.SH provides banking and payment rails, digital asset custody, BSA/AML compliance infrastructure, and technology platform for Whitelabel Partner Series."
-keywords: ["platform", "banking", "payment", "custody", "compliance", "API", "technology"]
+title: "Platform"
+description: "CCASH provides a complete legal infrastructure and technology platform for regulated financial services. Entity framework, compliance operations, and a Go and HTMX application platform."
+keywords: ["platform", "legal infrastructure", "technology platform", "Go", "HTMX", "encrypted SQLite", "Solana", "CCASH"]
 ogImage: "/og-image.png"
 stylesheets:
   - "/css/main.css"
@@ -17,43 +17,36 @@ sitemap:
 
 <section class="page-hero bg-soft">
     <span class="section-label">Platform</span>
-    <h1 class="section-title">The full operating platform</h1>
-    <p class="section-desc">Banking and payment rails, digital asset custody, compliance infrastructure, and technology platform — all delivered as a single integrated service.</p>
+    <h1 class="section-title">Two layers, one integrated platform</h1>
+    <p class="section-desc">Legal infrastructure and technology platform working together. CCASH provides the entity framework, compliance policies, governance documentation, operational procedures, and application platform for regulated financial services.</p>
 </section>
 
 <section class="content-section">
     <div class="content-container">
-        <h2>What CCA.SH Provides</h2>
+        <h2>The CCASH Platform</h2>
+
         <div class="concept-box">
-            <h4>Banking & Payment Rails</h4>
-            <p>CCA.SH maintains relationships with multiple banking partners, payment processors, and Partner MSBs. Transactions are routed to provide clients with the most cost-effective compliant path available — the "cheapest compliant route" for each transaction. Multi-rail expansion continuously improves options, reliability, and pricing.</p>
+            <h4>Legal Infrastructure Layer</h4>
+            <p>The legal layer provides entity formation documentation, operating agreements, compliance policies, governance procedures, and operational frameworks. This infrastructure establishes the legal foundation for regulated financial services, with documentation maintained and updated to reflect changing requirements. Multi-entity structures are supported with defined relationships, authority hierarchies, and governance models.</p>
         </div>
 
         <div class="concept-box">
-            <h4>Digital Asset Custody</h4>
-            <p>Segregated hot and cold crypto wallets per Series. Multi-signature security under HSM-backed custody. Key operation is exclusive to CCA.SH — no Whitelabel-Client or Partners-Client self-custody on Series flows. On-chain authorization through the Melusina OS sidecar-approval mechanism.</p>
+            <h4>Technology Layer</h4>
+            <p>The technology layer provides a Go and HTMX application platform with encrypted SQLite storage, Solana Ed25519 signature security, and single-binary deployment. The platform delivers a mobile-first responsive interface for operations management, with no JavaScript build step required. Every write operation is cryptographically signed, creating a tamper-evident audit trail.</p>
         </div>
 
         <div class="concept-box">
-            <h4>Compliance Infrastructure</h4>
-            <p>AI-assisted KYC/KYB verification, transaction monitoring, sanctions screening, risk scoring, and suspicious activity detection. Led by the CCO. Technical enforcement through geographic IP restrictions, velocity limits, API access controls, and escalating enforcement: warning → remediation → soft restriction → hard block → termination.</p>
+            <h4>Combined Operations</h4>
+            <p>The legal and technology layers work together as an integrated platform. Legal entity documentation establishes the operational framework, and the technology platform enforces those structures through role-based access, multi-signature controls, and defined approval workflows. Compliance policies are reflected in platform controls, and audit logs provide verifiable evidence of operations.</p>
         </div>
 
-        <div class="concept-box">
-            <h4>Technology Platform</h4>
-            <p>API access, operator console, dedicated Fineract Tenant per Whitelabel-Client, Melusina OS integration, and AITX AI-assisted compliance workflow procedures. The entire stack runs on least-privilege, defense-in-depth, capability security with four-eyes on critical actions.</p>
-        </div>
-
-        <h2>Routing Philosophy</h2>
-        <p>CCA.SH selects the lowest-cost provider that meets all compliance requirements for each transaction, considering speed, jurisdiction, and transaction type. Provider capacity is allocated fairly among clients — no single client monopolizes access to preferred routes. Where multiple hops are required, the path is optimized to minimize costs and delays while maintaining compliance.</p>
-
-        <h2>Cash Management</h2>
+        <h2>Platform Principles</h2>
         <ul>
-            <li>Client funds segregated from CCA.SH operating funds</li>
-            <li>Each Client Series has its own account balances</li>
-            <li>Liquidity reserves sufficient to meet withdrawal demands</li>
-            <li>Float tracked and reconciled daily</li>
-            <li>No commingling with operating capital or proprietary trading</li>
+            <li><strong>Defense in depth:</strong> Multiple layers of security controls, from cryptographic signing to role-based access</li>
+            <li><strong>Least privilege:</strong> Every user and process has the minimum access needed to perform its function</li>
+            <li><strong>Tamper evidence:</strong> Every action is cryptographically signed, creating a verifiable audit trail</li>
+            <li><strong>Separation of duties:</strong> Critical actions require authorization from multiple parties</li>
+            <li><strong>Simplicity:</strong> Single-binary deployment, no build pipeline, minimal infrastructure requirements</li>
         </ul>
     </div>
 </section>

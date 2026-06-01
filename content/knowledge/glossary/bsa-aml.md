@@ -1,13 +1,13 @@
 ---
-title: "BSA/AML - Glossary"
-description: "Bank Secrecy Act / Anti-Money Laundering — the US regulatory framework requiring financial institutions to detect and prevent money laundering and terrorist financing."
+title: "Compliance Framework - Glossary"
+description: "The set of compliance policies and procedures that operators within the CCASH platform adhere to as part of the legal infrastructure."
 category: "compliance"
 relatedTerms:
-  - slug: "msb"
-    label: "MSB"
-  - slug: "finCEN"
-    label: "FinCEN"
+  - slug: "regulated-operator"
+    label: "Regulated Operator"
+  - slug: "four-eyes"
+    label: "Four-Eyes Principle"
 date: "2026-06-01"
 ---
 
-<section class="term-section"><h2>Full Definition</h2><p>Bank Secrecy Act / Anti-Money Laundering — the US regulatory framework requiring financial institutions to detect and prevent money laundering and terrorist financing through customer due diligence, transaction monitoring, and reporting.</p></section>
+<section class="term-section"><h2>Full Definition</h2><p>The compliance framework within the CCASH platform consists of policies and procedures covering customer identification and verification, customer due diligence, transaction monitoring, sanctions screening, and reporting obligations. These policies form the foundation of the legal infrastructure layer and are enforced through the technology platform's governance tooling.</p></section>

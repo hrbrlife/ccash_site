@@ -1,8 +1,8 @@
 ---
 layout: "page"
 title: "Onboarding Path"
-description: "The 13-gate onboarding procedure from initial inquiry to a live, operating Whitelabel Partner Series."
-keywords: ["onboarding", "setup", "integration", "gate", "procedure"]
+description: "The onboarding procedure from initial inquiry to a live, operating CCASH platform deployment."
+keywords: ["onboarding", "setup", "integration", "procedure"]
 ogImage: "/og-image.png"
 stylesheets:
   - "/css/main.css"
@@ -15,26 +15,26 @@ sitemap:
 
 <section class="page-hero bg-soft">
     <span class="section-label">Onboarding</span>
-    <h1 class="section-title">13 gates to a live Series</h1>
-    <p class="section-desc">From initial inquiry to a live, operating Whitelabel Partner Series — every gate verified before the next opens.</p>
+    <h1 class="section-title">From inquiry to live operation</h1>
+    <p class="section-desc">From initial inquiry to a live, operating CCASH platform deployment — every step verified before the next opens.</p>
 </section>
 
 <section class="content-section">
     <div class="content-container">
         <ol>
-            <li><strong>Initial Inquiry & NDA:</strong> Confidentiality agreement executed</li>
-            <li><strong>Preliminary Eligibility Assessment:</strong> Business model review, jurisdictional check</li>
-            <li><strong>Detailed Application:</strong> Full business plan, financial projections, compliance history</li>
-            <li><strong>KYC/KYB Verification:</strong> Principal identification, beneficial ownership, source of funds</li>
-            <li><strong>Risk Assessment:</strong> Risk classification and EDD where applicable</li>
-            <li><strong>Partner LLC Formation:</strong> Montana LLC created, Operating Agreement executed</li>
-            <li><strong>Series Creation:</strong> C-### minted under Master Series LLC</li>
-            <li><strong>Correspondent Sub-Account Provisioning:</strong> Accounts opened at every bank in the routing footprint</li>
-            <li><strong>Fineract Tenant Setup:</strong> Dedicated core banking tenant provisioned</li>
-            <li><strong>Wallet Provisioning:</strong> Segregated hot and cold wallets, on-chain authorized</li>
-            <li><strong>Compliance Training:</strong> AML program implementation, reporting obligations</li>
-            <li><strong>Client Services Agreement Execution:</strong> DOC:F1 signed + Option Agreement executed</li>
-            <li><strong>Go-Live:</strong> All gates verified, Series activated</li>
+            <li><strong>Initial Inquiry & Confidentiality:</strong> Confidentiality agreement executed, preliminary discussion of your business model</li>
+            <li><strong>Eligibility Assessment:</strong> Business model review, jurisdictional check, and operational requirements analysis</li>
+            <li><strong>Detailed Application:</strong> Full business plan, operational projections, and compliance history</li>
+            <li><strong>Verification:</strong> Principal identification, beneficial ownership verification, and source of funds</li>
+            <li><strong>Risk Assessment:</strong> Risk classification and enhanced due diligence where applicable</li>
+            <li><strong>Operating Entity Formation:</strong> Legal entity created, governance agreements executed</li>
+            <li><strong>Entity Compartment Creation:</strong> Dedicated compartment established within the CCASH legal infrastructure</li>
+            <li><strong>Platform Deployment:</strong> CCASH technology platform instance provisioned and configured</li>
+            <li><strong>Brand Profile Configuration:</strong> Branding assets, domain configuration, and operational preferences set</li>
+            <li><strong>Data Layer Setup:</strong> Encrypted data storage provisioned and secured</li>
+            <li><strong>Compliance Training:</strong> Policy implementation training and operational procedure review</li>
+            <li><strong>Framework Agreement Execution:</strong> Legal agreements executed and governance roles assigned</li>
+            <li><strong>Go-Live:</strong> All steps verified, platform activated for customer service</li>
         </ol>
     </div>
 </section>

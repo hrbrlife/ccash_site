@@ -1,8 +1,8 @@
 ---
 layout: "page"
-title: "State Coverage"
-description: "How CCA.SH provides state coverage through direct MTLs and Partner MSB routing."
-keywords: ["state coverage", "MTL", "partner MSB", "licensing", "jurisdictions"]
+title: "Jurisdictional Coverage"
+description: "How CCASH provides jurisdictional coverage through its legal infrastructure and partner network."
+keywords: ["coverage", "jurisdictions", "licensing", "CCASH"]
 ogImage: "/og-image.png"
 stylesheets:
   - "/css/main.css"
@@ -15,21 +15,21 @@ sitemap:
 
 <section class="page-hero bg-soft">
     <span class="section-label">Compliance</span>
-    <h1 class="section-title">State Coverage</h1>
+    <h1 class="section-title">Jurisdictional Coverage</h1>
 </section>
 
 <section class="content-section">
     <div class="content-container">
         <h2>How Coverage Works</h2>
-        <p>CCA.SH's baseline regulatory footprint is federal BSA/AML plus Montana entity maintenance. State-level coverage is provided through two mechanisms:</p>
+        <p>CCASH's legal infrastructure provides a baseline framework for regulated financial services. Jurisdictional coverage is maintained through a combination of the legal entity structure and partner network routing.</p>
         <ul>
-            <li><strong>Direct MTLs:</strong> State money transmitter licenses obtained per product footprint</li>
-            <li><strong>Partner MSB Routing:</strong> For non-licensed states, transactions route through Partner MSBs who hold the applicable state license</li>
+            <li><strong>Direct Coverage:</strong> The legal entity structure provides coverage in applicable jurisdictions through entity formation and registration</li>
+            <li><strong>Partner Network Routing:</strong> For additional jurisdictions, transactions route through partner entities who maintain the applicable local coverage</li>
         </ul>
 
         <h2>Current Footprint</h2>
-        <p>Montana direct (home jurisdiction). Wyoming-for-crypto. Additional states via Partner MSB agreements as reflected in the Approved States Schedule (DOC:N3) and Partner MSB Directory (DOC:N4).</p>
+        <p>The CCASH legal infrastructure is established under applicable entity law. Coverage extends to additional jurisdictions through partner network agreements as documented in the relevant schedules.</p>
 
-        <p>CCA.SH only represents service availability in a state when a direct legal basis exists or an executed Partner MSB agreement covering that state is recorded.</p>
+        <p>CCASH only represents service availability in a jurisdiction when a direct legal basis exists or an executed partner agreement covering that jurisdiction is in place.</p>
     </div>
 </section>

@@ -1,8 +1,8 @@
 {
-  "hash": "6aeb970531b962ee8a733795c7d2d30ea9847e18",
-  "hashShort": "6aeb970",
-  "date": "2026-02-24T09:17:30+04:00",
-  "message": "feat(seo): comprehensive SEO improvements",
-  "tag": "",
-  "buildNumber": 194
+  "hash": "ccash-v1.0.0",
+  "hashShort": "v1.0.0",
+  "date": "2026-06-01",
+  "message": "feat: CCASH website launch with legal framework and platform documentation",
+  "tag": "v1.0.0",
+  "buildNumber": 1
 }

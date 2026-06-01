@@ -1,13 +1,13 @@
 ---
-title: "Partners-Client - Glossary"
-description: "An end-customer served by a Whitelabel-Client under the Whitelabel-Client's brand, booked into the Series as agent of CCA.SH's principal MSB."
+title: "Platform User Roles - Glossary"
+description: "The defined categories of users within the CCASH platform, including operators, their customers, and administrators."
 category: "structure"
 relatedTerms:
-  - slug: "whitelabel-partner-series"
-    label: "Whitelabel Partner Series"
-  - slug: "client-series"
-    label: "Client Series"
+  - slug: "ecosystem"
+    label: "Platform Ecosystem"
+  - slug: "entity-compartment"
+    label: "Entity Compartment"
 date: "2026-06-01"
 ---
 
-<section class="term-section"><h2>Full Definition</h2><p>An end-customer served by a Whitelabel-Client under the Whitelabel-Client's brand. Booked into the Series as agent of CCA.SH's principal MSB.</p></section>
+<section class="term-section"><h2>Full Definition</h2><p>Platform user roles define the categories of participants within the CCASH ecosystem. Operators serve end-customers under their own brand, booking customer relationships into entity compartments. Each role carries defined rights, responsibilities, and access levels within the platform's governance framework.</p></section>

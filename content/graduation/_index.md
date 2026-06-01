@@ -1,8 +1,8 @@
 ---
 layout: "page"
-title: "Graduation"
-description: "90-day planned path from Whitelabel Partner Series to independent MSB. Your customers novate to your Partner LLC. CCA.SH continues IT support."
-keywords: ["graduation", "independent MSB", "FinCEN", "MTL", "novation"]
+title: "Scaling Your Operation"
+description: "The growth path on the CCASH platform — from initial deployment to full-scale operation."
+keywords: ["scaling", "growth", "CCASH", "platform"]
 ogImage: "/og-image.png"
 stylesheets:
   - "/css/main.css"
@@ -16,59 +16,41 @@ sitemap:
 ---
 
 <section class="page-hero bg-soft">
-    <span class="section-label">Graduation</span>
-    <h1 class="section-title">Your path to independence</h1>
-    <p class="section-desc">Graduation is designed into the model from day one — not an afterthought. A 90-day planned exit from whitelabel to your own independent regulated operation.</p>
+    <span class="section-label">Scaling</span>
+    <h1 class="section-title">Your path to growth</h1>
+    <p class="section-desc">Scaling is designed into the CCASH model from day one — not an afterthought. A planned growth path from initial deployment to full-scale operation on the platform.</p>
 </section>
 
 <section class="content-section">
     <div class="content-container">
-        <h2>How Graduation Works</h2>
-        <p>Graduation is built into the two-entity structure from day one. Your Partner LLC exists from the start as a shelf entity ready to become your independent MSB. The process has three phases.</p>
+        <h2>How Scaling Works</h2>
+        <p>Scaling is built into the two-entity structure from day one. Your operating entity exists from the start, ready to grow as your business expands. The process has three phases.</p>
 
         <div class="concept-box">
-            <h4>Phase 1: Build Your Book</h4>
-            <p>Operate under CCA.SH's FinCEN registration. Build your customer base, transaction volume, and compliance track record. Your Partner LLC sits ready, holding your brand, domain, and licenses.</p>
+            <h4>Phase 1: Build Your Operation</h4>
+            <p>Deploy on the CCASH platform. Build your customer base, transaction volume, and operational track record. Your operating entity sits ready, holding your brand, domain, and operational assets.</p>
         </div>
 
         <div class="concept-box">
-            <h4>Phase 2: Meet Readiness Preconditions</h4>
-            <p>All eight preconditions must be satisfied before graduation can proceed:</p>
-            <ol>
-                <li>Partner LLC holds its own FinCEN Form 107 MSB registration</li>
-                <li>Per-state MTLs covering every state in which your customers reside</li>
-                <li>N+1 correspondent network — strictly more correspondents than CCA.SH routes for your Series</li>
-                <li>No pending compliance investigation touching the Whitelabel-Client or its Series</li>
-                <li>No pending regulator examination</li>
-                <li>No pending correspondent dispute</li>
-                <li>Partner LLC in good standing with Montana SoS</li>
-                <li>Graduation Due-Diligence Pack delivered</li>
-            </ol>
-            <p>Either party may trigger graduation once readiness is jointly certified. Neither party may unreasonably withhold certification.</p>
+            <h4>Phase 2: Expand Your Footprint</h4>
+            <p>As your operation grows, you can expand your use of the CCASH platform. Scale your technology deployment, increase your customer base, and extend your service offerings. The platform is designed to accommodate growth without requiring infrastructure changes.</p>
         </div>
 
         <div class="concept-box">
-            <h4>Phase 3: Novate & Close</h4>
-            <p>On cutover day, CCA.SH files agent delisting via FinCEN BSA E-Filing. Every customer novates to your Partner LLC. The emptied Series is closed. CCA.SH continues to bill IT platform fees. You own your book.</p>
+            <h4>Phase 3: Full-Scale Operation</h4>
+            <p>At full scale, your operation runs on the CCASH platform at its full capacity. You own your customer relationships, your brand, and your operational assets, with the CCASH legal infrastructure and technology platform providing the foundation.</p>
         </div>
 
-        <h3>Post-Graduation Economics</h3>
-        <table>
-            <thead><tr><th>Fee</th><th>Amount</th><th>When</th></tr></thead>
-            <tbody>
-                <tr><td>IT platform fees</td><td>Ongoing, flat schedule</td><td>Post-graduation</td></tr>
-                <tr><td>Gateway Introduction Fee</td><td>One-time lump-sum</td><td>At cutover</td></tr>
-            </tbody>
-        </table>
-        <p>No ongoing volume cuts. No post-graduation self-reporting obligations. No CCA.SH audit right over your books.</p>
+        <h3>Growth Economics</h3>
+        <p>CCASH pricing is structured to support growth at every stage. Volume-based pricing ensures that your costs scale with your operation. As your transaction volume grows, your per-transaction costs decline.</p>
 
-        <h3>Other Exit Paths</h3>
-        <p>In addition to voluntary graduation, the model supports CCA.SH-initiated termination (with a force-transfer right and three-step cascade) and judicial/sanctions-block scenarios (with case-by-case reclaim for non-sanctioned customers).</p>
+        <h3>Other Paths</h3>
+        <p>In addition to organic growth, the CCASH framework supports other operational transitions within the platform ecosystem, with defined procedures for orderly transitions when needed.</p>
     </div>
 </section>
 
 <section class="cta-section">
-    <h2>Ready to plan your graduation?</h2>
-    <p>Talk to our team about your readiness timeline.</p>
+    <h2>Ready to grow?</h2>
+    <p>Talk to our team about your growth timeline.</p>
     <a href="{{ "company/contact/" | relURL }}" class="btn btn-primary">Contact Us</a>
 </section>

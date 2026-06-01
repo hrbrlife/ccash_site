@@ -1,8 +1,8 @@
 ---
 layout: "page"
 title: "Terms of Service"
-description: "Terms governing the use of CCA.SH's website and platform."
-keywords: ["terms", "service", "legal", "conditions"]
+description: "Terms governing the use of CCASH's website and platform."
+keywords: ["terms", "service", "legal", "conditions", "CCASH"]
 ogImage: "/og-image.png"
 stylesheets:
   - "/css/main.css"
@@ -23,18 +23,27 @@ sitemap:
 <section class="content-section">
     <div class="content-container">
         <h2>General</h2>
-        <p>CCA.SH Money Services (US) Series LLC is a Montana Series LLC registered with FinCEN as a Money Services Business under 31 CFR §1022.380. This website is for informational purposes only and does not constitute an offer to provide services.</p>
+        <p>CCASH provides legal infrastructure documentation and a technology application platform. This website is for informational purposes only and does not constitute an offer to provide services. Access to and use of the CCASH platform and documentation is governed by these terms.</p>
 
-        <h2>No Direct Client Relationship</h2>
-        <p>CCA.SH has no direct retail or corporate clients through this website. All counterparty relationships are governed by written agreements. Services are provided only to qualified counterparties under applicable regulatory frameworks.</p>
+        <h2>No Client Relationship</h2>
+        <p>Access to this website and its content does not create a client, advisory, or fiduciary relationship. All engagements are governed by separate written agreements. Services and platform access are provided only to qualified counterparties under applicable agreements.</p>
 
-        <h2>Experimental Services</h2>
-        <p>CCA.SH operates as an AI-first money services business. Services are experimental in nature, carry inherent risk, and may produce unforeseen consequences. All counterparties must acknowledge these risks before doing business with CCA.SH.</p>
+        <h2>Platform Use</h2>
+        <p>Use of the CCASH application platform is subject to the terms of a separate platform access agreement. Users may not reverse-engineer, modify, or redistribute the platform without explicit written authorization. Account credentials are non-transferable and must be kept confidential.</p>
+
+        <h2>Intellectual Property</h2>
+        <p>The CCASH legal framework documents, platform software, and all associated materials are protected by intellectual property laws. Access to documentation and platform materials does not transfer any ownership or intellectual property rights.</p>
+
+        <h2>Disclaimer</h2>
+        <p>The CCASH platform and legal framework are provided on an "as is" basis without warranties of any kind, express or implied. CCASH disclaims all liability for damages arising from the use or inability to use the platform, documentation, or services.</p>
 
         <h2>Jurisdiction</h2>
-        <p>These terms are governed by Montana law and US federal law. CCA.SH's regulatory footprint is US federal BSA/AML plus Montana entity maintenance. Not available to EU or EEA residents.</p>
+        <p>These terms are governed by applicable law. The CCASH platform and legal infrastructure are operated in compliance with relevant regulatory frameworks in the jurisdictions in which CCASH operates.</p>
 
         <h2>Dispute Resolution</h2>
-        <p>All disputes resolve through the mandatory four-stage process: Customer Support → 90-day good-faith → AAA AI-assisted arbitration → AAA human arbitration fallback.</p>
+        <p>Disputes arising under these terms shall be resolved through good-faith negotiation initially. If unresolved, disputes may be submitted to arbitration or other alternative dispute resolution mechanisms as agreed by the parties.</p>
+
+        <h2>Contact</h2>
+        <p>For questions about these terms, contact legal@cca.sh.</p>
     </div>
 </section>

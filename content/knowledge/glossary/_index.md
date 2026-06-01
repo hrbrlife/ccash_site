@@ -2,9 +2,9 @@
 title: "Glossary"
 type: "page"
 layout: "knowledge-glossary-index"
-description: "Complete glossary of terms for CCA.SH's regulated MSB infrastructure, whitelabel model, compliance framework, and platform."
+description: "Complete glossary of terms for CCASH's legal infrastructure, technology platform, compliance framework, and governance model."
 ogImage: "/og-image.png"
-keywords: ["glossary", "complete", "terms", "MSB", "whitelabel", "compliance", "regulatory"]
+keywords: ["glossary", "complete", "terms", "legal infrastructure", "technology platform", "compliance", "governance"]
 stylesheets:
   - "/css/main.css"
   - "/css/pages/glossary.css"

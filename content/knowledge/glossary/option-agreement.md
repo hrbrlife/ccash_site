@@ -1,13 +1,13 @@
 ---
-title: "Option Agreement - Glossary"
-description: "A live instrument executed at onboarding that papers CCA.SH's force-transfer right on termination and the Partner LLC's self-claim right on voluntary graduation."
+title: "Framework Agreement - Glossary"
+description: "A governing instrument that establishes the terms under which an operator participates in the CCASH platform."
 category: "structure"
 relatedTerms:
-  - slug: "graduation"
-    label: "Graduation"
-  - slug: "partner-llc"
-    label: "Partner LLC"
+  - slug: "scaling"
+    label: "Scaling"
+  - slug: "operating-entity"
+    label: "Operating Entity"
 date: "2026-06-01"
 ---
 
-<section class="term-section"><h2>Full Definition</h2><p>A live instrument executed at onboarding contemporaneously with the Client Services Agreement. It papers CCA.SH's force-transfer right on termination and the Partner LLC's self-claim right on voluntary graduation.</p></section>
+<section class="term-section"><h2>Full Definition</h2><p>A framework agreement is a governing instrument executed at onboarding that establishes the legal terms under which an operator participates in the CCASH platform. It defines the rights, obligations, and operational parameters of the relationship, including provisions for growth, transition, and termination.</p></section>

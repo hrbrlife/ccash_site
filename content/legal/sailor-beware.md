@@ -1,8 +1,8 @@
 ---
 layout: "page"
-title: "Sailor Beware"
-description: "Experimental services disclosure. AI-first operations, blockchain infrastructure, and DAO-migration authority disclosures for CCA.SH."
-keywords: ["sailor beware", "experimental", "AI", "blockchain", "risk", "disclosure"]
+title: "Disclaimer"
+description: "Platform disclaimer and risk acknowledgement for CCASH."
+keywords: ["disclaimer", "platform", "risk", "acknowledgement", "CCASH"]
 ogImage: "/og-image.png"
 stylesheets:
   - "/css/main.css"
@@ -17,24 +17,29 @@ sitemap:
 
 <section class="page-hero bg-soft">
     <span class="section-label">Disclosure</span>
-    <h1 class="section-title">Sailor Beware</h1>
-    <p class="section-desc">CCA.SH is AI-first, blockchain-native, and unapologetically pioneering. These disclosures explain what that means for you.</p>
+    <h1 class="section-title">Disclaimer</h1>
+    <p class="section-desc">CCASH is an evolving platform operating at the intersection of legal infrastructure and modern software. This disclaimer describes the nature of the platform and the limitations that apply.</p>
 </section>
 
 <section class="content-section">
     <div class="content-container">
-        <h2>AI-First Operations</h2>
-        <p>CCA.SH is an AI-first money services business. Substantially all operational functions — compliance screening, fraud detection, customer support, drafting, monitoring, routing, and dispute triage — are delivered with the assistance of artificial intelligence and automated decision systems, with human oversight and override authority.</p>
-        <p>Services are <strong>experimental in nature</strong>, carry <strong>inherent risk</strong>, and may produce <strong>unforeseen consequences</strong>. All clients, end-customers, partners, vendors, and employees must acknowledge these risks before doing business with CCA.SH.</p>
+        <h2>Platform Nature</h2>
+        <p>CCASH provides legal infrastructure documentation and a technology application platform. The legal framework documents are designed for practical use but should be reviewed by qualified legal professionals before adoption. The technology platform is continuously developed and may be updated, modified, or reconfigured as the platform evolves.</p>
+        <p>The platform is provided on an <strong>experimental basis</strong> in the sense that it operates at the frontier of integrated legal and technology infrastructure. All users and counterparties should understand and acknowledge the nature of the platform before relying on it.</p>
 
-        <h2>Blockchain, Cryptography, and Quantum</h2>
-        <p>CCA.SH operates on experimental, pioneering, rapidly-evolving blockchain and cryptographic infrastructure — currently including Solana, Ethereum, Ed25519 signatures, HD wallets, and third-party token contracts such as USDT and USDC. You are engaging with CCA.SH because you want experimental access to this technology and because you explicitly accept its obvious and residual risks.</p>
-        <p>CCA.SH reserves the right, as a prudent manager of another's affairs, to migrate across chains, smart contracts, token standards, signature algorithms, custody models, and cryptographic primitives on 30 days' notice (or shorter in emergencies), with data-migration and counterparty withdrawal rights preserved.</p>
+        <h2>No Legal Advice</h2>
+        <p>The legal documentation provided through CCASH is for informational and reference purposes. It does not constitute legal advice, and no attorney-client relationship is established through access to or use of these materials. You should consult with qualified legal counsel regarding your specific circumstances.</p>
 
-        <h2>DAO Migration Authority</h2>
-        <p>CCA.SH has reserved the authority to migrate some or all of its governance and operational procedures to a decentralized (DAO) format. <strong>No DAO is currently active.</strong> Any future DAO migration is within the experimental envelope already accepted by counterparties under these disclosures and is not, by itself, a default or ground for refund or rescission.</p>
+        <h2>Limitation of Liability</h2>
+        <p>To the maximum extent permitted by applicable law, CCASH disclaims all liability for any loss, damage, or expense arising from the use of or reliance on the platform, its documentation, or any associated services. This includes, without limitation, direct, indirect, consequential, and incidental damages.</p>
 
-        <h2>Dispute Resolution</h2>
-        <p>All disputes are resolved under a mandatory four-stage waterfall: Customer Support (first step) → 90-day good-faith resolution → AAA AI-assisted arbitration (preferred default, opt-in per AAA rules) → AAA standard human arbitration. Litigation is reserved for enforcement and protective injunctive relief.</p>
+        <h2>No Guarantee of Availability</h2>
+        <p>CCASH does not guarantee uninterrupted availability of the platform or documentation. Services may be suspended, modified, or discontinued with reasonable notice. CCASH reserves the right to change the terms of access, platform features, and documentation at its discretion.</p>
+
+        <h2>Acceptance of Risk</h2>
+        <p>By using the CCASH platform and legal framework, you acknowledge and accept the inherent risks associated with relying on an evolving integrated legal and technology platform. You are responsible for your own due diligence and for ensuring that the platform meets your specific requirements.</p>
+
+        <h2>Contact</h2>
+        <p>For questions about this disclaimer, contact legal@cca.sh.</p>
     </div>
 </section>

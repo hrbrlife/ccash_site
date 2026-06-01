@@ -1,8 +1,8 @@
 ---
 layout: "page"
-title: "For Family Offices & SACCOs"
-description: "Treasury management with auditor-grade controls for family offices and savings cooperatives. Multi-member governance and the full CCA.SH compliance stack."
-keywords: ["family office", "SACCO", "treasury", "governance", "compliance"]
+title: "For Family Offices"
+description: "Legal entity management, multi-member governance, auditor-grade controls, and Go and HTMX treasury management platform for family offices. CCASH provides the infrastructure for complex family financial operations."
+keywords: ["family office", "governance", "treasury management", "legal entity", "auditor", "CCASH"]
 ogImage: "/og-image.png"
 stylesheets:
   - "/css/main.css"
@@ -17,21 +17,31 @@ sitemap:
 
 <section class="page-hero bg-soft">
     <span class="section-label">Solutions</span>
-    <h1 class="section-title">For Family Offices & SACCOs</h1>
-    <p class="section-desc">Treasury management with auditor-grade controls. Multi-member governance, investment-series authority, and the full compliance stack — available after a scoping conversation.</p>
+    <h1 class="section-title">For Family Offices</h1>
+    <p class="section-desc">Legal entity management, multi-member governance, auditor-grade controls, and a Go and HTMX treasury management platform — delivered as an integrated infrastructure for family office operations.</p>
 </section>
 
 <section class="content-section">
     <div class="content-container">
         <h2>What You Get</h2>
         <ul>
-            <li>Auditor-grade treasury controls and reconciliation</li>
+            <li>Legal entity management and formation documentation</li>
             <li>Multi-member governance with defined authority tiers</li>
-            <li>Investment Series authority (dormant, Regulation D/S)</li>
-            <li>Full BSA/AML compliance infrastructure</li>
-            <li>Segregated accounts and settlement</li>
+            <li>Auditor-grade controls and cryptographic audit trails</li>
+            <li>Go and HTMX platform for treasury management</li>
+            <li>Encrypted data storage with tamper-evident signing</li>
         </ul>
 
-        <p>Available after a scoping conversation to understand your specific requirements and transaction profile.</p>
+        <h2>Legal Entity Management</h2>
+        <p>CCASH provides legal entity documentation and management for family office structures. Entity formation documents, operating agreements, governance policies, and compliance frameworks establish the legal foundation for family office operations. Multi-entity structures are supported with clearly defined relationships and authority hierarchies.</p>
+
+        <h2>Multi-Member Governance</h2>
+        <p>Governance structures with defined authority tiers, voting procedures, and approval workflows. Family offices can configure governance models that match their specific requirements, with multi-signature controls on critical actions and defined processes for decision-making across members. All governance actions are recorded in the cryptographic audit trail.</p>
+
+        <h2>Auditor-Grade Controls</h2>
+        <p>The CCASH platform provides auditor-grade controls through cryptographic signing of every action, comprehensive audit logging, and tamper-evident recordkeeping. Every transaction, approval, and configuration change is signed using Solana Ed25519 keys and stored in the encrypted SQLite database, providing a complete and verifiable record for auditor review.</p>
+
+        <h2>Treasury Management Platform</h2>
+        <p>The CCASH technology platform delivers a treasury management application built with Go and HTMX. The application provides a mobile-first responsive interface for managing accounts, tracking positions, executing transactions, and generating reports. The single-binary deployment model means the platform can run on any infrastructure without complex setup.</p>
     </div>
 </section>

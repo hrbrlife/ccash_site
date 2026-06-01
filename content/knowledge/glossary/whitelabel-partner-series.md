@@ -1,13 +1,13 @@
 ---
-title: "Whitelabel Partner Series - Glossary"
-description: "The functional description of a Client Series (C-###) — a partner operating its own brand under CCA.SH's regulated infrastructure."
+title: "Platform Ecosystem - Glossary"
+description: "The complete network of operators, legal infrastructure, technology platform, and governance framework that constitutes CCASH."
 category: "structure"
 relatedTerms:
-  - slug: "client-series"
-    label: "Client Series"
-  - slug: "partner-llc"
-    label: "Partner LLC"
+  - slug: "entity-compartment"
+    label: "Entity Compartment"
+  - slug: "operating-entity"
+    label: "Operating Entity"
 date: "2026-06-01"
 ---
 
-<section class="term-section"><h2>Full Definition</h2><p>The functional description of a Client Series (C-###). A partner operating its own brand under CCA.SH's regulated infrastructure. The Whitelabel Partner Series owns its customer relationships and brand while CCA.SH provides the regulated foundation.</p></section>
+<section class="term-section"><h2>Full Definition</h2><p>The platform ecosystem encompasses the complete network of operators, legal infrastructure, technology platform, and governance framework that constitutes CCASH. Operators deploy branded instances of the CCASH technology platform within the legal infrastructure, serving their own customers while benefiting from shared legal and technical foundations. The ecosystem is designed to support multiple operators with strong data isolation and clear role separation.</p></section>

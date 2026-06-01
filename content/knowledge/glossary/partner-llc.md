@@ -1,13 +1,13 @@
 ---
-title: "Partner LLC - Glossary"
-description: "A standalone Montana LLC owned by the Whitelabel-Client that holds their brand, domain, IP, and operating manuals."
+title: "Operating Entity - Glossary"
+description: "An operator's standalone entity within the CCASH legal infrastructure that holds their brand, intellectual property, and operational assets."
 category: "structure"
 relatedTerms:
-  - slug: "client-series"
-    label: "Client Series"
-  - slug: "managers-delegate"
-    label: "Manager's Delegate"
+  - slug: "entity-compartment"
+    label: "Entity Compartment"
+  - slug: "governance-roles"
+    label: "Governance Roles"
 date: "2026-06-01"
 ---
 
-<section class="term-section"><h2>Full Definition</h2><p>A standalone Montana LLC owned and controlled by the Whitelabel-Client. It holds the client's brand, trade names, domains, Melusina license, documentation, and operating manuals. CCA.SH holds a Manager's Delegate role with defined veto scope.</p></section>
+<section class="term-section"><h2>Full Definition</h2><p>An operating entity is a standalone legal entity owned and controlled by an operator within the CCASH platform. It holds the operator's brand, trade names, domains, intellectual property licenses, documentation, and operating manuals. The operating entity structure ensures that operators maintain clear ownership of their brand and operational assets while participating in the CCASH legal framework.</p></section>

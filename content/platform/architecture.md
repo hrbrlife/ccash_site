@@ -1,8 +1,8 @@
 ---
 layout: "page"
 title: "Architecture"
-description: "Technical architecture of the CCA.SH platform — series structure, routing, compliance stack, and Melusina OS integration."
-keywords: ["architecture", "technical", "platform", "series", "routing", "melusina"]
+description: "Architecture of the CCASH platform — legal entity structure, technology stack, and security architecture for regulated financial services."
+keywords: ["architecture", "technical", "legal architecture", "Go", "HTMX", "Melusina", "encrypted SQLite", "Solana", "CCASH"]
 ogImage: "/og-image.png"
 stylesheets:
   - "/css/main.css"
@@ -20,16 +20,19 @@ sitemap:
 
 <section class="content-section">
     <div class="content-container">
-        <h2>Series Structure</h2>
-        <p>CCA.SH's architecture is built on the Montana Series LLC framework. The Master Series LLC contains Client Series (C-###), each legally separate with its own assets, liabilities, Fineract Tenant, and segregated wallets. Each Series pairs with a standalone Partner LLC.</p>
+        <h2>Legal Architecture</h2>
+        <p>CCASH provides a legal entity framework built on established entity structures. Each operator operates within a defined legal structure with its own entity documentation, operating agreements, and governance procedures. Multi-entity configurations are supported with clearly defined relationships between entities, authority hierarchies, and governance models. Compliance policies and operational procedures are documented and maintained as part of the legal framework.</p>
 
-        <h2>Transaction Routing</h2>
-        <p>CCA.SH selects the cheapest compliant route for each transaction, considering speed, jurisdiction, and transaction type. Multi-rail relationships with banking partners, payment processors, and Partner MSBs provide redundancy and cost optimization.</p>
+        <h2>Technology Architecture</h2>
+        <p>The CCASH technology platform is built on a Go backend serving an HTMX frontend. The application is compiled into a single static binary with no JavaScript build step, no container runtime dependency, and no external database server. Data is stored in an encrypted SQLite database at rest, with each write operation signed using Solana Ed25519 keys for tamper evidence. The platform integrates with the Melusina operating system identity gate for cross-application authorization and envelope verification.</p>
 
-        <h2>Compliance Stack</h2>
-        <p>AI-assisted compliance screening integrates with transaction processing at every layer. Sanctions screening, transaction monitoring, fraud detection, and risk scoring operate continuously. Four-eyes enforcement through Melusina OS identity gate.</p>
+        <h2>Security Architecture</h2>
+        <p>Every write operation on the CCASH platform is cryptographically signed using Solana Ed25519 keys. This creates a tamper-evident audit trail where every action can be independently verified. Multi-party signing controls ensure that critical operations require authorization from multiple authorized parties. Access controls operate on least-privilege principles with role-based permissions and defined authority tiers. The encrypted SQLite database provides data-at-rest protection, and all access is logged and signed.</p>
 
-        <h2>Melusina OS Integration</h2>
-        <p>CCA.SH deploys on the Melusina OS platform — a purpose-built operating system for regulated financial services. The shared identity gate provides cross-app authorization, envelope verification, and on-chain four-eyes enforcement.</p>
+        <h2>Deployment Model</h2>
+        <p>The CCASH platform deploys as a single static Go binary. No JavaScript build step, no container orchestration, no database configuration. The binary includes the HTMX frontend, the Go backend, and the encrypted SQLite storage layer. Deployment targets include traditional servers, virtual machines, and Sandstorm platform packages (.spk format).</p>
+
+        <h2>Audit Trail</h2>
+        <p>Every action on the platform is recorded in the cryptographic audit trail. Each audit entry includes the action performed, the actor identity, a timestamp, and a Solana Ed25519 signature. The audit trail can be verified independently, providing complete transparency for regulatory review and auditor access.</p>
     </div>
 </section>

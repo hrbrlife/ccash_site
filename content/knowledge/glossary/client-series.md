@@ -1,13 +1,13 @@
 ---
-title: "Client Series - Glossary"
-description: "A designated series within CCA.SH's Master Series LLC (C-###), operating as an Agent MSB under the Company's FinCEN registration."
+title: "Entity Compartment - Glossary"
+description: "A legally separate compartment within the CCASH legal infrastructure that holds an operator's customer records, transactions, and assets."
 category: "structure"
 relatedTerms:
-  - slug: "partner-llc"
-    label: "Partner LLC"
-  - slug: "whitelabel-partner-series"
-    label: "Whitelabel Partner Series"
+  - slug: "operating-entity"
+    label: "Operating Entity"
+  - slug: "ecosystem"
+    label: "Platform Ecosystem"
 date: "2026-06-01"
 ---
 
-<section class="term-section"><h2>Full Definition</h2><p>A designated series within CCA.SH's Master Series LLC (C-###), operating as an Agent MSB under the Company's FinCEN registration. Each Client Series is legally separate with its own assets, liabilities, and records.</p></section>
+<section class="term-section"><h2>Full Definition</h2><p>An entity compartment is a legally separate cell within the CCASH legal infrastructure structure, dedicated to a specific operator. Each compartment maintains its own records, assets, and liabilities, providing legal separation between operators. This structure ensures that the obligations of one operator do not affect the assets or operations of another.</p></section>

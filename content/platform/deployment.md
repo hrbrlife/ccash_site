@@ -1,8 +1,8 @@
 ---
 layout: "page"
 title: "Deployment"
-description: "Technical deployment appendix — how the CCA.SH operator console is deployed for a Series."
-keywords: ["deployment", "technical", "setup", "configuration"]
+description: "Deployment model for the CCASH platform — single static Go binary, no JavaScript build step, mobile-first HTML and CSS, encrypted SQLite, and Sandstorm .spk packaging."
+keywords: ["deployment", "technical", "setup", "configuration", "Go", "binary", "Sandstorm", "CCASH"]
 ogImage: "/og-image.png"
 stylesheets:
   - "/css/main.css"
@@ -20,13 +20,19 @@ sitemap:
 
 <section class="content-section">
     <div class="content-container">
-        <h2>Deployment Cycle</h2>
-        <p>Each Whitelabel Partner Series deployment follows the Melusina Services Nuclear Deployment Cycle. The deployment provisions: the Fineract Tenant, segregated wallets (on-chain authorized per D-CON-01), correspondent sub-accounts, the operator console grain, and compliance infrastructure.</p>
+        <h2>Single Binary Deployment</h2>
+        <p>The CCASH platform is compiled into a single static Go binary. The binary contains the Go backend, the HTMX frontend templates, the CSS and JavaScript assets, and the encrypted SQLite storage engine. Deployment requires no JavaScript build step, no container runtime, no external database server, and no package manager. Copy the binary to the target system and run it.</p>
 
-        <h2>Day-1 Gate</h2>
-        <p>A Series does not go live until every correspondent in its declared routing footprint has a provisioned sub-account. This gate ensures operational readiness before any customer is onboarded.</p>
+        <h2>No JavaScript Build Step</h2>
+        <p>The frontend is built with HTMX, which extends HTML with attributes for dynamic interactions. There is no JavaScript framework, no bundler, no transpiler, and no build pipeline. The HTML templates are served directly by the Go backend and rendered in the browser with HTMX handling dynamic updates. This eliminates the entire frontend build and deployment chain.</p>
 
-        <h2>Wallet Provisioning</h2>
-        <p>Multi-signature HSM-backed hot and cold wallets per Series. Sidecar-approval mechanism for on-chain authorization. CCA.SH operates the keys exclusively — no self-custody on Series flows.</p>
+        <h2>Mobile-First Responsive Design</h2>
+        <p>The interface is designed mobile-first with responsive HTML and CSS. The same application works on desktop browsers, tablets, and mobile devices without separate builds or app stores. The layout adapts to screen size automatically, providing full operational capability from any device.</p>
+
+        <h2>Encrypted SQLite at Rest</h2>
+        <p>All data is stored in an encrypted SQLite database. The database is encrypted at rest using strong encryption, with the encryption key managed through the platform's security infrastructure. No separate database server is required — the database is a single file managed by the Go application. Backups are encrypted database files that can be copied securely.</p>
+
+        <h2>Sandstorm .spk Packaging</h2>
+        <p>The CCASH platform can be packaged as a Sandstorm .spk package for deployment on Sandstorm servers. This provides additional sandboxing, access control, and identity management through the Sandstorm platform. The .spk package includes the complete platform with all dependencies in a single installable archive.</p>
     </div>
 </section>

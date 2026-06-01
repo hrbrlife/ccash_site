@@ -1,16 +1,16 @@
 baseURL = 'https://cca.sh/'
 languageCode = 'en'
-title = 'CCA.SH — Launch under regulated infrastructure. Graduate to your own when ready.'
+title = 'CCASH — Legal Infrastructure & Technology Platform'
 disableHugoGeneratorInject = true
 canonifyURLs = false
 enableRobotsTXT = true
 
 [params]
-  description = "CCA.SH lets qualified partners launch a branded MSB, PSP, or VASP as a Whitelabel Partner Series. FinCEN-registered principal MSB behind the scenes."
-  author = "CCA.SH Money Services (US) Series LLC"
+  description = "CCASH provides a complete legal infrastructure and technology platform for regulated financial services. Entity framework, compliance operations, and a Go + HTMX application platform."
+  author = "CCASH Legal & Platform"
   ogImage = "/og-image.png"
-  siteName = "CCA.SH"
-  email = "ops@hrbr.life"
+  siteName = "CCASH"
+  email = "legal@cca.sh"
 
 [outputs]
   home = ["HTML"]
