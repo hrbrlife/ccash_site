@@ -1,9 +1,9 @@
 ---
 layout: "page"
-title: "For Digital Asset Operators"
-description: "Legal framework, Go and HTMX application platform, Ed25519 security, and segregated wallet infrastructure for digital asset operations. CCASH provides the infrastructure for regulated digital asset services."
-keywords: ["digital asset", "crypto", "Ed25519", "wallet", "application platform", "CCASH", "HTMX"]
-ogImage: "/og-image.png"
+title: "For Celebrities &amp; Sports Clubs"
+description: "Fan tokens, exclusive access tokens, and digital collectibles. Connect directly with your audience through token-gated experiences. Start on CCASH. Graduate to your own platform."
+keywords: ["celebrity", "sports club", "fan tokens", "collectibles", "community", "graduation", "CCASH"]
+ogImage: "/og-solutions.png"
 stylesheets:
   - "/css/main.css"
 scripts:
@@ -17,31 +17,25 @@ sitemap:
 
 <section class="page-hero bg-soft">
     <span class="section-label">Solutions</span>
-    <h1 class="section-title">For Digital Asset Operators</h1>
-    <p class="section-desc">Legal framework and technology platform purpose-built for digital asset operations. Entity documentation, a Go and HTMX operator console, Ed25519 security, and segregated wallet infrastructure in a single integrated platform.</p>
+    <h1 class="section-title">For Celebrities &amp; Sports Clubs</h1>
+    <p class="section-desc">Your fans are your economy. Create fan tokens, exclusive access passes, and digital collectibles — all under your brand. Start on CCASH's proven platform. Graduate to your own self-hosted instance with your community intact.</p>
 </section>
 
 <section class="content-section">
     <div class="content-container">
-        <h2>What You Get</h2>
+        <h2>The Graduation Path for Fan Economies</h2>
+        <p>Celebrities and sports clubs have something most brands don't: genuine fan loyalty. CCASH helps you turn that loyalty into a token-powered economy that you control — not a third-party platform that owns your fan relationships.</p>
+        <p><strong>Start on the shared platform.</strong> Launch fan tokens in days. Token-gated exclusive content, meet-and-greet access, digital collectibles, voting on club decisions, season ticket tokens — whatever connects your fans to your brand. We run the infrastructure. You focus on your audience.</p>
+        <p><strong>Graduate when you're ready.</strong> Your own self-hosted CCASH instance. Your brand, your fan data, your revenue. No platform taking a cut of your fan relationships. No risk of policy changes disrupting your community. You own the entire stack.</p>
+
+        <h2>What You Can Do</h2>
         <ul>
-            <li>Legal framework documentation for digital asset operations</li>
-            <li>Go and HTMX application platform for operator console</li>
-            <li>Ed25519 signature security for every write operation</li>
-            <li>Segregated wallet infrastructure with multi-signature controls</li>
-            <li>Tamper-evident audit trails on all transactions</li>
+            <li>Launch fan tokens for your community</li>
+            <li>Token-gated exclusive content and experiences</li>
+            <li>Digital collectibles and memorabilia tokens</li>
+            <li>Fan voting and governance on club/artist decisions</li>
+            <li>Season ticket and membership tokens</li>
+            <li>Graduate to your own branded, self-hosted platform</li>
         </ul>
-
-        <h2>Legal Framework for Digital Asset Operations</h2>
-        <p>CCASH provides legal entity documentation, compliance policies, governance procedures, and operational frameworks designed for digital asset operations. The legal infrastructure establishes the foundation for regulated digital asset activities, with documentation covering entity formation, operational policies, and regulatory compliance.</p>
-
-        <h2>Go and HTMX Operator Console</h2>
-        <p>The CCASH technology platform delivers an operator console built with Go and HTMX. The console runs as a single static binary with no JavaScript build step, deploying easily to any environment. The mobile-first responsive interface provides complete operational control over digital asset operations, including transaction management, wallet oversight, and compliance monitoring.</p>
-
-        <h2>Ed25519 Signature Security</h2>
-        <p>Every write operation on the CCASH platform is signed using Ed25519 cryptographic keys. This creates a tamper-evident audit trail where every action can be verified independently. Multi-party signing requirements ensure that critical operations require authorization from multiple authorized parties before execution.</p>
-
-        <h2>Segregated Wallet Infrastructure</h2>
-        <p>Digital asset wallets are segregated per operator with multi-signature security controls. Wallet operations follow defined authorization workflows, and all transactions are signed and recorded on the audit trail. The infrastructure supports hot and cold wallet configurations with configurable approval thresholds.</p>
     </div>
 </section>

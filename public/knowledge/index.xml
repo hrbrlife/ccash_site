@@ -1,33 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Knowledge Base on CCASH — Legal Infrastructure &amp; Technology Platform</title>
-    <link>https://cca.sh/knowledge/</link>
-    <description>Recent content in Knowledge Base on CCASH — Legal Infrastructure &amp; Technology Platform</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://cca.sh/knowledge/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>FAQ</title>
-      <link>https://cca.sh/knowledge/faq/</link>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://cca.sh/knowledge/faq/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Roadmap</title>
-      <link>https://cca.sh/knowledge/roadmap/</link>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://cca.sh/knowledge/roadmap/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Getting Started with CCASH</title>
-      <link>https://cca.sh/knowledge/guides/getting-started/</link>
-      <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://cca.sh/knowledge/guides/getting-started/</guid>
-      <description>&lt;nav class=&#34;guide-nav&#34;&gt;&#xA;            &lt;h4&gt;In This Guide&lt;/h4&gt;&#xA;            &lt;ul&gt;&#xA;                &lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;Platform Overview&lt;/a&gt;&lt;/li&gt;&#xA;                &lt;li&gt;&lt;a href=&#34;#issuers&#34;&gt;For Issuers&lt;/a&gt;&lt;/li&gt;&#xA;                &lt;li&gt;&lt;a href=&#34;#investors&#34;&gt;For Investors&lt;/a&gt;&lt;/li&gt;&#xA;                &lt;li&gt;&lt;a href=&#34;#brokers&#34;&gt;For Brokers&lt;/a&gt;&lt;/li&gt;&#xA;                &lt;li&gt;&lt;a href=&#34;#verification&#34;&gt;Verification Process&lt;/a&gt;&lt;/li&gt;&#xA;                &lt;li&gt;&lt;a href=&#34;#support&#34;&gt;Getting Help&lt;/a&gt;&lt;/li&gt;&#xA;            &lt;/ul&gt;&#xA;        &lt;/nav&gt;&#xA;        &lt;section id=&#34;overview&#34; class=&#34;guide-section&#34;&gt;&#xA;            &lt;h2&gt;Platform Overview&lt;/h2&gt;&#xA;            &lt;p&gt;CCASH is a compliant platform for issuing, investing in, and distributing &lt;span class=&#34;glossary-term&#34; data-term=&#34;security-token&#34;&gt;security tokens&lt;/span&gt;. We combine blockchain efficiency with traditional finance compliance to offer the best of both worlds.&lt;/p&gt;&#xA;            &lt;h3&gt;What We Offer&lt;/h3&gt;&#xA;            &lt;ul&gt;&#xA;                &lt;li&gt;&lt;strong&gt;Issuers:&lt;/strong&gt; Tokenize assets, raise capital globally, manage cap tables automatically&lt;/li&gt;&#xA;                &lt;li&gt;&lt;strong&gt;Investors:&lt;/strong&gt; Access curated offerings, choose your custody model, receive automated distributions&lt;/li&gt;&#xA;                &lt;li&gt;&lt;strong&gt;Brokers:&lt;/strong&gt; Expand your product offering, earn competitive commissions, serve global clients&lt;/li&gt;&#xA;            &lt;/ul&gt;&#xA;            &lt;h3&gt;Key Features&lt;/h3&gt;&#xA;            &lt;ul&gt;&#xA;                &lt;li&gt;&lt;strong&gt;Compliant by design:&lt;/strong&gt; Built-in compliance workflows with full verification and audit trail&lt;/li&gt;&#xA;                &lt;li&gt;&lt;strong&gt;Self-hosted sovereignty:&lt;/strong&gt; Deploy on your own infrastructure with full data control&lt;/li&gt;&#xA;                &lt;li&gt;&lt;strong&gt;Legal frameworks:&lt;/strong&gt; &lt;span class=&#34;glossary-term&#34; data-term=&#34;series-llc&#34;&gt;Series LLC&lt;/span&gt; and DAO LLC structures for legal isolation&lt;/li&gt;&#xA;                &lt;li&gt;&lt;strong&gt;Grain architecture:&lt;/strong&gt; OS-level isolation for every platform component&lt;/li&gt;&#xA;            &lt;/ul&gt;&#xA;        &lt;/section&gt;&#xA;        &lt;section id=&#34;issuers&#34; class=&#34;guide-section&#34;&gt;&#xA;            &lt;h2&gt;For Issuers&lt;/h2&gt;&#xA;            &lt;p&gt;Launch a tokenized securities offering in weeks, not months. Here&#39;s how to get started:&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Knowledge Base on CCASH — Tokenize Your Community</title><link>https://cca.sh/knowledge/</link><description>Recent content in Knowledge Base on CCASH — Tokenize Your Community</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://cca.sh/knowledge/index.xml" rel="self" type="application/rss+xml"/><item><title>FAQ</title><link>https://cca.sh/knowledge/faq/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://cca.sh/knowledge/faq/</guid><description/></item><item><title>Roadmap</title><link>https://cca.sh/knowledge/roadmap/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://cca.sh/knowledge/roadmap/</guid><description/></item><item><title>Getting Started with CCASH</title><link>https://cca.sh/knowledge/guides/getting-started/</link><pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate><guid>https://cca.sh/knowledge/guides/getting-started/</guid><description>&lt;nav class="guide-nav">
+ &lt;h4>In This Guide&lt;/h4>
+ &lt;ul>
+ &lt;li>&lt;a href="#overview">Platform Overview&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#issuers">For Issuers&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#investors">For Investors&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#brokers">For Brokers&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#verification">Verification Process&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#support">Getting Help&lt;/a>&lt;/li>
+ &lt;/ul>
+ &lt;/nav>
+ &lt;section id="overview" class="guide-section">
+ &lt;h2>Platform Overview&lt;/h2>
+ &lt;p>CCASH is a compliant platform for issuing, investing in, and distributing &lt;span class="glossary-term" data-term="security-token">security tokens&lt;/span>. We combine blockchain efficiency with traditional finance compliance to offer the best of both worlds.&lt;/p>
+ &lt;h3>What We Offer&lt;/h3>
+ &lt;ul>
+ &lt;li>&lt;strong>Issuers:&lt;/strong> Tokenize assets, raise capital globally, manage cap tables automatically&lt;/li>
+ &lt;li>&lt;strong>Investors:&lt;/strong> Access curated offerings, choose your custody model, receive automated distributions&lt;/li>
+ &lt;li>&lt;strong>Brokers:&lt;/strong> Expand your product offering, earn competitive commissions, serve global clients&lt;/li>
+ &lt;/ul>
+ &lt;h3>Key Features&lt;/h3>
+ &lt;ul>
+ &lt;li>&lt;strong>Compliant by design:&lt;/strong> Built-in compliance workflows with full verification and audit trail&lt;/li>
+ &lt;li>&lt;strong>Self-hosted sovereignty:&lt;/strong> Deploy on your own infrastructure with full data control&lt;/li>
+ &lt;li>&lt;strong>Legal frameworks:&lt;/strong> &lt;span class="glossary-term" data-term="series-llc">Series LLC&lt;/span> and DAO LLC structures for legal isolation&lt;/li>
+ &lt;li>&lt;strong>Grain architecture:&lt;/strong> OS-level isolation for every platform component&lt;/li>
+ &lt;/ul>
+ &lt;/section>
+ &lt;section id="issuers" class="guide-section">
+ &lt;h2>For Issuers&lt;/h2>
+ &lt;p>Launch a tokenized securities offering in weeks, not months. Here's how to get started:&lt;/p></description></item></channel></rss>

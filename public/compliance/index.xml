@@ -1,26 +1,53 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Compliance Framework on CCASH — Legal Infrastructure &amp; Technology Platform</title>
-    <link>https://cca.sh/compliance/</link>
-    <description>Recent content in Compliance Framework on CCASH — Legal Infrastructure &amp; Technology Platform</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://cca.sh/compliance/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Jurisdictional Coverage</title>
-      <link>https://cca.sh/compliance/coverage/</link>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://cca.sh/compliance/coverage/</guid>
-      <description>&lt;section class=&#34;page-hero bg-soft&#34;&gt;&#xA;    &lt;span class=&#34;section-label&#34;&gt;Compliance&lt;/span&gt;&#xA;    &lt;h1 class=&#34;section-title&#34;&gt;Jurisdictional Coverage&lt;/h1&gt;&#xA;&lt;/section&gt;&#xA;&lt;section class=&#34;content-section&#34;&gt;&#xA;    &lt;div class=&#34;content-container&#34;&gt;&#xA;        &lt;h2&gt;How Coverage Works&lt;/h2&gt;&#xA;        &lt;p&gt;CCASH&#39;s legal infrastructure provides a baseline framework for regulated financial services. Jurisdictional coverage is maintained through a combination of the legal entity structure and partner network routing.&lt;/p&gt;&#xA;        &lt;ul&gt;&#xA;            &lt;li&gt;&lt;strong&gt;Direct Coverage:&lt;/strong&gt; The legal entity structure provides coverage in applicable jurisdictions through entity formation and registration&lt;/li&gt;&#xA;            &lt;li&gt;&lt;strong&gt;Partner Network Routing:&lt;/strong&gt; For additional jurisdictions, transactions route through partner entities who maintain the applicable local coverage&lt;/li&gt;&#xA;        &lt;/ul&gt;&#xA;&lt;pre&gt;&lt;code&gt;    &amp;lt;h2&amp;gt;Current Footprint&amp;lt;/h2&amp;gt;&#xA;    &amp;lt;p&amp;gt;The CCASH legal infrastructure is established under applicable entity law. Coverage extends to additional jurisdictions through partner network agreements as documented in the relevant schedules.&amp;lt;/p&amp;gt;&#xA;&#xA;    &amp;lt;p&amp;gt;CCASH only represents service availability in a jurisdiction when a direct legal basis exists or an executed partner agreement covering that jurisdiction is in place.&amp;lt;/p&amp;gt;&#xA;&amp;lt;/div&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;/section&gt;</description>
-    </item>
-    <item>
-      <title>Prohibited Activities</title>
-      <link>https://cca.sh/compliance/prohibited/</link>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://cca.sh/compliance/prohibited/</guid>
-      <description>&lt;section class=&#34;page-hero bg-soft&#34;&gt;&#xA;    &lt;span class=&#34;section-label&#34;&gt;Compliance&lt;/span&gt;&#xA;    &lt;h1 class=&#34;section-title&#34;&gt;Prohibited Activities&lt;/h1&gt;&#xA;&lt;/section&gt;&#xA;&lt;section class=&#34;content-section&#34;&gt;&#xA;    &lt;div class=&#34;content-container&#34;&gt;&#xA;        &lt;h2&gt;Hard Prohibitions&lt;/h2&gt;&#xA;        &lt;p&gt;The CCASH platform does not serve operators or end-customers engaged in:&lt;/p&gt;&#xA;        &lt;ul&gt;&#xA;            &lt;li&gt;Money laundering&lt;/li&gt;&#xA;            &lt;li&gt;Terrorism finance&lt;/li&gt;&#xA;            &lt;li&gt;Human trafficking&lt;/li&gt;&#xA;            &lt;li&gt;Child sexual abuse material&lt;/li&gt;&#xA;            &lt;li&gt;Fraud&lt;/li&gt;&#xA;            &lt;li&gt;Unlicensed financial services activity where licensing is required&lt;/li&gt;&#xA;            &lt;li&gt;Unlicensed securities offerings or unregistered broker-dealer activity&lt;/li&gt;&#xA;            &lt;li&gt;Mixers or tumblers&lt;/li&gt;&#xA;            &lt;li&gt;Darknet markets&lt;/li&gt;&#xA;            &lt;li&gt;Transactions with sanctioned persons or jurisdictions&lt;/li&gt;&#xA;        &lt;/ul&gt;&#xA;&lt;pre&gt;&lt;code&gt;    &amp;lt;h2&amp;gt;Permissive Industry Stance&amp;lt;/h2&amp;gt;&#xA;    &amp;lt;p&amp;gt;CCASH provides legal infrastructure and technology for lawful commerce. If an activity is lawful for participants under applicable law, CCASH serves it, subject to customer verification, monitoring, sanctions screening, fraud controls, and risk classification. Lawful high-risk verticals within our appetite include:&amp;lt;/p&amp;gt;&#xA;    &amp;lt;ul&amp;gt;&#xA;        &amp;lt;li&amp;gt;Regulated gambling and online gaming&amp;lt;/li&amp;gt;&#xA;        &amp;lt;li&amp;gt;Foreign exchange platforms&amp;lt;/li&amp;gt;&#xA;        &amp;lt;li&amp;gt;Adult content and online-erotic platforms&amp;lt;/li&amp;gt;&#xA;        &amp;lt;li&amp;gt;Digital asset exchanges and custodians&amp;lt;/li&amp;gt;&#xA;        &amp;lt;li&amp;gt;Cannabis-adjacent businesses where lawful&amp;lt;/li&amp;gt;&#xA;        &amp;lt;li&amp;gt;Firearms dealers where lawfully licensed&amp;lt;/li&amp;gt;&#xA;        &amp;lt;li&amp;gt;Nutraceuticals and CBD&amp;lt;/li&amp;gt;&#xA;    &amp;lt;/ul&amp;gt;&#xA;    &amp;lt;p&amp;gt;Screening is for risk, not for taste.&amp;lt;/p&amp;gt;&#xA;&amp;lt;/div&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;/section&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Compliance Framework on CCASH — Tokenize Your Community</title><link>https://cca.sh/compliance/</link><description>Recent content in Compliance Framework on CCASH — Tokenize Your Community</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://cca.sh/compliance/index.xml" rel="self" type="application/rss+xml"/><item><title>Jurisdictional Coverage</title><link>https://cca.sh/compliance/coverage/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://cca.sh/compliance/coverage/</guid><description>&lt;section class="page-hero bg-soft">
+ &lt;span class="section-label">Compliance&lt;/span>
+ &lt;h1 class="section-title">Jurisdictional Coverage&lt;/h1>
+&lt;/section>
+&lt;section class="content-section">
+ &lt;div class="content-container">
+ &lt;h2>How Coverage Works&lt;/h2>
+ &lt;p>CCASH's legal infrastructure provides a baseline framework for regulated financial services. Jurisdictional coverage is maintained through a combination of the legal entity structure and partner network routing.&lt;/p>
+ &lt;ul>
+ &lt;li>&lt;strong>Direct Coverage:&lt;/strong> The legal entity structure provides coverage in applicable jurisdictions through entity formation and registration&lt;/li>
+ &lt;li>&lt;strong>Partner Network Routing:&lt;/strong> For additional jurisdictions, transactions route through partner entities who maintain the applicable local coverage&lt;/li>
+ &lt;/ul>
+&lt;pre>&lt;code> &amp;lt;h2&amp;gt;Current Footprint&amp;lt;/h2&amp;gt;
+ &amp;lt;p&amp;gt;The CCASH legal infrastructure is established under applicable entity law. Coverage extends to additional jurisdictions through partner network agreements as documented in the relevant schedules.&amp;lt;/p&amp;gt;
+
+ &amp;lt;p&amp;gt;CCASH only represents service availability in a jurisdiction when a direct legal basis exists or an executed partner agreement covering that jurisdiction is in place.&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/section></description></item><item><title>Prohibited Activities</title><link>https://cca.sh/compliance/prohibited/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://cca.sh/compliance/prohibited/</guid><description>&lt;section class="page-hero bg-soft">
+ &lt;span class="section-label">Compliance&lt;/span>
+ &lt;h1 class="section-title">Prohibited Activities&lt;/h1>
+&lt;/section>
+&lt;section class="content-section">
+ &lt;div class="content-container">
+ &lt;h2>Hard Prohibitions&lt;/h2>
+ &lt;p>The CCASH platform does not serve operators or end-customers engaged in:&lt;/p>
+ &lt;ul>
+ &lt;li>Money laundering&lt;/li>
+ &lt;li>Terrorism finance&lt;/li>
+ &lt;li>Human trafficking&lt;/li>
+ &lt;li>Child sexual abuse material&lt;/li>
+ &lt;li>Fraud&lt;/li>
+ &lt;li>Unlicensed financial services activity where licensing is required&lt;/li>
+ &lt;li>Unlicensed securities offerings or unregistered broker-dealer activity&lt;/li>
+ &lt;li>Mixers or tumblers&lt;/li>
+ &lt;li>Darknet markets&lt;/li>
+ &lt;li>Transactions with sanctioned persons or jurisdictions&lt;/li>
+ &lt;/ul>
+&lt;pre>&lt;code> &amp;lt;h2&amp;gt;Permissive Industry Stance&amp;lt;/h2&amp;gt;
+ &amp;lt;p&amp;gt;CCASH provides legal infrastructure and technology for lawful commerce. If an activity is lawful for participants under applicable law, CCASH serves it, subject to customer verification, monitoring, sanctions screening, fraud controls, and risk classification. Lawful high-risk verticals within our appetite include:&amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Regulated gambling and online gaming&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Foreign exchange platforms&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Adult content and online-erotic platforms&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Digital asset exchanges and custodians&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Cannabis-adjacent businesses where lawful&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Firearms dealers where lawfully licensed&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Nutraceuticals and CBD&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;p&amp;gt;Screening is for risk, not for taste.&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/section></description></item></channel></rss>

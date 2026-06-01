@@ -1,15 +1,15 @@
 ---
 title: "CCASH"
-description: "CCASH provides a complete legal infrastructure and technology platform for regulated financial services. Entity framework, compliance operations, and a full Go + HTMX application platform."
+description: "Tokenize your community. Start on a proven platform. Graduate to your own self-hosted platform. For family offices, creators, celebrities, sports clubs, lifestyle brands, and retail destinations."
 keywords:
 - CCASH
-- legal infrastructure
-- compliance
-- financial services
-- regulated technology
-- entity framework
-- Go HTMX
-- application platform
+- tokenization platform
+- community tokens
+- creator economy
+- fan tokens
+- brand loyalty
+- self-hosted platform
+- graduation
 ogImage: "/og-image.png"
 stylesheets:
 - "/css/main.css"

@@ -1,9 +1,9 @@
 ---
 layout: "page"
-title: "For Regulated Operators"
-description: "Legal entity framework, compliance operations, and application platform for regulated financial operators. CCASH provides the infrastructure to launch and manage regulated financial services."
-keywords: ["regulated operators", "legal entity", "compliance framework", "application platform", "governance", "CCASH"]
-ogImage: "/og-image.png"
+title: "For Creators &amp; Influencers"
+description: "Turn your audience into a community economy. Create tokens for paid subscriptions, exclusive content, and community rewards. Start on CCASH. Graduate to your own platform."
+keywords: ["creator", "influencer", "community tokens", "subscription", "audience monetization", "CCASH"]
+ogImage: "/og-solutions.png"
 stylesheets:
   - "/css/main.css"
 scripts:
@@ -17,31 +17,24 @@ sitemap:
 
 <section class="page-hero bg-soft">
     <span class="section-label">Solutions</span>
-    <h1 class="section-title">For Regulated Operators</h1>
-    <p class="section-desc">Launch and manage regulated financial services with CCASH's combined legal infrastructure and technology platform. Entity formation, compliance operations, governance documentation, and an application platform for day-to-day management.</p>
+    <h1 class="section-title">For Creators &amp; Influencers</h1>
+    <p class="section-desc">Your audience is your asset. Turn followers into a token-powered community economy. Start monetizing on CCASH's proven platform today. Graduate to your own self-hosted platform when you're ready.</p>
 </section>
 
 <section class="content-section">
     <div class="content-container">
-        <h2>What You Get</h2>
+        <h2>The Graduation Path for Creators</h2>
+        <p>Financial influencers, bloggers, newsletter writers, and content creators build real audiences. The problem: most monetization platforms take a cut, control the relationship, and lock you in. CCASH flips the model.</p>
+        <p><strong>Start on the shared platform.</strong> Launch your community token in days, not months. Tokens for paid subscriptions, exclusive content access, voting on topics, community rewards — whatever model fits your audience. We handle the infrastructure.</p>
+        <p><strong>Graduate when you grow.</strong> Your own self-hosted CCASH instance. Your brand, your community, your data. No platform taking a percentage. No risk of policy changes cutting your revenue. You own the entire stack.</p>
+
+        <h2>What You Can Do</h2>
         <ul>
-            <li>Legal entity framework for regulated financial operations</li>
-            <li>Compliance policy documentation and operational procedures</li>
-            <li>Go and HTMX application platform for operations management</li>
-            <li>Multi-entity governance structure with defined authority tiers</li>
-            <li>Encrypted SQLite storage with Ed25519 signature security</li>
+            <li>Launch a community token for your audience</li>
+            <li>Token-gated content, channels, and experiences</li>
+            <li>Subscription and membership models powered by tokens</li>
+            <li>Community voting and governance on your direction</li>
+            <li>Graduate to your own branded, self-hosted platform</li>
         </ul>
-
-        <h2>Legal Entity Framework</h2>
-        <p>CCASH provides the legal entity structure needed to operate regulated financial services. Entity formation documentation, operating agreements, governance procedures, and regulatory compliance policies are all included. The framework supports multi-entity structures with clearly defined roles, responsibilities, and authority tiers.</p>
-
-        <h2>Compliance Framework</h2>
-        <p>Compliance policy documentation covering operational procedures, reporting requirements, recordkeeping standards, and regulatory filing calendars. The framework is designed to adapt to changing regulatory requirements across jurisdictions and is reviewed and updated regularly.</p>
-
-        <h2>Application Platform</h2>
-        <p>The CCASH technology platform provides a Go and HTMX application for day-to-day operations management. The application runs as a single static binary with no JavaScript build step, making deployment straightforward. Encrypted SQLite storage keeps data at rest secure, while every write operation is signed using Ed25519 keys for tamper-evident audit trails.</p>
-
-        <h2>Multi-Entity Governance</h2>
-        <p>For operators managing multiple entities, CCASH provides governance structures that define authority across the group. Multi-signature controls, defined approval workflows, and role-based access ensure that critical actions require appropriate authorization. Audit logs capture every action with cryptographic signatures.</p>
     </div>
 </section>

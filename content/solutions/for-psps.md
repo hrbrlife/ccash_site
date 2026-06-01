@@ -1,9 +1,9 @@
 ---
 layout: "page"
-title: "For Payment Operators"
-description: "Legal entity documentation, settlement and reconciliation platform, and encrypted data infrastructure for payment operations. CCASH provides the legal framework and technology platform for payment businesses."
-keywords: ["payment operators", "settlement", "reconciliation", "payment infrastructure", "legal entity", "CCASH"]
-ogImage: "/og-image.png"
+title: "For Brands &amp; Retail Destinations"
+description: "Retail loyalty tokens, cross-tenant reward programs, and community-driven retail experiences. Transform visitors into loyal community members. Start on CCASH. Graduate to your own platform."
+keywords: ["retail", "loyalty", "shopping centre", "brand", "community tokens", "graduation", "CCASH"]
+ogImage: "/og-solutions.png"
 stylesheets:
   - "/css/main.css"
 scripts:
@@ -17,28 +17,24 @@ sitemap:
 
 <section class="page-hero bg-soft">
     <span class="section-label">Solutions</span>
-    <h1 class="section-title">For Payment Operators</h1>
-    <p class="section-desc">Legal framework and technology platform for payment operations. Entity documentation, settlement reconciliation, segregated stores, and encrypted data handling in a single integrated platform.</p>
+    <h1 class="section-title">For Brands &amp; Retail Destinations</h1>
+    <p class="section-desc">Turn foot traffic into a token-powered community. Shopping centres, lifestyle brands, and retail destinations — create loyalty programs that actually work. Start on CCASH's shared platform. Graduate to your own self-hosted instance.</p>
 </section>
 
 <section class="content-section">
     <div class="content-container">
-        <h2>What You Get</h2>
+        <h2>The Graduation Path for Brands</h2>
+        <p>Shopping centres, lifestyle brands, and retail destinations have one thing in common: they want customers to come back. Traditional loyalty programs are expensive to build, hard to change, and lock you into a single vendor. CCASH gives you a better way.</p>
+        <p><strong>Start on the shared platform.</strong> Launch retail loyalty tokens in weeks, not years. Cross-tenant reward programs where every shop in your centre issues and accepts the same community token. Visitor engagement tokens that turn one-time shoppers into regulars. No infrastructure investment.</p>
+        <p><strong>Graduate when you scale.</strong> Your own self-hosted CCASH instance. Full control over the loyalty program. Your brand, your data, your customer relationships. No per-transaction fees. No platform dependency.</p>
+
+        <h2>What You Can Do</h2>
         <ul>
-            <li>Legal entity documentation for payment operations</li>
-            <li>Settlement and reconciliation platform</li>
-            <li>Segregated stores and encrypted data infrastructure</li>
-            <li>Go and HTMX application for operations management</li>
-            <li>Tamper-evident audit trails with cryptographic signing</li>
+            <li>Launch a branded loyalty token for your destination</li>
+            <li>Cross-tenant reward programs across multiple retailers</li>
+            <li>Visitor engagement tokens for events and promotions</li>
+            <li>Token-gated member experiences and exclusive offers</li>
+            <li>Graduate to your own branded, self-hosted platform</li>
         </ul>
-
-        <h2>Legal Entity Documentation</h2>
-        <p>CCASH provides the legal entity documentation needed to support payment operations. Entity formation documents, operating agreements, compliance policies, and governance procedures establish the legal foundation for payment activities. Documentation is maintained and updated to reflect changes in operational requirements and regulatory standards.</p>
-
-        <h2>Settlement and Reconciliation Platform</h2>
-        <p>The CCASH technology platform includes settlement and reconciliation capabilities built on encrypted SQLite storage with cryptographic audit trails. Every transaction is recorded with immutable signatures, providing a complete and verifiable record for settlement purposes. The platform supports multi-party reconciliation with defined settlement schedules and dispute resolution procedures.</p>
-
-        <h2>Segregated Stores and Encrypted Data</h2>
-        <p>Payment data is stored in segregated, encrypted stores within the CCASH platform. Each operator's data is isolated and encrypted at rest using strong encryption. Access controls ensure that only authorized personnel can access sensitive data, and all access is logged and signed for audit purposes. The platform supports data retention policies and secure deletion procedures.</p>
     </div>
 </section>
