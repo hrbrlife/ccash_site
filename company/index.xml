@@ -9,18 +9,25 @@
     <lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://cca.sh/company/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
+      <title>About Us</title>
       <link>https://cca.sh/company/about/</link>
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
       <guid>https://cca.sh/company/about/</guid>
-      <description>&lt;section class=&#34;page-hero bg-soft&#34;&gt;&#xA;    &lt;span class=&#34;section-label&#34;&gt;Company&lt;/span&gt;&#xA;    &lt;h1 class=&#34;section-title&#34;&gt;Legal infrastructure meets modern technology.&lt;/h1&gt;&#xA;    &lt;p class=&#34;section-desc&#34;&gt;CCASH exists at the intersection of legal infrastructure and software engineering. We provide the entity framework and the application platform that regulated financial services need to operate — without compromise on either side.&lt;/p&gt;&#xA;&lt;/section&gt;&#xA;&lt;section class=&#34;content-section&#34;&gt;&#xA;    &lt;div class=&#34;content-container&#34;&gt;&#xA;        &lt;h2&gt;The Thesis&lt;/h2&gt;&#xA;        &lt;p&gt;Every regulated financial service needs two things that are rarely built together: a sound legal structure with proper entity governance, and a modern application platform that enables rapid, secure development. The former is typically handled by law firms producing static documents; the latter by engineering teams building from scratch. Neither is sufficient alone.&lt;/p&gt;</description>
+      <description></description>
     </item>
     <item>
-      <title>Contact</title>
+      <title>Contact Us</title>
       <link>https://cca.sh/company/contact/</link>
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
       <guid>https://cca.sh/company/contact/</guid>
-      <description>&lt;section class=&#34;page-hero bg-soft&#34;&gt;&#xA;    &lt;span class=&#34;section-label&#34;&gt;Contact&lt;/span&gt;&#xA;    &lt;h1 class=&#34;section-title&#34;&gt;Get in touch&lt;/h1&gt;&#xA;    &lt;p class=&#34;section-desc&#34;&gt;Reach the right team for your inquiry.&lt;/p&gt;&#xA;&lt;/section&gt;&#xA;&lt;section class=&#34;content-section&#34;&gt;&#xA;    &lt;div class=&#34;content-container&#34;&gt;&#xA;        &lt;div class=&#34;concept-box&#34;&gt;&#xA;            &lt;h4&gt;Business Inquiries&lt;/h4&gt;&#xA;            &lt;p&gt;&lt;a href=&#34;mailto:legal@cca.sh&#34;&gt;legal@cca.sh&lt;/a&gt;&lt;/p&gt;&#xA;            &lt;p&gt;For partnership discussions, platform access inquiries, and general business questions.&lt;/p&gt;&#xA;        &lt;/div&gt;&#xA;&lt;pre&gt;&lt;code&gt;    &amp;lt;div class=&amp;quot;concept-box&amp;quot;&amp;gt;&#xA;        &amp;lt;h4&amp;gt;Legal Documentation&amp;lt;/h4&amp;gt;&#xA;        &amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;mailto:legal@cca.sh&amp;quot;&amp;gt;legal@cca.sh&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&#xA;        &amp;lt;p&amp;gt;For framework access, legal document requests, and entity governance inquiries.&amp;lt;/p&amp;gt;&#xA;    &amp;lt;/div&amp;gt;&#xA;&#xA;    &amp;lt;div class=&amp;quot;concept-box&amp;quot;&amp;gt;&#xA;        &amp;lt;h4&amp;gt;Security Disclosures&amp;lt;/h4&amp;gt;&#xA;        &amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;mailto:security@cca.sh&amp;quot;&amp;gt;security@cca.sh&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&#xA;        &amp;lt;p&amp;gt;For responsible disclosure of security vulnerabilities.&amp;lt;/p&amp;gt;&#xA;    &amp;lt;/div&amp;gt;&#xA;&#xA;    &amp;lt;div class=&amp;quot;concept-box&amp;quot;&amp;gt;&#xA;        &amp;lt;h4&amp;gt;Careers&amp;lt;/h4&amp;gt;&#xA;        &amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;mailto:legal@cca.sh?subject=Careers&amp;quot;&amp;gt;legal@cca.sh&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&#xA;        &amp;lt;p&amp;gt;We hire intentionally. If you operate at the intersection of legal infrastructure and software engineering and want to help build the platform you wish existed, write to us.&amp;lt;/p&amp;gt;&#xA;    &amp;lt;/div&amp;gt;&#xA;&amp;lt;/div&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;/section&gt;&#xA;&lt;section class=&#34;cta-section&#34;&gt;&#xA;    &lt;h2&gt;Access the CCASH Platform&lt;/h2&gt;&#xA;    &lt;p&gt;Ready to learn more? Email legal@cca.sh to begin the conversation.&lt;/p&gt;</description>
+      <description></description>
+    </item>
+    <item>
+      <title>Legal</title>
+      <link>https://cca.sh/company/legal/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://cca.sh/company/legal/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
