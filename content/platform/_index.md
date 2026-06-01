@@ -1,9 +1,9 @@
 ---
 layout: "page"
 title: "Platform"
-description: "CCASH provides a complete legal infrastructure and technology platform for regulated financial services. Entity framework, compliance operations, and a Go and HTMX application platform."
-keywords: ["platform", "legal infrastructure", "technology platform", "Go", "HTMX", "encrypted SQLite", "Ed25519", "CCASH"]
-ogImage: "/og-image.png"
+description: "CCASH is a tokenization platform built on the graduation model. Launch your community token economy on shared infrastructure. Graduate to your own self-hosted instance when you grow."
+keywords: ["platform", "tokenization", "community tokens", "graduation", "self-hosted", "Go", "HTMX", "CCASH"]
+ogImage: "/og-platform.png"
 stylesheets:
   - "/css/main.css"
 scripts:
@@ -17,34 +17,34 @@ sitemap:
 
 <section class="page-hero bg-soft">
     <span class="section-label">Platform</span>
-    <h1 class="section-title">Two layers, one integrated platform</h1>
-    <p class="section-desc">Legal infrastructure and technology platform working together. CCASH provides the entity framework, compliance policies, governance documentation, operational procedures, and application platform for regulated financial services.</p>
+    <h1 class="section-title">A platform that grows with you</h1>
+    <p class="section-desc">CCASH is designed around a simple idea: you should not have to build infrastructure to get started, and you should not be locked in once you grow. Start on the shared platform. Graduate to your own self-hosted instance. Same architecture, same tools, your control.</p>
 </section>
 
 <section class="content-section">
     <div class="content-container">
-        <h2>The CCASH Platform</h2>
+        <h2>The Graduation Platform</h2>
 
         <div class="concept-box">
-            <h4>Legal Infrastructure Layer</h4>
-            <p>The legal layer provides entity formation documentation, operating agreements, compliance policies, governance procedures, and operational frameworks. This infrastructure establishes the legal foundation for regulated financial services, with documentation maintained and updated to reflect changing requirements. Multi-entity structures are supported with defined relationships, authority hierarchies, and governance models.</p>
+            <h4>Shared Platform</h4>
+            <p>Launch your community token economy on CCASH's proven shared infrastructure. No development required, no infrastructure to manage. Fan tokens, loyalty tokens, membership tokens, community tokens — launch in days, not months. We handle security, compliance, and operations. You focus on your community.</p>
         </div>
 
         <div class="concept-box">
-            <h4>Technology Layer</h4>
-            <p>The technology layer provides a Go and HTMX application platform with encrypted SQLite storage, Ed25519 signature security, and single-binary deployment. The platform delivers a mobile-first responsive interface for operations management, with no JavaScript build step required. Every write operation is cryptographically signed, creating a tamper-evident audit trail.</p>
+            <h4>Growth Phase</h4>
+            <p>As your community grows, add features, onboard members, and iterate on your token model. The platform scales with you — multi-token support, community governance tools, analytics and insights, member management. Your community, your rules, your direction.</p>
         </div>
 
         <div class="concept-box">
-            <h4>Combined Operations</h4>
-            <p>The legal and technology layers work together as an integrated platform. Legal entity documentation establishes the operational framework, and the technology platform enforces those structures through role-based access, multi-signature controls, and defined approval workflows. Compliance policies are reflected in platform controls, and audit logs provide verifiable evidence of operations.</p>
+            <h4>Self-Hosted Instance</h4>
+            <p>When you're ready, deploy your own self-hosted CCASH instance on your infrastructure. Your brand, your data, your terms. Your community data, token history, and audit trail transfer cleanly. No lock-in, no platform risk, no ongoing platform fees. The same CCASH platform, now under your complete control.</p>
         </div>
 
         <h2>Platform Principles</h2>
         <ul>
-            <li><strong>Defense in depth:</strong> Multiple layers of security controls, from cryptographic signing to role-based access</li>
-            <li><strong>Least privilege:</strong> Every user and process has the minimum access needed to perform its function</li>
-            <li><strong>Tamper evidence:</strong> Every action is cryptographically signed, creating a verifiable audit trail</li>
+            <li><strong>No lock-in:</strong> Start on shared, graduate to self-hosted. Your data belongs to you at every stage.</li>
+            <li><strong>Defense in depth:</strong> Multiple layers of security, from cryptographic signing to role-based access</li>
+            <li><strong>Tamper evidence:</strong> Every action cryptographically signed, creating a verifiable audit trail</li>
             <li><strong>Separation of duties:</strong> Critical actions require authorization from multiple parties</li>
             <li><strong>Simplicity:</strong> Single-binary deployment, no build pipeline, minimal infrastructure requirements</li>
         </ul>
@@ -52,7 +52,7 @@ sitemap:
 </section>
 
 <section class="cta-section">
-    <h2>See the platform in action</h2>
-    <p>Contact us for a demonstration of the operator console.</p>
-    <a href="{{ "company/contact/" | relURL }}" class="btn btn-primary">Request Demo</a>
+    <h2>Ready to tokenize your community?</h2>
+    <p>Start on the shared platform. Graduate when you're ready.</p>
+    <a href="mailto:legal@cca.sh?subject=CCASH%20Inquiry" class="btn btn-primary">Get Started</a>
 </section>

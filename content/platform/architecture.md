@@ -13,6 +13,8 @@ sitemap:
   changefreq: "monthly"
 ---
 
+<p class="lead">The capability-secured grain architecture powers every stage of CCASH — from the shared platform to your self-hosted instance.</p>
+
 <section class="page-hero bg-soft">
     <span class="section-label">Platform</span>
     <h1 class="section-title">Architecture</h1>

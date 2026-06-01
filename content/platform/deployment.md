@@ -13,6 +13,8 @@ sitemap:
   changefreq: "yearly"
 ---
 
+<p class="lead">Deploy your own self-hosted CCASH instance — the final step in graduating from the shared platform to full sovereignty over your community token economy.</p>
+
 <section class="page-hero bg-soft">
     <span class="section-label">Platform</span>
     <h1 class="section-title">Deployment</h1>

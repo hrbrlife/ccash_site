@@ -7,7 +7,7 @@ stylesheets:
   - "/css/main.css"
   - "/css/pages/glossary.css"
   - "/css/pages/docs.css"
-heroDesc: "From deployment to your first operation on the platform - everything you need to get moving with CCASH."
+heroDesc: "CCASH gives you a proven platform to launch your community token economy. Start on shared infrastructure. Graduate to your own self-hosted instance. No lock-in, no platform risk."
 draft: false
 date: "2026-05-15"
 lastmod: "2026-05-15"
@@ -17,6 +17,7 @@ sitemap:
 ogtype: "article"
 ---
 <h2>Welcome to CCASH</h2>
+        <p><strong>CCASH gives you a proven platform to launch your community token economy.</strong> Start on our shared platform to validate your model. Graduate to your own self-hosted instance when you grow — your brand, your infrastructure, your data. No lock-in, no platform risk.</p>
         <p>CCASH is a legal infrastructure and technology platform for regulated financial services. It provides entity frameworks, compliance operations, and a Go + HTMX application platform — all designed to deploy on your own infrastructure. CCASH enables regulated operators to establish and run compliant financial services with full control over their data and operations.</p>
         <p>This guide walks you through deploying and configuring the platform: from infrastructure setup to your first operational workflow. If you want the full architectural picture first, start with the <a href="/knowledge/docs/platform-overview/">Platform Overview</a>.</p>
         <h3>What You Need</h3>

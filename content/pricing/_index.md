@@ -1,9 +1,9 @@
 ---
 layout: "page"
 title: "Pricing"
-description: "Transparent, tiered pricing for the CCASH platform. Legal Framework, Technology Platform, or Full Stack — each layer priced independently with clear scope and no hidden fees."
-keywords: ["pricing", "tiers", "legal framework", "technology platform", "full stack", "transparent", "CCASH"]
-ogImage: "/og-image.png"
+description: "Transparent, tiered pricing for the CCASH platform. Shared Platform access and Self-Hosted Graduation — priced clearly with no hidden fees."
+keywords: ["pricing", "tiers", "shared platform", "self-hosted", "graduation", "transparent", "CCASH"]
+ogImage: "/og-pricing.png"
 stylesheets:
   - "/css/main.css"
 scripts:
@@ -17,14 +17,14 @@ sitemap:
 
 <section class="page-hero bg-soft">
     <span class="section-label">Pricing</span>
-    <h1 class="section-title">Transparent, tiered pricing</h1>
-    <p class="section-desc">Choose the CCASH capabilities that match your needs. Each tier covers a defined scope of legal infrastructure and technology platform services, with clear pricing and no hidden fees.</p>
+    <h1 class="section-title">Transparent pricing for every stage</h1>
+    <p class="section-desc">Start on the shared platform with a predictable monthly fee. Graduate to your own self-hosted instance with zero ongoing platform fees. No hidden costs, no lock-in, no surprises.</p>
 </section>
 
 <section class="content-section">
     <div class="content-container">
         <h2>Pricing Philosophy</h2>
-        <p>CCASH prices each layer of the platform independently and transparently. Clients select the capabilities they need and pay only for what they use. Every fee has a clear basis, and there are no hidden charges. Volume-based adjustments apply at higher usage levels.</p>
+        <p>CCASH is priced around the graduation model. You pay a predictable fee while using the shared platform. When you graduate to your own self-hosted instance, the platform fees end — you run your own infrastructure, you own your platform. Every fee has a clear basis and there are no hidden charges.</p>
 
         <h2>Service Tiers</h2>
         <table>

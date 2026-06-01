@@ -370,3 +370,10 @@ Get Started
 </a>
 </section>
 {{ end }}
+
+{{ define "scripts" }}
+{{- $cacheBust := .Site.Data.version.hashShort | default "dev" -}}
+<script src="/js/lib/mermaid.min.js?v={{ $cacheBust }}"></script>
+<script src="/js/pages/home-stories.js?v={{ $cacheBust }}" defer></script>
+<script src="/js/pages/home.js?v={{ $cacheBust }}" defer></script>
+{{ end }}

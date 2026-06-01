@@ -11,6 +11,12 @@ keywords:
 ogImage: "/og-faq.png"
 faqSchema: true
 faqItems:
+  - question: "What is the graduation model?"
+    answer: "CCASH is built around a simple idea: start on our proven shared platform to launch your community token economy. When you grow, you graduate to your own self-hosted instance — your brand, your infrastructure, your data. No lock-in, no platform risk. Your community and audit history transfer cleanly."
+    category: "general"
+  - question: "Can I run CCASH on my own infrastructure?"
+    answer: "Yes. CCASH is designed for the graduation model. Start on our shared platform to validate your token economy. When you're ready, deploy your own self-hosted instance on your own infrastructure. Your data, your community, your audit trail — everything transfers cleanly."
+    category: "general"
   - question: "What is CCASH?"
     answer: "CCASH provides a complete legal infrastructure and technology platform for regulated financial services. We offer entity framework, compliance operations, and a full Go + HTMX application platform for financial service operators."
     category: "general"

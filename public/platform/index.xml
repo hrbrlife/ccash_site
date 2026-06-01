@@ -1,43 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Platform on CCASH — Tokenize Your Community</title><link>https://cca.sh/platform/</link><description>Recent content in Platform on CCASH — Tokenize Your Community</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://cca.sh/platform/index.xml" rel="self" type="application/rss+xml"/><item><title>Architecture</title><link>https://cca.sh/platform/architecture/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://cca.sh/platform/architecture/</guid><description>&lt;section class="page-hero bg-soft">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Platform on CCASH — Tokenize Your Community</title><link>https://cca.sh/platform/</link><description>Recent content in Platform on CCASH — Tokenize Your Community</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://cca.sh/platform/index.xml" rel="self" type="application/rss+xml"/><item><title>Architecture</title><link>https://cca.sh/platform/architecture/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://cca.sh/platform/architecture/</guid><description>&lt;p class="lead">The capability-secured grain architecture powers every stage of CCASH — from the shared platform to your self-hosted instance.&lt;/p>
+&lt;section class="page-hero bg-soft">
  &lt;span class="section-label">Platform&lt;/span>
  &lt;h1 class="section-title">Architecture&lt;/h1>
 &lt;/section>
 &lt;section class="content-section">
  &lt;div class="content-container">
  &lt;h2>Legal Architecture&lt;/h2>
- &lt;p>CCASH provides a legal entity framework built on established entity structures. Each operator operates within a defined legal structure with its own entity documentation, operating agreements, and governance procedures. Multi-entity configurations are supported with clearly defined relationships between entities, authority hierarchies, and governance models. Compliance policies and operational procedures are documented and maintained as part of the legal framework.&lt;/p>
-&lt;pre>&lt;code> &amp;lt;h2&amp;gt;Technology Architecture&amp;lt;/h2&amp;gt;
- &amp;lt;p&amp;gt;The CCASH technology platform is built on a Go backend serving an HTMX frontend. The application is compiled into a single static binary with no JavaScript build step, no container runtime dependency, and no external database server. Data is stored in an encrypted SQLite database at rest, with each write operation signed using Ed25519 keys for tamper evidence. The platform integrates with the Melusina operating system identity gate for cross-application authorization and envelope verification.&amp;lt;/p&amp;gt;
-
- &amp;lt;h2&amp;gt;Security Architecture&amp;lt;/h2&amp;gt;
- &amp;lt;p&amp;gt;Every write operation on the CCASH platform is cryptographically signed using Ed25519 keys. This creates a tamper-evident audit trail where every action can be independently verified. Multi-party signing controls ensure that critical operations require authorization from multiple authorized parties. Access controls operate on least-privilege principles with role-based permissions and defined authority tiers. The encrypted SQLite database provides data-at-rest protection, and all access is logged and signed.&amp;lt;/p&amp;gt;
-
- &amp;lt;h2&amp;gt;Deployment Model&amp;lt;/h2&amp;gt;
- &amp;lt;p&amp;gt;The CCASH platform deploys as a single static Go binary. No JavaScript build step, no container orchestration, no database configuration. The binary includes the HTMX frontend, the Go backend, and the encrypted SQLite storage layer. Deployment targets include traditional servers, virtual machines, and Sandstorm platform packages (.spk format).&amp;lt;/p&amp;gt;
-
- &amp;lt;h2&amp;gt;Audit Trail&amp;lt;/h2&amp;gt;
- &amp;lt;p&amp;gt;Every action on the platform is recorded in the cryptographic audit trail. Each audit entry includes the action performed, the actor identity, a timestamp, and a Ed25519 signature. The audit trail can be verified independently, providing complete transparency for regulatory review and auditor access.&amp;lt;/p&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code>&lt;/pre>
-&lt;/section></description></item><item><title>Deployment</title><link>https://cca.sh/platform/deployment/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://cca.sh/platform/deployment/</guid><description>&lt;section class="page-hero bg-soft">
+ &lt;p>CCASH provides a legal entity framework built on established entity structures. Each operator operates within a defined legal structure with its own entity documentation, operating agreements, and governance procedures. Multi-entity configurations are supported with clearly defined relationships between entities, authority hierarchies, and governance models. Compliance policies and operational procedures are documented and maintained as part of the legal framework.&lt;/p></description></item><item><title>Deployment</title><link>https://cca.sh/platform/deployment/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://cca.sh/platform/deployment/</guid><description>&lt;p class="lead">Deploy your own self-hosted CCASH instance — the final step in graduating from the shared platform to full sovereignty over your community token economy.&lt;/p>
+&lt;section class="page-hero bg-soft">
  &lt;span class="section-label">Platform&lt;/span>
  &lt;h1 class="section-title">Deployment&lt;/h1>
 &lt;/section>
 &lt;section class="content-section">
  &lt;div class="content-container">
  &lt;h2>Single Binary Deployment&lt;/h2>
- &lt;p>The CCASH platform is compiled into a single static Go binary. The binary contains the Go backend, the HTMX frontend templates, the CSS and JavaScript assets, and the encrypted SQLite storage engine. Deployment requires no JavaScript build step, no container runtime, no external database server, and no package manager. Copy the binary to the target system and run it.&lt;/p>
-&lt;pre>&lt;code> &amp;lt;h2&amp;gt;No JavaScript Build Step&amp;lt;/h2&amp;gt;
- &amp;lt;p&amp;gt;The frontend is built with HTMX, which extends HTML with attributes for dynamic interactions. There is no JavaScript framework, no bundler, no transpiler, and no build pipeline. The HTML templates are served directly by the Go backend and rendered in the browser with HTMX handling dynamic updates. This eliminates the entire frontend build and deployment chain.&amp;lt;/p&amp;gt;
-
- &amp;lt;h2&amp;gt;Mobile-First Responsive Design&amp;lt;/h2&amp;gt;
- &amp;lt;p&amp;gt;The interface is designed mobile-first with responsive HTML and CSS. The same application works on desktop browsers, tablets, and mobile devices without separate builds or app stores. The layout adapts to screen size automatically, providing full operational capability from any device.&amp;lt;/p&amp;gt;
-
- &amp;lt;h2&amp;gt;Encrypted SQLite at Rest&amp;lt;/h2&amp;gt;
- &amp;lt;p&amp;gt;All data is stored in an encrypted SQLite database. The database is encrypted at rest using strong encryption, with the encryption key managed through the platform's security infrastructure. No separate database server is required — the database is a single file managed by the Go application. Backups are encrypted database files that can be copied securely.&amp;lt;/p&amp;gt;
-
- &amp;lt;h2&amp;gt;Sandstorm .spk Packaging&amp;lt;/h2&amp;gt;
- &amp;lt;p&amp;gt;The CCASH platform can be packaged as a Sandstorm .spk package for deployment on Sandstorm servers. This provides additional sandboxing, access control, and identity management through the Sandstorm platform. The .spk package includes the complete platform with all dependencies in a single installable archive.&amp;lt;/p&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code>&lt;/pre>
-&lt;/section></description></item></channel></rss>
+ &lt;p>The CCASH platform is compiled into a single static Go binary. The binary contains the Go backend, the HTMX frontend templates, the CSS and JavaScript assets, and the encrypted SQLite storage engine. Deployment requires no JavaScript build step, no container runtime, no external database server, and no package manager. Copy the binary to the target system and run it.&lt;/p></description></item></channel></rss>

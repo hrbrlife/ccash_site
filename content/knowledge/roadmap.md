@@ -2,7 +2,7 @@
 title: "Roadmap"
 type: "page"
 layout: "knowledge-roadmap"
-description: "CCASH platform development roadmap and timeline. Track our progress from initial launch through platform expansion and global reach."
+description: "CCASH platform development roadmap — from shared platform to self-hosted graduation. Track our progress toward full community tokenization infrastructure."
 keywords:
   - CCASH roadmap
   - development timeline

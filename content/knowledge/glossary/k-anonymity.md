@@ -1,13 +1,11 @@
 ---
-title: "K-Anonymity Floor - Glossary"
-description: "A privacy protection that suppresses aggregate data in any bucket with fewer than k distinct individuals."
+title: "K-Anonymity - Glossary"
 category: "compliance"
 relatedTerms:
-  - slug: "ecosystem"
-    label: "Platform Ecosystem"
-  - slug: "platform-disclaimer"
-    label: "Platform Disclaimer"
+  - slug: compliance
+    label: Compliance
 date: "2026-06-01"
+lastmod: "2026-06-01"
 ---
 
-<section class="term-section"><h2>Full Definition</h2><p>A privacy protection that suppresses aggregate data in any bucket with fewer than k distinct individuals. CCASH applies a k-anonymity floor to information access, preventing inference of individual customer data from aggregate figures. This ensures that operational reporting and analytics cannot be used to identify specific customers or their activities.</p></section>
+K-Anonymity is a privacy principle ensuring that individual data cannot be distinguished from at least k-1 other individuals in a dataset. CCASH applies k-anonymity to protect community member privacy in aggregate reporting.

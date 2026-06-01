@@ -1,4 +1,58 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Knowledge Base on CCASH — Tokenize Your Community</title><link>https://cca.sh/knowledge/</link><description>Recent content in Knowledge Base on CCASH — Tokenize Your Community</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://cca.sh/knowledge/index.xml" rel="self" type="application/rss+xml"/><item><title>FAQ</title><link>https://cca.sh/knowledge/faq/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://cca.sh/knowledge/faq/</guid><description/></item><item><title>Roadmap</title><link>https://cca.sh/knowledge/roadmap/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://cca.sh/knowledge/roadmap/</guid><description/></item><item><title>Getting Started with CCASH</title><link>https://cca.sh/knowledge/guides/getting-started/</link><pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate><guid>https://cca.sh/knowledge/guides/getting-started/</guid><description>&lt;nav class="guide-nav">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Knowledge Base on CCASH — Tokenize Your Community</title><link>https://cca.sh/knowledge/</link><description>Recent content in Knowledge Base on CCASH — Tokenize Your Community</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://cca.sh/knowledge/index.xml" rel="self" type="application/rss+xml"/><item><title>Choosing Your Token Model - Guide</title><link>https://cca.sh/knowledge/guides/choosing-your-model/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://cca.sh/knowledge/guides/choosing-your-model/</guid><description>&lt;h2 id="choosing-your-token-model">Choosing Your Token Model&lt;/h2>
+&lt;p>Not every community needs the same token model. This guide helps you choose the right model for your audience and goals.&lt;/p>
+&lt;h3 id="fan-token">Fan Token&lt;/h3>
+&lt;p>&lt;strong>Best for:&lt;/strong> Celebrities, musicians, sports clubs, artists, public figures&lt;/p>
+&lt;p>Fan tokens create a direct economic relationship between public figures and their audience. Holders get exclusive access, voting rights, and digital collectibles. The token becomes a symbol of fandom and a gateway to the inner circle.&lt;/p></description></item><item><title>Designing Token Utility - Guide</title><link>https://cca.sh/knowledge/guides/token-utility-design/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://cca.sh/knowledge/guides/token-utility-design/</guid><description>&lt;h2 id="designing-token-utility">Designing Token Utility&lt;/h2>
+&lt;p>Token utility is what your token actually does. Without clear utility, a token is just a number on a screen. This guide helps you design utility that drives engagement and creates lasting value.&lt;/p>
+&lt;h3 id="the-utility-spectrum">The Utility Spectrum&lt;/h3>
+&lt;p>Token utility ranges from simple to sophisticated:&lt;/p>
+&lt;p>&lt;strong>Simple&lt;/strong> — Token gates access to existing content or experiences. Low complexity, easy to implement, clear value proposition.&lt;/p>
+&lt;p>&lt;strong>Moderate&lt;/strong> — Token enables voting, governance, or community decision-making. Requires more community buy-in but creates deeper engagement.&lt;/p></description></item><item><title>FAQ</title><link>https://cca.sh/knowledge/faq/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://cca.sh/knowledge/faq/</guid><description/></item><item><title>Graduation Checklist - Guide</title><link>https://cca.sh/knowledge/guides/graduation-checklist/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://cca.sh/knowledge/guides/graduation-checklist/</guid><description>&lt;h2 id="graduation-checklist">Graduation Checklist&lt;/h2>
+&lt;p>Use this checklist to prepare for graduating from CCASH&amp;rsquo;s shared platform to your own self-hosted instance.&lt;/p>
+&lt;h3 id="community-readiness">Community Readiness&lt;/h3>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Your community has been active for at least 3-6 months&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> You have consistent monthly engagement metrics&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Your token economy model is proven and stable&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Community members are aware of the upcoming transition&lt;/li>
+&lt;/ul>
+&lt;h3 id="technical-readiness">Technical Readiness&lt;/h3>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> You have a Linux server meeting CCASH&amp;rsquo;s requirements&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Your domain and SSL certificate are ready&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> You have basic DevOps capability or support arranged&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Your blockchain network access is configured&lt;/li>
+&lt;/ul>
+&lt;h3 id="data-readiness">Data Readiness&lt;/h3>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Your community records are complete and verified&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Token balances are accurate&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Audit trail is continuous with no gaps&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Compliance records are export-ready&lt;/li>
+&lt;/ul>
+&lt;h3 id="migration-steps">Migration Steps&lt;/h3>
+&lt;ol>
+&lt;li>Contact CCASH to initiate the graduation process&lt;/li>
+&lt;li>Receive your graduation kit (deployment scripts, configuration, migration tools)&lt;/li>
+&lt;li>Deploy your self-hosted instance (CCASH provides support)&lt;/li>
+&lt;li>Verify the deployment meets all requirements&lt;/li>
+&lt;li>Migrate community data, token records, and audit history&lt;/li>
+&lt;li>Verify data integrity — balances match, audit trail is continuous&lt;/li>
+&lt;li>Cut over your community to the self-hosted instance&lt;/li>
+&lt;li>Update your DNS and branding&lt;/li>
+&lt;/ol>
+&lt;h3 id="post-graduation">Post-Graduation&lt;/h3>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Your self-hosted instance is running and verified&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Your community is active on the new instance&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> You have access to ongoing CCASH platform updates&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> You can route regulated operations through CCASH if needed&lt;/li>
+&lt;/ul>
+&lt;p>Need help? Contact the CCASH team for deployment support.&lt;/p></description></item><item><title>Launching Your Token to Your Community - Guide</title><link>https://cca.sh/knowledge/guides/community-launch/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://cca.sh/knowledge/guides/community-launch/</guid><description>&lt;h2 id="launching-your-token-to-your-community">Launching Your Token to Your Community&lt;/h2>
+&lt;p>You&amp;rsquo;ve chosen your token model and deployed on CCASH. Now it&amp;rsquo;s time to launch to your community. A successful launch turns interest into participation.&lt;/p>
+&lt;h3 id="before-launch">Before Launch&lt;/h3>
+&lt;p>&lt;strong>Tell your community what&amp;rsquo;s coming.&lt;/strong> Announce the token economy before it launches. Build anticipation. Explain what the token does, why it matters, and how to get it.&lt;/p>
+&lt;p>&lt;strong>Set expectations.&lt;/strong> Be clear about what the token enables — access, voting, rewards — and what it doesn&amp;rsquo;t do. Transparency builds trust.&lt;/p></description></item><item><title>Roadmap</title><link>https://cca.sh/knowledge/roadmap/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://cca.sh/knowledge/roadmap/</guid><description/></item><item><title>Getting Started with CCASH</title><link>https://cca.sh/knowledge/guides/getting-started/</link><pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate><guid>https://cca.sh/knowledge/guides/getting-started/</guid><description>&lt;nav class="guide-nav">
  &lt;h4>In This Guide&lt;/h4>
  &lt;ul>
  &lt;li>&lt;a href="#overview">Platform Overview&lt;/a>&lt;/li>

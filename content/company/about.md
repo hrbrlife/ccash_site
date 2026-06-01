@@ -2,13 +2,13 @@
 title: "About Us"
 type: "page"
 layout: "company-about"
-description: "Learn about CCASH - the team building legal infrastructure and technology platforms for regulated financial services."
+description: "Learn about CCASH — the platform that lets you launch your community token economy on shared infrastructure and graduate to your own self-hosted instance."
 keywords:
   - about CCASH
-  - legal infrastructure
-  - regulated financial services
-  - compliance technology
-  - fintech
+  - community tokens
+  - graduation model
+  - self-hosted platform
+  - tokenization
 ogImage: "/og-about.png"
 stylesheets:
   - "/css/main.css"

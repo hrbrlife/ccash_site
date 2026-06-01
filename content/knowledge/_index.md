@@ -2,12 +2,14 @@
 title: "Knowledge Base"
 type: "page"
 layout: "knowledge-index"
-description: "Learn everything about CCASH legal infrastructure, compliance operations, and technology platform."
+description: "Learn everything about launching your community token economy on CCASH — from shared platform to self-hosted graduation."
 keywords:
   - CCASH guide
-  - legal infrastructure
-  - compliance
-  - technology platform
+  - community tokens
+  - fan tokens
+  - loyalty tokens
+  - graduation
+  - self-hosted
   - knowledge base
 ogImage: "/og-knowledge.png"
 stylesheets:

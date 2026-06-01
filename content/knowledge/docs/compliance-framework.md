@@ -16,6 +16,7 @@ sitemap:
   changefreq: "monthly"
 ogtype: "article"
 ---
+<p class="lead">The CCASH compliance framework travels with you — from the shared platform to your own self-hosted instance. Compliance is built in at every stage of the graduation journey.</p>
 <h2>KYC Credential System</h2>
         <p>Every investor on the CCASH platform carries a <span class="glossary-term" data-term="kyc">KYC</span> Credential NFT - an on-chain attestation of their verified identity, classification, and regulatory status. This NFT contains <strong>zero personally identifiable information</strong>. No names, no addresses, no document images. Only cryptographic proofs and classification flags that the <span class="glossary-term" data-term="smart-contract">smart contract</span> needs to enforce compliance rules.</p>
         <p>The KYC Credential NFT metadata structure:</p>

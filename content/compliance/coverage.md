@@ -1,7 +1,7 @@
 ---
 layout: "page"
 title: "Jurisdictional Coverage"
-description: "How CCASH provides jurisdictional coverage through its legal infrastructure and partner network."
+description: "Jurisdictional coverage for community tokenization on CCASH — supporting your path from the shared platform to your own self-hosted operation."
 keywords: ["coverage", "jurisdictions", "licensing", "CCASH"]
 ogImage: "/og-image.png"
 stylesheets:

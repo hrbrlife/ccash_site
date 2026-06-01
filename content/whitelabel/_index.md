@@ -1,9 +1,9 @@
 ---
 layout: "whitelabel"
 title: "Legal Framework"
-description: "Deploy the CCASH legal infrastructure and technology platform for your regulated financial services operation. Your brand, our platform."
-keywords: ["legal framework", "CCASH", "legal infrastructure", "technology platform", "entity structure"]
-ogImage: "/og-image.png"
+description: "Launch your community token economy under your own brand. CCASH provides the legal framework and technology platform behind the scenes. Graduate to self-hosted when you grow."
+keywords: ["whitelabel", "brand", "community tokens", "graduation", "self-hosted", "CCASH"]
+ogImage: "/og-whitelabel.png"
 stylesheets:
   - "/css/main.css"
 scripts:
@@ -17,8 +17,8 @@ sitemap:
 
 <section class="page-hero bg-soft">
     <span class="section-label">Legal Framework</span>
-    <h1 class="section-title">Your brand. Our legal and technology platform.</h1>
-    <p class="section-desc">CCASH lets qualified operators deploy a branded financial services operation using our combined legal infrastructure and technology platform. You operate under your own brand, serving your own customers, while we provide the legal foundation, compliance framework, and technology platform behind the scenes.</p>
+    <h1 class="section-title">Your brand. Your community. Our platform.</h1>
+    <p class="section-desc">Launch your community token economy under your own brand using CCASH's proven platform. Your community sees your brand. We provide the infrastructure. Graduate to your own self-hosted instance when you're ready.</p>
 </section>
 
 <section class="content-section">

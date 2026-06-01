@@ -2,7 +2,7 @@
 title: "Contact Us"
 type: "page"
 layout: "company-contact"
-description: "Get in touch with the CCASH team. For inquiries about our legal infrastructure and technology platform."
+description: "Get in touch with the CCASH team to start tokenizing your community on our proven platform — from shared launch to self-hosted graduation."
 keywords:
   - contact CCASH
   - get in touch

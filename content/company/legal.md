@@ -2,7 +2,7 @@
 title: "Legal"
 type: "page"
 layout: "company-legal"
-description: "Legal information, terms of service, privacy policy, and regulatory disclosures for the CCASH platform."
+description: "Legal and regulatory information for the CCASH community tokenization platform — supporting operators from the shared platform to self-hosted deployment."
 keywords:
   - terms of service
   - privacy policy

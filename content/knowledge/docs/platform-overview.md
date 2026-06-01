@@ -16,6 +16,7 @@ sitemap:
   changefreq: "monthly"
 ogtype: "article"
 ---
+<p class="lead">CCASH's capability-secured grain architecture powers everything from the shared platform to your self-hosted instance.</p>
 <h2>Architecture Overview</h2>
         <p>CCASH is not a monolith. It is not a microservices cluster. It is a <strong>capability-secured grain architecture</strong> — every component isolated at the OS level, every interaction mediated by cryptographic authority, every byte of data sovereign to its owner. This is what regulated infrastructure demands, and this is what we built.</p>
         <p>The platform rests on three pillars, each independently auditable, each doing exactly one job with absolute fidelity:</p>

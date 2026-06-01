@@ -1,9 +1,9 @@
 ---
 layout: "compliance"
 title: "Compliance Framework"
-description: "CCASH's compliance framework — a legal infrastructure and technology platform for regulated financial services."
-keywords: ["compliance", "CCASH", "governance", "policy", "monitoring"]
-ogImage: "/og-image.png"
+description: "CCASH's compliance framework — compliance infrastructure for community token economies, built to support the graduation model from shared platform to self-hosted."
+keywords: ["compliance", "CCASH", "governance", "policy", "community tokens"]
+ogImage: "/og-compliance.png"
 stylesheets:
   - "/css/main.css"
 scripts:
@@ -17,51 +17,44 @@ sitemap:
 
 <section class="page-hero bg-soft">
     <span class="section-label">Compliance</span>
-    <h1 class="section-title">Built on a legal and technology foundation</h1>
-    <p class="section-desc">CCASH provides a complete legal infrastructure and technology platform for regulated financial services. Our compliance framework integrates policy infrastructure with platform-enforced governance.</p>
+    <h1 class="section-title">Compliance that travels with you</h1>
+    <p class="section-desc">CCASH provides the compliance infrastructure for community token economies — whether you're launching on the shared platform or graduated to your own self-hosted instance. Same compliance. Same audit trail. Your rules.</p>
 </section>
 
 <section class="content-section">
     <div class="content-container">
-        <h2>Compliance Framework</h2>
-        <p>The CCASH compliance framework combines legal policy infrastructure with technology platform controls. It covers:</p>
+        <h2>Compliance for Token Economies</h2>
+        <p>The CCASH compliance framework covers every stage of the graduation journey:</p>
         <ul>
-            <li><strong>Customer Identification and Verification</strong> — risk-based identity verification procedures</li>
-            <li><strong>Customer Due Diligence</strong> — beneficial ownership identification and profiling</li>
-            <li><strong>Enhanced Due Diligence</strong> — for higher-risk profiles and verticals</li>
-            <li><strong>Transaction Monitoring</strong> — AI-assisted real-time monitoring</li>
-            <li><strong>Sanctions Screening</strong> — global list screening on every transaction</li>
-            <li><strong>Reporting Obligations</strong> — timely filing as required by law</li>
+            <li><strong>Customer Identification and Verification</strong> — risk-based identity verification for your community members</li>
+            <li><strong>Customer Due Diligence</strong> — know who's in your community</li>
+            <li><strong>Transaction Monitoring</strong> — real-time monitoring of token transfers</li>
+            <li><strong>Sanctions Screening</strong> — automated screening on every transaction</li>
+            <li><strong>Audit Trail</strong> — every action cryptographically signed, from shared platform to self-hosted</li>
         </ul>
 
-        <h2>Policy Infrastructure</h2>
-        <p>The compliance policy infrastructure consists of written policies maintained within the CCASH platform. Policies cover all aspects of compliance operations and are updated as regulatory requirements evolve. The technology platform provides tooling for policy management, dissemination, and attestation.</p>
+        <h2>Shared Platform Compliance</h2>
+        <p>When you launch on the CCASH shared platform, compliance infrastructure is included. Your community operates within CCASH's compliance framework — identity verification, transaction monitoring, audit trails. You focus on building your community. We handle the compliance infrastructure.</p>
+
+        <h2>Self-Hosted Compliance</h2>
+        <p>When you graduate to your own CCASH instance, the compliance framework graduates with you. Your audit history, your member verification data, your compliance records — everything transfers to your self-hosted instance. No data loss, no compliance gap, no re-onboarding your community. Your compliance framework, now under your complete control.</p>
 
         <h2>Four-Eyes Governance</h2>
         <p>The following actions require <strong>two distinct signers</strong> with cryptographic signature verification:</p>
         <ul>
-            <li>High-tier transactions above threshold</li>
-            <li>Customer verification final approval</li>
+            <li>High-value transactions above threshold</li>
+            <li>Member verification final approval</li>
             <li>Flagged-item override decisions</li>
-            <li>Refunds and reversals above threshold</li>
             <li>Policy exception approvals</li>
         </ul>
 
-        <div class="concept-box">
-            <h4>Dispute Resolution</h4>
-            <p>All disputes resolve through a structured process: customer support review, good-faith resolution period, facilitated resolution, and formal arbitration if needed. Class-action and jury waivers apply. Regulatory complaints are preserved.</p>
-        </div>
-
         <h2>Data Protection</h2>
-        <p>All data within the CCASH platform is encrypted at rest using per-operator keys. Access controls are enforced at the application layer, and all data access is logged and auditable. The k-anonymity floor prevents inference of individual customer data from aggregate figures.</p>
-
-        <h2>Risk-Based Approach</h2>
-        <p>CCASH screens for risk — including illicit finance, sanctions, and fraud — not for respectability. Lawful high-risk verticals within our stated appetite include regulated gambling, forex, adult content, digital asset exchanges, and other regulated industries.</p>
+        <p>Whether on the shared platform or self-hosted, all data is encrypted at rest using per-operator keys. Access controls are enforced at the application layer, and all data access is logged and auditable. When you graduate, your data comes with you — encrypted, intact, and under your control.</p>
     </div>
 </section>
 
 <section class="cta-section">
-    <h2>Questions about compliance?</h2>
-    <p>Contact our team at legal@cca.sh</p>
-    <a href="mailto:legal@cca.sh" class="btn btn-primary">Email Us</a>
+    <h2>Ready to build your token economy?</h2>
+    <p>Start on the shared platform. Graduate when you're ready.</p>
+    <a href="mailto:legal@cca.sh?subject=CCASH%20Inquiry" class="btn btn-primary">Get Started</a>
 </section>
