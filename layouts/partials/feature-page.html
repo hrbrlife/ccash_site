@@ -1,0 +1,13 @@
+<section class="page-hero">
+    <span class="section-label">{{ .title_label }}</span>
+    <h1 class="section-title">{{ .title }}</h1>
+    <p class="section-desc">{{ .description }}</p>
+</section>
+{{ range .sections }}
+<section class="content-section">
+    <div class="content-container">
+        <h2>{{ .heading }}</h2>
+        {{ .body | safeHTML }}
+    </div>
+</section>
+{{ end }}

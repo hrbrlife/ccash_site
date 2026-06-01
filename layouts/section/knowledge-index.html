@@ -1,0 +1,124 @@
+{{ define "main" }}
+<section class="page-hero">
+    <span class="section-label">Learn</span>
+    <h1 class="section-title">Knowledge Base</h1>
+    <p class="section-desc">Everything you need to understand CCA.SH's regulated infrastructure platform.</p>
+    <div class="kb-search">
+        <input type="text" id="kb-search-input" placeholder="Search articles, guides, and terms..." class="kb-search-input">
+        <svg class="kb-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"/>
+            <path d="M21 21l-4.35-4.35"/>
+        </svg>
+    </div>
+</section>
+<section class="kb-tabs-section">
+    <div class="kb-container">
+        {{ partial "kb-tabs.html" . }}
+    </div>
+</section>
+<section class="kb-featured">
+    <div class="kb-container">
+        <h2 class="kb-section-title">Featured Resources</h2>
+        <div class="kb-featured-grid">
+            <a href="{{ "knowledge/docs/getting-started/" | relURL }}" class="kb-card kb-card-featured" data-category="docs">
+                <div class="kb-card-icon"><svg viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg></div>
+                <div class="kb-card-content">
+                    <span class="kb-card-category">Getting Started</span>
+                    <h3>Quick Start Guide</h3>
+                    <p>New to CCA.SH? This guide walks you through the platform.</p>
+                </div>
+                <span class="kb-card-arrow">→</span>
+            </a>
+            <a href="{{ "knowledge/docs/platform-overview/" | relURL }}" class="kb-card kb-card-featured" data-category="docs">
+                <div class="kb-card-icon"><svg viewBox="0 0 24 24"><polyline points="17 1 21 5 17 9"></polyline><path d="M3 11V9a4 4 0 0 1 4-4h14"></path><polyline points="7 23 3 19 7 15"></polyline><path d="M21 13v2a4 4 0 0 1-4 4H3"></path></svg></div>
+                <div class="kb-card-content">
+                    <span class="kb-card-category">Architecture</span>
+                    <h3>Platform Architecture</h3>
+                    <p>How CCA.SH's multi-entity structure provides legal separation.</p>
+                </div>
+                <span class="kb-card-arrow">→</span>
+            </a>
+            <a href="{{ "knowledge/faq/" | relURL }}" class="kb-card kb-card-featured" data-category="faq">
+                <div class="kb-card-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>
+                <div class="kb-card-content">
+                    <span class="kb-card-category">Support</span>
+                    <h3>Frequently Asked Questions</h3>
+                    <p>Answers to common questions about whitelabel MSB infrastructure.</p>
+                </div>
+                <span class="kb-card-arrow">→</span>
+            </a>
+        </div>
+    </div>
+</section>
+<section class="kb-resources">
+    <div class="kb-container">
+        <div class="kb-resource-section" data-category="docs">
+            <div class="kb-section-header">
+                <h2>📖 Documentation</h2>
+                <p>Technical references and platform specifications</p>
+            </div>
+            <div class="kb-grid">
+                <a href="{{ "knowledge/docs/platform-overview/" | relURL }}" class="kb-card">
+                    <span class="kb-card-category">Overview</span>
+                    <h3>Platform Architecture</h3>
+                    <p>High-level overview of system components and data flows.</p>
+                    <span class="kb-card-meta">Technical</span>
+                </a>
+                <a href="{{ "knowledge/docs/compliance-framework/" | relURL }}" class="kb-card">
+                    <span class="kb-card-category">Compliance</span>
+                    <h3>Compliance Framework</h3>
+                    <p>BSA/AML compliance, transaction monitoring, and reporting.</p>
+                    <span class="kb-card-meta">Technical</span>
+                </a>
+            </div>
+        </div>
+        <div class="kb-resource-section" data-category="faq">
+            <div class="kb-section-header">
+                <h2>FAQ</h2>
+                <p>Quick answers to common questions</p>
+            </div>
+            <div class="kb-grid">
+                <a href="{{ "knowledge/faq/#general" | relURL }}" class="kb-card">
+                    <span class="kb-card-category">General</span>
+                    <h3>General Questions</h3>
+                    <p>What is CCA.SH? How does the model work?</p>
+                    <span class="kb-card-meta">4 questions</span>
+                </a>
+                <a href="{{ "knowledge/faq/#whitelabel" | relURL }}" class="kb-card">
+                    <span class="kb-card-category">Whitelabel</span>
+                    <h3>Whitelabel Model FAQ</h3>
+                    <p>How to launch, costs, timeline, and requirements.</p>
+                    <span class="kb-card-meta">3 questions</span>
+                </a>
+                <a href="{{ "knowledge/faq/#compliance" | relURL }}" class="kb-card">
+                    <span class="kb-card-category">Compliance</span>
+                    <h3>Compliance FAQ</h3>
+                    <p>Regulatory obligations and industry restrictions.</p>
+                    <span class="kb-card-meta">3 questions</span>
+                </a>
+                <a href="{{ "knowledge/faq/#graduation" | relURL }}" class="kb-card">
+                    <span class="kb-card-category">Graduation</span>
+                    <h3>Graduation FAQ</h3>
+                    <p>How to transition to independent MSB operation.</p>
+                    <span class="kb-card-meta">3 questions</span>
+                </a>
+            </div>
+        </div>
+        <div class="kb-resource-section" data-category="glossary">
+            <div class="kb-section-header">
+                <h2>Glossary</h2>
+                <p>Definitions of key terms and concepts</p>
+                <a href="{{ "knowledge/glossary/" | relURL }}" class="kb-section-link">View Full Glossary →</a>
+            </div>
+            <div class="kb-glossary-preview">
+                {{ partial "glossary-preview.html" . }}
+            </div>
+        </div>
+    </div>
+</section>
+<section class="cta-section">
+    <h2>Can't find what you're looking for?</h2>
+    <p>Our team is here to help with any questions.</p>
+    <a href="{{ "company/contact/" | relURL }}" class="btn btn-primary">Contact Us</a>
+</section>
+{{ end }}

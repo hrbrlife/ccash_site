@@ -1,0 +1,29 @@
+baseURL = 'https://cca.sh/'
+languageCode = 'en'
+title = 'CCA.SH — Launch under regulated infrastructure. Graduate to your own when ready.'
+disableHugoGeneratorInject = true
+canonifyURLs = false
+enableRobotsTXT = true
+
+[params]
+  description = "CCA.SH lets qualified partners launch a branded MSB, PSP, or VASP as a Whitelabel Partner Series. FinCEN-registered principal MSB behind the scenes."
+  author = "CCA.SH Money Services (US) Series LLC"
+  ogImage = "/og-image.png"
+  siteName = "CCA.SH"
+  email = "ops@hrbr.life"
+
+[outputs]
+  home = ["HTML"]
+  page = ["HTML"]
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[taxonomies]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

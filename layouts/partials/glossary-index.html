@@ -1,0 +1,17 @@
+{{ $pages := where .Site.Pages "Type" "glossary-term" }}
+{{ $grouped := $pages.GroupByParam "category" }}
+<div class="glossary-alphabet" id="glossary-alpha">
+  <button class="glossary-letter active" data-cat="all">All</button>
+  {{ range $grouped }}
+  <button class="glossary-letter" data-cat="{{ .Key }}">{{ .Key | title }}</button>
+  {{ end }}
+</div>
+<div class="glossary-term-list" id="glossary-list">
+  {{ range $pages.ByTitle }}
+  <a href="{{ .RelPermalink }}" class="glossary-term-item" data-cat="{{ .Params.category }}">
+    <span class="term-label">{{ .Title | replaceRE " - Glossary$" "" }}</span>
+    <span class="term-cat">{{ .Params.category }}</span>
+    <div class="term-def">{{ .Params.description }}</div>
+  </a>
+  {{ end }}
+</div>

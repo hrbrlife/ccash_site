@@ -1,0 +1,9 @@
+{{ $terms := where .Site.Pages "Type" "glossary-term" | first 6 }}
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+  {{ range $terms }}
+  <a href="{{ .RelPermalink }}" style="padding:8px 12px;background:var(--bg-card);border:1px solid var(--border-subtle);border-radius:6px;font-size:0.85rem;color:var(--text-secondary);">
+    <strong style="color:var(--text-primary);display:block;">{{ .Title | replaceRE " - Glossary$" "" }}</strong>
+    <span style="font-size:0.75rem;">{{ .Params.category | title }}</span>
+  </a>
+  {{ end }}
+</div>
