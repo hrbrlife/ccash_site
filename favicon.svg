@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="28" fill="#0C0F15"/>
+  <rect x="8" y="8" width="112" height="112" rx="24" fill="none" stroke="#C9952A" stroke-width="1.5"/>
+  <text x="64" y="78" font-family="Georgia, serif" font-size="56" font-weight="700" text-anchor="middle" fill="#E8E6E1">CC</text>
+  <line x1="74" y1="90" x2="90" y2="90" stroke="#C9952A" stroke-width="2" stroke-linecap="round"/>
+  <line x1="74" y1="96" x2="86" y2="96" stroke="#2DD4BF" stroke-width="2" stroke-linecap="round"/>
+</svg>
