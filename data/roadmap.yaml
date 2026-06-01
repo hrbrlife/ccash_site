@@ -2,34 +2,37 @@
 # Single source of truth for all roadmap milestones.
 # Used by both /knowledge/ index cards AND /knowledge/roadmap/ timeline.
 
-current_status: "active"
+current_status: "alpha"
 current_status_label:
-  en: "Currently Active"
-  fr: "Actuellement actif"
+  en: "Currently in Alpha Development"
+  fr: "Actuellement en développement alpha"
 
 hero:
   label:
     en: "Development"
     fr: "Développement"
   title:
-    en: "Roadmap"
-    fr: "Feuille de route"
+    en: "CCASH Roadmap"
+    fr: "Feuille de route CCASH"
   description:
-    en: "Building the CCASH legal infrastructure and technology platform. Track our progress from initial release to full ecosystem."
-    fr: "Construire l'infrastructure juridique et la plateforme technologique CCASH. Suivez notre progression de la version initiale à l'écosystème complet."
+    en: "Building a complete legal infrastructure and technology platform for regulated financial services. Track our progress from alpha to production."
+    fr: "Construire une infrastructure juridique et une plateforme technologique complètes pour les services financiers réglementés. Suivez notre progression de l'alpha à la production."
+  subtitle:
+    en: "Building a complete legal infrastructure and technology platform for regulated financial services. Track our progress from alpha to production."
+    fr: "Construire une infrastructure juridique et une plateforme technologique complètes pour les services financiers réglementés. Suivez notre progression de l'alpha à la production."
 
 vision:
   label:
     en: "Our Vision"
     fr: "Notre Vision"
   title:
-    en: "Legal Infrastructure for the Regulated Economy"
-    fr: "Infrastructure Juridique pour l'Économie Réglementée"
+    en: "Legal Infrastructure for the Next Generation of Financial Services"
+    fr: "Infrastructure juridique pour la prochaine génération de services financiers"
   paragraphs:
-    - en: "CCASH is building the complete legal infrastructure and technology platform for regulated financial services. Our vision is a world where launching and scaling a regulated operation doesn't require building everything from scratch."
-      fr: "CCASH construit l'infrastructure juridique complète et la plateforme technologique pour les services financiers réglementés. Notre vision est un monde où lancer et développer une opération réglementée ne nécessite pas de tout construire à partir de zéro."
-    - en: "Every milestone on this roadmap brings us closer to a unified ecosystem where legal framework and technology platform work together seamlessly — enabling operators to focus on their business while we handle the infrastructure."
-      fr: "Chaque jalon de cette feuille de route nous rapproche d'un écosystème unifié où le cadre juridique et la plateforme technologique fonctionnent ensemble de manière transparente — permettant aux opérateurs de se concentrer sur leur activité pendant que nous gérons l'infrastructure."
+    - en: "CCASH is building the legal, compliance, and technology stack that regulated financial services operators need to launch and scale. We combine entity frameworks, compliance operations, and a Go + HTMX application platform into a unified offering."
+      fr: "CCASH construit la pile juridique, de conformité et technologique dont les opérateurs de services financiers réglementés ont besoin pour lancer et développer leurs activités. Nous combinons des cadres d'entités juridiques, des opérations de conformité et une plateforme d'application Go + HTMX en une offre unifiée."
+    - en: "Every milestone on this roadmap brings us closer to a world where regulated operators can deploy complete financial infrastructure in days, not months — with full legal protection, compliance automation, and sovereign control over their data and operations."
+      fr: "Chaque jalon de cette feuille de route nous rapproche d'un monde où les opérateurs réglementés peuvent déployer une infrastructure financière complète en jours, pas en mois — avec une protection juridique complète, une automatisation de la conformité et un contrôle souverain sur leurs données et opérations."
 
 phases:
   - id: "foundation"
@@ -38,227 +41,285 @@ phases:
       en: "Foundation"
       fr: "Fondation"
     date:
-      en: "Q4 2025 – Q1 2026"
-      fr: "T4 2025 – T1 2026"
+      en: "Q1 – Q2 2026"
+      fr: "T1 – T2 2026"
     status: "completed"
     milestones:
       - id: "legal-framework"
         title:
-          en: "Legal Framework v1"
-          fr: "Cadre juridique v1"
+          en: "Legal Entity Framework"
+          fr: "Cadre d'entité juridique"
         description:
-          en: "Entity formation, governance documentation, compliance policies, and operational procedures established."
-          fr: "Création d'entité, documentation de gouvernance, politiques de conformité et procédures opérationnelles établies."
+          en: "Entity formation, operating agreements, and governance structures for regulated operators."
+          fr: "Formation d'entités, conventions d'exploitation et structures de gouvernance pour les opérateurs réglementés."
         status: "completed"
         category: "legal"
         tags: ["legal", "compliance"]
-        icon: "landmark"
+        icon: "legal"
 
       - id: "core-platform"
         title:
-          en: "Core Platform Architecture"
-          fr: "Architecture de la plateforme principale"
+          en: "Core Go + HTMX Platform"
+          fr: "Plateforme Go + HTMX de base"
         description:
-          en: "Go backend, HTMX frontend, encrypted SQLite persistence, and Solana signature integration."
-          fr: "Backend Go, frontend HTMX, persistance SQLite cryptée et intégration de signature Solana."
+          en: "Application framework built on Go backend with HTMX frontend, featuring modular architecture and hot-reload development."
+          fr: "Cadre d'application construit sur un backend Go avec un frontend HTMX, avec une architecture modulaire et un développement à rechargement à chaud."
         status: "completed"
         category: "technical"
         tags: ["technical", "infrastructure"]
         icon: "settings"
 
-      - id: "go-htmx-application"
+      - id: "compliance-baseline"
         title:
-          en: "Go + HTMX Application"
-          fr: "Application Go + HTMX"
+          en: "Compliance Operations Baseline"
+          fr: "Base des opérations de conformité"
         description:
-          en: "Single-binary deployment model with mobile-first responsive design and seven-role access control."
-          fr: "Modèle de déploiement binaire unique avec design responsive mobile-first et contrôle d'accès à sept rôles."
+          en: "KYC/KYB workflows, document management, and audit trail infrastructure."
+          fr: "Flux de travail KYC/KYB, gestion de documents et infrastructure de piste d'audit."
+        status: "completed"
+        category: "compliance"
+        tags: ["compliance", "infrastructure"]
+        icon: "clipboard"
+
+      - id: "deployment-tooling"
+        title:
+          en: "Deployment Automation"
+          fr: "Automatisation du déploiement"
+        description:
+          en: "Ansible-based deployment with Docker Compose, nix-bitcoin, and automated provisioning scripts."
+          fr: "Déploiement basé sur Ansible avec Docker Compose, nix-bitcoin et scripts d'approvisionnement automatisés."
         status: "completed"
         category: "technical"
         tags: ["technical", "infrastructure"]
-        icon: "convert"
+        icon: "plug"
 
-      - id: "compliance-framework"
-        title:
-          en: "Compliance Framework"
-          fr: "Cadre de conformité"
-        description:
-          en: "Compliance policies, KYC/KYB procedures, transaction monitoring, and reporting infrastructure."
-          fr: "Politiques de conformité, procédures KYC/KYB, surveillance des transactions et infrastructure de reporting."
-        status: "completed"
-        category: "compliance"
-        tags: ["legal", "compliance"]
-        icon: "clipboard"
-
-  - id: "beta-launch"
+  - id: "alpha-launch"
     number: 2
     title:
-      en: "Initial Release"
-      fr: "Version initiale"
+      en: "Alpha Launch"
+      fr: "Lancement alpha"
     date:
-      en: "Q2 2026"
-      fr: "T2 2026"
+      en: "Q2 – Q3 2026"
+      fr: "T2 – T3 2026"
     status: "in-progress"
     milestones:
-      - id: "platform-release"
+      - id: "private-alpha"
         title:
-          en: "Platform Release"
-          fr: "Lancement de la plateforme"
+          en: "Private Alpha Release"
+          fr: "Version alpha privée"
         description:
-          en: "Public release of the combined legal framework and technology platform."
-          fr: "Lancement public du cadre juridique et de la plateforme technologique combinés."
+          en: "Private alpha with select partners testing entity formation, compliance workflows, and platform features."
+          fr: "Alpha privée avec des partenaires sélectionnés testant la formation d'entités, les flux de conformité et les fonctionnalités de la plateforme."
         status: "completed"
         category: "product"
         tags: ["product", "launch"]
         icon: "zap"
 
-      - id: "documentation"
+      - id: "entity-portal"
         title:
-          en: "Documentation Launch"
-          fr: "Lancement de la documentation"
+          en: "Entity Management Portal"
+          fr: "Portail de gestion d'entités"
         description:
-          en: "Complete documentation for both legal framework and technology platform."
-          fr: "Documentation complète pour le cadre juridique et la plateforme technologique."
+          en: "Web-based portal for entity creation, document management, and governance workflows."
+          fr: "Portail web pour la création d'entités, la gestion de documents et les flux de gouvernance."
         status: "in-progress"
         category: "product"
         tags: ["product", "infrastructure"]
-        icon: "handshake"
+        icon: "building"
 
-      - id: "first-deployment"
+      - id: "compliance-engine"
         title:
-          en: "First Deployments"
-          fr: "Premiers déploiements"
+          en: "Compliance Engine v1"
+          fr: "Moteur de conformité v1"
         description:
-          en: "Initial operator deployments on the CCASH platform."
-          fr: "Premiers déploiements d'opérateurs sur la plateforme CCASH."
-        status: "in-progress"
-        category: "product"
-        tags: ["product", "milestone"]
-        icon: "money"
-
-      - id: "kyc-integration"
-        title:
-          en: "KYC/KYB Integration"
-          fr: "Intégration KYC/KYB"
-        description:
-          en: "Third-party verification partners integrated for automated identity verification."
-          fr: "Partenaires de vérification tiers intégrés pour la vérification d'identité automatisée."
+          en: "Automated compliance checks, document generation, and regulatory reporting templates."
+          fr: "Vérifications de conformité automatisées, génération de documents et modèles de rapports réglementaires."
         status: "in-progress"
         category: "compliance"
         tags: ["compliance", "technical"]
         icon: "check"
 
-  - id: "growth-scale"
+      - id: "api-documentation"
+        title:
+          en: "API Documentation & SDK"
+          fr: "Documentation API et SDK"
+        description:
+          en: "Comprehensive API docs, client SDKs, and integration guides for platform partners."
+          fr: "Documentation API complète, SDK clients et guides d'intégration pour les partenaires de la plateforme."
+        status: "in-progress"
+        category: "technical"
+        tags: ["technical", "infrastructure"]
+        icon: "document"
+
+  - id: "public-launch"
     number: 3
     title:
-      en: "Growth & Scale"
-      fr: "Croissance et montée en charge"
+      en: "Public Launch"
+      fr: "Lancement public"
     date:
       en: "Q3 – Q4 2026"
       fr: "T3 – T4 2026"
     status: "upcoming"
     milestones:
+      - id: "public-beta"
+        title:
+          en: "Public Beta"
+          fr: "Bêta publique"
+        description:
+          en: "Open beta with full entity formation, compliance operations, and platform availability."
+          fr: "Bêta ouverte avec formation complète d'entités, opérations de conformité et disponibilité de la plateforme."
+        status: "upcoming"
+        category: "product"
+        tags: ["product", "launch"]
+        icon: "zap"
+
+      - id: "payment-integration"
+        title:
+          en: "Payment Operations Module"
+          fr: "Module d'opérations de paiement"
+        description:
+          en: "Integrated payment processing with Go backend, compliance checks, and reporting."
+          fr: "Traitement des paiements intégré avec backend Go, vérifications de conformité et reporting."
+        status: "upcoming"
+        category: "product"
+        tags: ["product", "infrastructure"]
+        icon: "money"
+
+      - id: "digital-asset-support"
+        title:
+          en: "Digital Asset Operations Module"
+          fr: "Module d'opérations sur actifs numériques"
+        description:
+          en: "Support for digital asset custody, trading workflows, and regulatory compliance."
+          fr: "Prise en charge de la garde d'actifs numériques, des flux de négoce et de la conformité réglementaire."
+        status: "upcoming"
+        category: "product"
+        tags: ["product", "infrastructure"]
+        icon: "coins"
+
+      - id: "family-office-suite"
+        title:
+          en: "Family Office Suite"
+          fr: "Suite pour family offices"
+        description:
+          en: "Dedicated modules for family office operations, reporting, and compliance management."
+          fr: "Modules dédiés pour les opérations des family offices, le reporting et la gestion de la conformité."
+        status: "upcoming"
+        category: "product"
+        tags: ["product", "business"]
+        icon: "building"
+
+  - id: "growth"
+    number: 4
+    title:
+      en: "Growth & Scale"
+      fr: "Croissance et mise à l'échelle"
+    date:
+      en: "Q1 – Q2 2027"
+      fr: "T1 – T2 2027"
+    status: "upcoming"
+    milestones:
       - id: "multi-jurisdiction"
         title:
-          en: "Multi-Jurisdiction Expansion"
-          fr: "Expansion multi-juridiction"
+          en: "Multi-Jurisdiction Compliance"
+          fr: "Conformité multi-juridiction"
         description:
-          en: "Additional jurisdiction support for legal framework and platform deployment."
-          fr: "Support de juridictions supplémentaires pour le cadre juridique et le déploiement de la plateforme."
+          en: "Expanded compliance coverage for EU, UK, APAC, and additional US state regulations."
+          fr: "Couverture de conformité élargie pour l'UE, le RU, l'APAC et des réglementations supplémentaires des États américains."
         status: "upcoming"
         category: "legal"
         tags: ["legal", "compliance", "expansion"]
         icon: "globe"
 
-      - id: "api-platform"
+      - id: "institutional-partners"
         title:
-          en: "API Platform"
-          fr: "Plateforme API"
+          en: "Institutional Partner Network"
+          fr: "Réseau de partenaires institutionnels"
         description:
-          en: "Full API access for third-party integrations and custom application development."
-          fr: "Accès API complet pour les intégrations tierces et le développement d'applications personnalisées."
+          en: "Integration with custodians, auditors, and legal partners for end-to-end service delivery."
+          fr: "Intégration avec des dépositaires, auditeurs et partenaires juridiques pour une prestation de services de bout en bout."
         status: "upcoming"
-        category: "technical"
-        tags: ["technical", "infrastructure"]
-        icon: "plug"
+        category: "business"
+        tags: ["business", "partnerships"]
+        icon: "handshake"
 
-      - id: "mobile-experience"
+      - id: "advanced-analytics"
         title:
-          en: "Mobile Experience"
-          fr: "Expérience mobile"
+          en: "Advanced Analytics & Reporting"
+          fr: "Analytique avancée et reporting"
         description:
-          en: "Enhanced mobile-first experience with PWA support across all platform surfaces."
-          fr: "Expérience mobile-first améliorée avec support PWA sur toutes les surfaces de la plateforme."
-        status: "upcoming"
+          en: "Business intelligence dashboards, custom report builder, and regulatory filing automation."
+          fr: "Tableaux de bord décisionnels, générateur de rapports personnalisés et automatisation des dépôts réglementaires."
+        status: "future"
+        category: "product"
+        tags: ["product", "technical"]
+        icon: "chart"
+
+      - id: "mobile-access"
+        title:
+          en: "Mobile Access"
+          fr: "Accès mobile"
+        description:
+          en: "Native mobile applications for compliance approvals, monitoring, and basic operations."
+          fr: "Applications mobiles natives pour les approbations de conformité, la surveillance et les opérations de base."
+        status: "future"
         category: "product"
         tags: ["product", "mobile"]
         icon: "mobile"
 
-      - id: "governance-tools"
-        title:
-          en: "Governance Tools"
-          fr: "Outils de gouvernance"
-        description:
-          en: "Multi-party governance and voting tools for operator entity management."
-          fr: "Outils de gouvernance multi-parties et de vote pour la gestion des entités opérateur."
-        status: "upcoming"
-        category: "product"
-        tags: ["product", "governance"]
-        icon: "building"
-
-  - id: "ecosystem"
-    number: 4
+  - id: "platform-maturity"
+    number: 5
     title:
-      en: "Ecosystem Maturity"
-      fr: "Maturité de l'écosystème"
+      en: "Platform Maturity"
+      fr: "Maturité de la plateforme"
     date:
       en: "2027+"
       fr: "2027+"
     status: "future"
     milestones:
+      - id: "open-api"
+        title:
+          en: "Open API Ecosystem"
+          fr: "Écosystème API ouvert"
+        description:
+          en: "Full public API with third-party integration marketplace and developer tools."
+          fr: "API publique complète avec place de marché d'intégration tierce et outils développeur."
+        status: "future"
+        category: "technical"
+        tags: ["technical", "infrastructure"]
+        icon: "plug"
+
       - id: "ai-compliance"
         title:
           en: "AI-Powered Compliance"
           fr: "Conformité pilotée par l'IA"
         description:
-          en: "Machine learning for real-time regulatory monitoring and reporting."
-          fr: "Apprentissage automatique pour la surveillance réglementaire en temps réel et le reporting."
+          en: "Machine learning for automated regulatory monitoring, risk assessment, and anomaly detection."
+          fr: "Apprentissage automatique pour la surveillance réglementaire automatisée, l'évaluation des risques et la détection d'anomalies."
         status: "future"
         category: "compliance"
         tags: ["compliance", "technical"]
         icon: "robot"
 
-      - id: "cross-chain"
+      - id: "white-label"
         title:
-          en: "Cross-Chain Support"
-          fr: "Support multi-chaînes"
+          en: "White-Label Platform"
+          fr: "Plateforme marque blanche"
         description:
-          en: "Additional blockchain network integration for signature verification and data anchoring."
-          fr: "Intégration de réseaux blockchain supplémentaires pour la vérification des signatures et l'ancrage des données."
-        status: "future"
-        category: "technical"
-        tags: ["technical", "infrastructure"]
-        icon: "refresh"
-
-      - id: "open-ecosystem"
-        title:
-          en: "Open Ecosystem"
-          fr: "Écosystème ouvert"
-        description:
-          en: "Third-party developer platform and extension marketplace for the CCASH ecosystem."
-          fr: "Plateforme de développement tierce et marché d'extensions pour l'écosystème CCASH."
+          en: "Full white-label deployment option for operators wanting their own branded infrastructure."
+          fr: "Option de déploiement en marque blanche pour les opérateurs souhaitant leur propre infrastructure de marque."
         status: "future"
         category: "product"
-        tags: ["product", "milestone"]
-        icon: "globe"
+        tags: ["product", "governance"]
+        icon: "layers"
 
       - id: "global-standard"
         title:
           en: "Global Standard"
           fr: "Standard mondial"
         description:
-          en: "Become the reference implementation for legal infrastructure and technology platform in regulated financial services."
-          fr: "Devenir l'implémentation de référence pour l'infrastructure juridique et la plateforme technologique dans les services financiers réglementés."
+          en: "Become the reference implementation for regulated financial services infrastructure."
+          fr: "Devenir l'implémentation de référence pour l'infrastructure des services financiers réglementés."
         status: "future"
         category: "product"
         tags: ["product", "milestone"]
@@ -270,21 +331,19 @@ cta:
     en: "Join Us on the Journey"
     fr: "Rejoignez-nous dans cette aventure"
   text:
-    en: "Be part of the next generation of legal infrastructure and technology platform."
-    fr: "Faites partie de la prochaine génération d'infrastructure juridique et de plateforme technologique."
+    en: "Be part of the next generation of regulated financial services infrastructure."
+    fr: "Faites partie de la prochaine génération d'infrastructure de services financiers réglementés."
+  subtitle:
+    en: "Be part of the next generation of regulated financial services infrastructure."
+    fr: "Faites partie de la prochaine génération d'infrastructure de services financiers réglementés."
   buttons:
-    - url: "/company/contact/"
+    - href: "/company/contact/"
       label:
-        en: "Get Started"
-        fr: "Commencer"
-      style: "btn-primary"
-    - url: "/platform/"
-      label:
-        en: "Explore Platform"
-        fr: "Explorer la plateforme"
-      style: "btn-ghost"
-    - url: "/knowledge/"
+        en: "Get in Touch"
+        fr: "Nous contacter"
+      class: "btn-primary"
+    - href: "/knowledge/docs/getting-started/"
       label:
         en: "Read the Docs"
         fr: "Lire la documentation"
-      style: "btn-ghost"
+      class: "btn-ghost"

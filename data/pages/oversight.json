@@ -1,40 +1,52 @@
 {
   "hero": {
     "label": "Oversight",
-    "title": "Continuous Monitoring & Accountability",
-    "desc": "Active oversight mechanisms that protect operators and ensure compliance throughout the platform lifecycle."
+    "title": "Continuous Monitoring & Governance",
+    "desc": "Active oversight mechanisms that ensure compliance, protect stakeholders, and maintain operational integrity across your entire platform deployment."
   },
   "features": [
     {
       "icon": "target",
-      "title": "Operator Monitoring",
-      "text": "Ongoing monitoring of operational health, compliance posture, and governance adherence throughout the platform lifecycle."
+      "title": "Operational Monitoring",
+      "text": "Real-time monitoring of platform operations, compliance status, and key performance indicators. Automated alerts for anomalies and threshold breaches."
     },
     {
       "icon": "chart",
-      "title": "Reporting Requirements",
-      "text": "Mandatory reporting from operators. Operational updates, compliance status, and material event disclosures per framework terms."
+      "title": "Reporting & Dashboards",
+      "text": "Customizable dashboards showing compliance status, operational metrics, and audit readiness. Scheduled report generation for management and regulators."
     },
     {
       "icon": "legal",
-      "title": "Dispute Resolution",
-      "text": "Established procedures for complaints and disputes. Escalation paths and resolution mechanisms built into framework terms."
+      "title": "Governance Framework",
+      "text": "Multi-party approval workflows, role-based access control, and separation of duties. Every action logged with who, what, and when."
     },
     {
       "icon": "alert",
-      "title": "Early Warning System",
-      "text": "Automated monitoring of compliance triggers, operational metrics, and communications. Proactive alerts for deviations."
+      "title": "Alerting & Incident Response",
+      "text": "Configurable alerting rules for compliance breaches, operational anomalies, and security events. Documented incident response procedures."
     }
   ],
   "info_blocks": [
     {
-      "title": "Governance Framework",
-      "intro": "CCASH platform includes governance provisions protecting all parties:",
+      "title": "Governance by Design",
+      "intro": "CCASH platforms are built with governance as a first-class concern:",
       "items": [
-        "Multi-party voting on material changes",
-        "Information rights and inspection provisions",
-        "Default triggers and remediation procedures",
-        "Independent oversight on critical operations"
+        "<strong>Role-Based Access:</strong> Granular permissions control who can view, create, approve, or modify each resource",
+        "<strong>Multi-Party Approvals:</strong> Sensitive operations require independent authorization from multiple roles",
+        "<strong>Immutable Audit:</strong> Every action is logged with cryptographic integrity guarantees",
+        "<strong>Separation of Duties:</strong> The people who propose changes cannot be the same people who approve them",
+        "<strong>Configurable Workflows:</strong> Approval chains adapt to your operational structure, not the other way around"
+      ]
+    },
+    {
+      "title": "Operational Controls",
+      "intro": "CCASH deployments provide comprehensive operational oversight:",
+      "items": [
+        "Real-time monitoring of all platform services and compliance status",
+        "Automated compliance checks on every transaction and operation",
+        "Scheduled and on-demand report generation for regulatory requirements",
+        "Configurable alert thresholds with email, webhook, and in-app notifications",
+        "Documented incident response procedures with automated escalation"
       ]
     },
     {
@@ -49,8 +61,8 @@
     }
   ],
   "cta": {
-    "title": "Learn More About Platform Oversight",
-    "text": "Understand how the oversight framework protects your operation.",
+    "title": "Learn More About Our Governance Framework",
+    "text": "Understand how our oversight framework protects your operations.",
     "label": "Contact Us",
     "href": "/company/contact/"
   }

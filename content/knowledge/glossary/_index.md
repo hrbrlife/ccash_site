@@ -2,9 +2,9 @@
 title: "Glossary"
 type: "page"
 layout: "knowledge-glossary-index"
-description: "Complete glossary of terms for CCASH's legal infrastructure, technology platform, compliance framework, and governance model."
+description: "Complete glossary of terms for legal infrastructure, compliance, technology platforms, and regulated financial services."
 ogImage: "/og-image.png"
-keywords: ["glossary", "complete", "terms", "legal infrastructure", "technology platform", "compliance", "governance"]
+keywords: ["glossary", "complete", "terms", "legal infrastructure", "compliance", "technology", "financial services"]
 stylesheets:
   - "/css/main.css"
   - "/css/pages/glossary.css"

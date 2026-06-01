@@ -1,64 +1,59 @@
-<footer class="site-footer" aria-label="Site footer">
-  <div class="container">
-    <div class="footer-main">
-      <div class="footer-brand">
-        <div class="brand">
-          <span class="logo-mark">CC</span>
-          <span class="brand-word">CCASH</span>
-        </div>
-        <p class="tagline">
-          CCASH provides a complete legal infrastructure and technology platform for regulated financial services. From entity formation and compliance operations to a full Go + HTMX application platform — everything you need to build, launch, and scale.
-        </p>
-        <p class="tagline subdued">
-          Legal framework meets technology infrastructure. One ecosystem.
-        </p>
-      </div>
-      <div class="footer-links">
-        <div class="footer-col">
-          <h4>Platform</h4>
-          <ul>
-            <li><a href="{{ "platform/" | relURL }}">Architecture</a></li>
-            <li><a href="{{ "platform/architecture/" | relURL }}">Technology</a></li>
-            <li><a href="{{ "whitelabel/" | relURL }}">Legal framework</a></li>
-            <li><a href="{{ "solutions/" | relURL }}">Solutions</a></li>
-          </ul>
+<footer>
+    <div class="footer-grid">
+        <div class="footer-brand">
+            <a href="{{ .Site.BaseURL }}" class="logo">
+                <span class="logo-mark" style="font-family:Georgia,serif;font-size:1.4rem;font-weight:800;color:var(--brand-gold);">CC</span>
+                <span style="font-family:var(--font-mono);font-size:0.85rem;font-weight:700;letter-spacing:0.08em;color:var(--text-primary);margin-left:8px;">CCASH</span>
+            </a>
+            <p>Legal infrastructure and technology platform for regulated financial services. Entity framework, compliance operations, and Go + HTMX application platform.</p>
+            <div class="social-links">
+                <a href="https://github.com/ccash" target="_blank" rel="noopener" aria-label="GitHub">
+                    <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+                </a>
+            </div>
         </div>
         <div class="footer-col">
-          <h4>Knowledge</h4>
-          <ul>
-            <li><a href="{{ "knowledge/" | relURL }}">Documentation</a></li>
-            <li><a href="{{ "knowledge/docs/getting-started/" | relURL }}">Getting started</a></li>
-            <li><a href="{{ "knowledge/glossary/" | relURL }}">Glossary</a></li>
-            <li><a href="{{ "knowledge/docs/platform-overview/" | relURL }}">Architecture</a></li>
-          </ul>
+            <h4>Platform</h4>
+            <a href="{{ "platform/" | relURL }}">Overview</a>
+            <a href="{{ "platform/architecture/" | relURL }}">Architecture</a>
+            <a href="{{ "platform/deployment/" | relURL }}">Deployment</a>
+            <a href="{{ "compliance/" | relURL }}">Compliance</a>
         </div>
         <div class="footer-col">
-          <h4>Company</h4>
-          <ul>
-            <li><a href="{{ "company/about/" | relURL }}">About</a></li>
-            <li><a href="{{ "company/contact/" | relURL }}">Contact</a></li>
-            <li><a href="{{ "changelog/" | relURL }}">Changelog</a></li>
-          </ul>
+            <h4>Solutions</h4>
+            <a href="{{ "solutions/for-regulated-operators/" | relURL }}">Regulated Operators</a>
+            <a href="{{ "solutions/for-payment-operators/" | relURL }}">Payment Operators</a>
+            <a href="{{ "solutions/for-digital-asset-operators/" | relURL }}">Digital Asset Operators</a>
+            <a href="{{ "solutions/for-family-offices/" | relURL }}">Family Offices</a>
         </div>
         <div class="footer-col">
-          <h4>Legal</h4>
-          <ul>
-            <li><a href="{{ "legal/privacy/" | relURL }}">Privacy</a></li>
-            <li><a href="{{ "legal/terms/" | relURL }}">Terms</a></li>
-            <li><a href="{{ "legal/security/" | relURL }}">Security</a></li>
-          </ul>
+            <h4>Company</h4>
+            <a href="{{ "company/about/" | relURL }}">About</a>
+            <a href="{{ "company/contact/" | relURL }}">Contact</a>
+            <a href="{{ "company/legal/" | relURL }}">Legal</a>
         </div>
         <div class="footer-col">
-          <h4>Contact</h4>
-          <ul>
-            <li><a href="mailto:legal@cca.sh">legal@cca.sh</a></li>
-            <li><a href="https://github.com/hrbrlife">GitHub</a></li>
-          </ul>
+            <h4>Legal</h4>
+            <a href="{{ "legal/terms/" | relURL }}">Terms of Service</a>
+            <a href="{{ "legal/privacy/" | relURL }}">Privacy Policy</a>
+            <a href="{{ "legal/security/" | relURL }}">Security</a>
         </div>
-      </div>
+        <div class="footer-col">
+            <h4>Contact</h4>
+            <a href="mailto:legal@cca.sh">legal@cca.sh</a>
+            <a href="https://github.com/ccash" target="_blank" rel="noopener">GitHub</a>
+        </div>
     </div>
-    <div class="footer-legal">
-      <span>&copy; 2026 CCASH &middot; Legal Infrastructure &amp; Technology Platform</span>
+    <div class="footer-disclaimer">
+        <p>CCASH is a legal infrastructure and technology platform provider and is not a registered broker-dealer, investment adviser, or securities exchange. Nothing on this website constitutes an offer to sell or a solicitation of an offer to buy any security. All products described are conceptual or in development and may not reflect final implementation. See <a href="{{ "company/legal/" | relURL }}">Legal &amp; Risk Disclosures</a> for full details.</p>
     </div>
-  </div>
+    <div class="footer-bottom">
+        <span>&copy; 2026 CCASH</span>
+        {{ $v := .Site.Data.version }}
+        {{ if $v }}
+        <span class="site-version" title="Built {{ $v.date | default "" }} - {{ $v.message | default "" }}">
+            {{ $v.hashShort | default "dev" }}
+        </span>
+        {{ end }}
+    </div>
 </footer>

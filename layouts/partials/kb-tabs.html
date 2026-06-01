@@ -1,7 +1,9 @@
-<div class="kb-tabs">
-  <button class="kb-tab active" data-tab="all">All</button>
-  <button class="kb-tab" data-tab="guides">Guides</button>
-  <button class="kb-tab" data-tab="docs">Docs</button>
-  <button class="kb-tab" data-tab="faq">FAQ</button>
-  <button class="kb-tab" data-tab="glossary">Glossary</button>
+{{/* Partial (converted from shortcode): kb-tabs - renders content type tabs from data/categories.yaml */}}
+{{ $lang := .Language.Lang }}
+{{ $cats := .Site.Data.categories }}
+
+<div class="kb-tabs" id="kb-tabs">
+    {{ range $key, $def := $cats.content_types }}
+    <button class="kb-tab{{ if eq $key "all" }} active{{ end }}" data-category="{{ $key }}">{{ index $def $lang }}</button>
+    {{ end }}
 </div>

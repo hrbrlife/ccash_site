@@ -1,32 +1,76 @@
-# CCASH — Hugo Site
+# Sails.to Hugo Website
 
-This is the source repo for the CCASH website — a legal infrastructure and technology platform for regulated financial services.
-
-## Deployed site
-
-The live site is built from the **`public_static`** branch of this repo.
-Pushing to `public_static` triggers deployment.
-
-## Development
-
-The Hugo site source is on the `main` branch. To build locally:
-
-```bash
-hugo server -D
-```
-
-The built output is copied to `public_static` for deployment.
+This is the Hugo-powered version of the Sails.to website with complete 1:1 parity with the original HTML version.
 
 ## Structure
 
-- `layouts/` — Hugo templates (baseof, index, partials)
-- `static/css/main.css` — Dark theme, legal+tech professional design
-- `content/` — Page content with frontmatter
-- `data/` — Data files for roadmap, categories, and page content
+```
+hugo-site/
+├── content/           # Markdown content files
+├── layouts/           # HTML templates
+│   ├── _default/      # Default layouts
+│   └── partials/      # Reusable components (nav, footer, head)
+├── static/            # Static assets (CSS, JS, images)
+├── hugo.toml          # Hugo configuration
+└── public/            # Generated site (after build)
+```
 
-## About CCASH
+## Development
 
-CCASH provides a complete legal infrastructure and technology platform for regulated financial services. Entity framework, compliance operations, and a full Go + HTMX application platform — everything you need under one roof.
+### Prerequisites
+- Hugo Extended v0.120.0 or later
 
-See `/home/user/Desktop/CCASH_Legal/` for the legal documentation framework.
-See `/home/user/Desktop/ccash_go_htmx/` for the Go + HTMX application platform.
+### Install Hugo
+```bash
+# macOS
+brew install hugo
+
+# Linux
+snap install hugo
+
+# Or download from https://gohugo.io/installation/
+```
+
+### Run Development Server
+```bash
+cd hugo-site
+hugo server -D
+```
+
+Visit: http://localhost:1313
+
+### Build for Production
+```bash
+hugo --minify
+```
+
+Output will be in `public/` directory.
+
+## Content Organization
+
+- **Main pages**: `content/*.md` (issuers, investors, brokers, etc.)
+- **Knowledge**: `content/knowledge/` (faq, roadmap, etc.)
+- **Blog**: `content/blog/`
+- **Glossary**: `content/glossary/`
+- **Company**: `content/company/` (about, contact, legal)
+
+## Templates
+
+- **Navigation**: `layouts/partials/nav.html` - Single source for all page navigation
+- **Footer**: `layouts/partials/footer.html` - Single source for all page footers
+- **Base**: `layouts/_default/baseof.html` - Main HTML wrapper
+
+## Benefits
+
+1. **Single Source**: Update nav/footer once, regenerates all pages
+2. **Clean Content**: Markdown files are easy to edit
+3. **Fast Builds**: Hugo is extremely fast
+4. **Version Control**: Better diffs in Git
+5. **Consistency**: Impossible to have mismatched nav/footers
+
+## Next Steps
+
+1. Copy assets from `drafts/assets/` to `static/assets/`
+2. Convert HTML content to Markdown
+3. Test build output matches original exactly
+4. Set up deployment pipeline

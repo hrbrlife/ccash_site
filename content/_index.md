@@ -4,11 +4,12 @@ description: "CCASH provides a complete legal infrastructure and technology plat
 keywords:
 - CCASH
 - legal infrastructure
-- technology platform
-- Go
-- HTMX
 - compliance
+- financial services
+- regulated technology
 - entity framework
+- Go HTMX
+- application platform
 ogImage: "/og-image.png"
 stylesheets:
 - "/css/main.css"

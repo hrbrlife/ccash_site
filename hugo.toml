@@ -6,11 +6,10 @@ canonifyURLs = false
 enableRobotsTXT = true
 
 [params]
-  description = "CCASH provides a complete legal infrastructure and technology platform for regulated financial services. Entity framework, compliance operations, and a Go + HTMX application platform."
+  description = "CCASH provides a complete legal infrastructure and technology platform for regulated financial services. Entity framework, compliance operations, and a full Go + HTMX application platform."
   author = "CCASH Legal & Platform"
   ogImage = "/og-image.png"
   siteName = "CCASH"
-  email = "legal@cca.sh"
 
 [outputs]
   home = ["HTML"]

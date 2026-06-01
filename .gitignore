@@ -1,1 +1,9 @@
-!.hugo_build.lock
+/public/
+/resources/_gen/
+.hugo_build.lock
+node_modules/
+
+# TinaCMS generated
+tina/__generated__/
+tina/tina-lock.json
+static/admin/

@@ -1,47 +1,47 @@
 {
   "hero": {
     "label": "Compliance",
-    "title": "Built for Regulatory Clarity",
-    "desc": "CCASH provides a compliance framework designed from the ground up to meet regulatory requirements across multiple jurisdictions."
+    "title": "Regulatory-Grade Compliance Infrastructure",
+    "desc": "CCASH provides a complete compliance operations framework built for regulated financial services. KYC/KYB, document management, audit trails, and regulatory reporting out of the box."
   },
   "features": [
     {
       "icon": "lock",
-      "title": "KYC/KYB Verification",
-      "text": "Identity verification with tiered KYC levels. Identity verification, source of funds, and accreditation checks built into every onboarding workflow."
+      "title": "KYC/KYB Onboarding",
+      "text": "Multi-level identity verification for both individuals and entities. Automated document collection, verification workflows, and risk scoring integrated into the platform."
     },
     {
       "icon": "document",
-      "title": "Policy Framework",
-      "text": "Comprehensive compliance policies covering customer identification, due diligence, transaction monitoring, and reporting obligations."
+      "title": "Document Management",
+      "text": "Secure document vault with version control, expiration tracking, and automated renewal workflows. All documents encrypted at rest and in transit."
     },
     {
       "icon": "globe",
-      "title": "Multi-Jurisdiction",
-      "text": "Legal opinions and compliance frameworks covering US, EU, UK, and emerging markets. Clear operator eligibility by jurisdiction with entity structure support."
+      "title": "Multi-Jurisdiction Support",
+      "text": "Compliance framework covering EU, UK, US, and emerging market regulations. Configurable rules engines adapt to local requirements without code changes."
     },
     {
       "icon": "folder",
-      "title": "Documentation",
-      "text": "Standardized compliance documentation including policies, procedures, risk assessments, and reporting templates reviewed by legal counsel."
+      "title": "Audit Trail & Reporting",
+      "text": "Complete immutable audit trail for all operations. Automated regulatory reporting templates with export to standard formats. Ready for regulator inquiries."
     }
   ],
   "info_blocks": [
     {
-      "title": "Compliance Infrastructure",
+      "title": "Compliance Operations Suite",
       "intro": "Every CCASH deployment includes:",
       "items": [
-        "<strong>Identity Verification:</strong> Multi-level KYC with operator certification",
-        "<strong>Jurisdictional Controls:</strong> Automated geo-blocking and eligibility enforcement",
-        "<strong>Transfer Restrictions:</strong> Smart contract enforcement of transfer rules",
-        "<strong>Reporting:</strong> Automated regulatory reporting and operator communications",
-        "<strong>Audit Trail:</strong> Complete transaction history for regulatory inquiries"
+        "<strong>KYC/KYB Verification:</strong> Multi-level identity verification with document collection and automated validation",
+        "<strong>Jurisdictional Controls:</strong> Configurable eligibility rules per jurisdiction with automated enforcement",
+        "<strong>Document Management:</strong> Secure vault with versioning, expiration tracking, and renewal automation",
+        "<strong>Audit Trail:</strong> Complete transaction history with tamper-evident logging for regulatory inquiries",
+        "<strong>Reporting:</strong> Automated report generation with templates for common regulatory frameworks"
       ]
     }
   ],
   "cta": {
     "title": "Questions About Compliance?",
-    "text": "Our team can walk you through the compliance framework and how it applies to your specific situation.",
+    "text": "Our team can walk you through our compliance framework and how it applies to your specific situation.",
     "label": "Contact Us",
     "href": "/company/contact/"
   }

@@ -1,0 +1,39 @@
+<nav>
+    <a href="{{ .Site.BaseURL }}" class="logo">
+        <span class="logo-mark">CC</span>
+        <span class="logo-text">CCASH</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links nav-collapse" id="nav-links">
+        <div class="nav-dropdown">
+            <a href="#" class="nav-dropdown-trigger" role="button">Platform</a>
+            <div class="nav-dropdown-menu" role="menu">
+                <a href="{{ "platform/" | relURL }}" role="menuitem">Overview</a>
+                <a href="{{ "platform/architecture/" | relURL }}" role="menuitem">Architecture</a>
+                <a href="{{ "platform/deployment/" | relURL }}" role="menuitem">Deployment</a>
+            </div>
+        </div>
+        <div class="nav-dropdown">
+            <a href="#" class="nav-dropdown-trigger" role="button">Solutions</a>
+            <div class="nav-dropdown-menu" role="menu">
+                <a href="{{ "solutions/for-regulated-operators/" | relURL }}" role="menuitem">For Regulated Operators</a>
+                <a href="{{ "solutions/for-payment-operators/" | relURL }}" role="menuitem">For Payment Operators</a>
+                <a href="{{ "solutions/for-digital-asset-operators/" | relURL }}" role="menuitem">For Digital Asset Operators</a>
+                <a href="{{ "solutions/for-family-offices/" | relURL }}" role="menuitem">For Family Offices</a>
+            </div>
+        </div>
+        <a href="{{ "compliance/" | relURL }}">Compliance</a>
+        <div class="nav-dropdown">
+            <a href="#" class="nav-dropdown-trigger" role="button">Docs</a>
+            <div class="nav-dropdown-menu" role="menu">
+                <a href="{{ "knowledge/" | relURL }}" role="menuitem">Knowledge Base</a>
+                <a href="{{ "knowledge/docs/getting-started/" | relURL }}" role="menuitem">Getting Started</a>
+                <a href="{{ "knowledge/glossary/" | relURL }}" role="menuitem">Glossary</a>
+            </div>
+        </div>
+        <a href="{{ "company/about/" | relURL }}">About</a>
+        <a href="mailto:legal@cca.sh?subject=CCASH%20Inquiry" class="btn-nav">Get Started</a>
+    </div>
+</nav>

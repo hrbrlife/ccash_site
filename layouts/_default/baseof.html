@@ -1,33 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} · {{ .Site.Title }}{{ end }}</title>
-  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-  <meta name="robots" content="index, follow">
-  <link rel="canonical" href="{{ .Permalink }}">
-  <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} · CCASH{{ end }}">
-  <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ .Permalink }}">
-  <meta property="og:image" content="{{ .Site.Params.ogImage | absURL }}">
-  <meta property="og:site_name" content="CCASH">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} · CCASH{{ end }}">
-  <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/main.css">
-  {{ block "head" . }}{{ end }}
-</head>
+<html lang="{{ .Site.Language.Lang }}">
+{{ partial "head.html" . }}
 <body>
-  {{- partial "header.html" . -}}
-  <main>
-    {{- block "main" . }}{{- end }}
-  </main>
-  {{- partial "footer.html" . -}}
+    {{ partial "icon-sprite.html" . }}
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+    {{ if not .Params.hideNav }}
+    {{ partial "nav.html" . }}
+    {{ end }}
+    
+    <main id="main-content">
+    {{ block "main" . }}{{ end }}
+    </main>
+    
+    {{ if not .Params.hideFooter }}
+    {{ partial "footer.html" . }}
+    {{ end }}
+    
+    {{- $cacheBust := .Site.Data.version.hashShort | default "dev" -}}
+    <script src="{{ "js/nav.js" | relURL }}?v={{ $cacheBust }}" defer></script>
+    <script src="{{ "js/lib/glossary.js" | relURL }}?v={{ $cacheBust }}" defer></script>
+    {{ range .Params.scripts }}
+    <script src="{{ strings.TrimLeft "/" . | relURL }}?v={{ $cacheBust }}" defer></script>
+    {{ end }}
+    {{ block "scripts" . }}{{ end }}
 </body>
 </html>

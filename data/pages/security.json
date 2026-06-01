@@ -1,56 +1,56 @@
 {
   "hero": {
     "label": "Security",
-    "title": "Your Data. Your Control.",
-    "desc": "No big-tech cloud dependencies. No centralized data honeypots. Infrastructure built from the ground up to minimize what can go wrong."
+    "title": "Your Data. Your Infrastructure. Your Control.",
+    "desc": "Sovereign deployment model means your data stays on your infrastructure. No third-party cloud dependencies, no data aggregation, no shared tenancy."
   },
   "features": [
     {
       "icon": "building",
-      "title": "Independent Infrastructure",
-      "text": "We don't rent space on AWS, Google, or Azure. Your sensitive data never passes through big-tech systems that mine, profile, or aggregate user information."
+      "title": "Self-Hosted Infrastructure",
+      "text": "CCASH deploys on your own servers — bare metal, colo, or cloud of your choice. Your data never touches infrastructure shared with other operators."
     },
     {
       "icon": "lock",
-      "title": "Isolated by Design",
-      "text": "Each operator's data lives in its own encrypted store. A breach elsewhere can't cascade to you. Smaller attack surface means fewer things that can go wrong."
+      "title": "Data Isolation by Design",
+      "text": "Each operator's data lives in its own isolated environment. A breach or issue in one deployment cannot cascade to another. Smaller attack surface means fewer things that can go wrong."
     },
     {
       "icon": "users",
       "title": "No Single Point of Failure",
-      "text": "Critical operations require multiple independent approvers. No single person can unilaterally access data or make system changes."
+      "text": "Critical operations require multiple independent approvers. No single person — not even platform administrators — can unilaterally access sensitive data or make system changes."
     },
     {
       "icon": "shield",
-      "title": "Signed Everywhere",
-      "text": "Every state-changing operation requires Solana Ed25519 wallet signature. On-chain verification with tamper-evident audit trail."
+      "title": "Audited & Verified",
+      "text": "All platform components undergo security audits before release. Deployment scripts are version-controlled and signed. Published audit reports available for review."
     }
   ],
   "info_blocks": [
     {
-      "title": "Why This Matters",
+      "title": "Why Self-Hosting Matters",
       "paragraphs": [
-        "Most platforms store everyone's data in one giant database on rented cloud infrastructure. When that database gets breached, everyone's exposed at once.",
-        "We took a different approach:"
+        "Most platforms operate a multi-tenant model where everyone's data lives in one shared database on rented cloud infrastructure. When that infrastructure gets breached — and breaches happen — every tenant is exposed at once.",
+        "CCASH took a different approach:"
       ],
       "items": [
-        "<strong>Dedicated systems:</strong> Purpose-built infrastructure we control, not shared cloud resources",
-        "<strong>Data isolation:</strong> Your operation's data is walled off from every other operation",
-        "<strong>Encrypted everything:</strong> Data encrypted at rest and in transit with keys we rotate regularly",
+        "<strong>Sovereign deployment:</strong> Purpose-built infrastructure on your own servers, not shared cloud resources",
+        "<strong>Data isolation:</strong> Your deployment's data is walled off from every other deployment",
+        "<strong>Encrypted everything:</strong> Data encrypted at rest and in transit with keys you control",
         "<strong>Multi-party controls:</strong> Sensitive operations require approval from multiple independent keyholders",
         "<strong>Minimal footprint:</strong> We collect only what's legally required — less data stored means less data at risk"
       ]
     },
     {
-      "title": "Data & Storage",
+      "title": "Deployment Security",
       "paragraphs": [
-        "All data is stored in encrypted SQLite databases at rest. Envelope-encrypted with per-operator wallet-anchored keyboxes. No commingling of data between operators."
+        "CCASH uses Ansible-based deployment with signed releases and reproducible builds. All communication between services is authenticated and encrypted. Secrets management uses hardware-backed key storage where available."
       ]
     },
     {
       "title": "Incident Response",
       "paragraphs": [
-        "Documented incident response procedures with 24/7 monitoring. Security incidents are communicated transparently to affected parties within regulatory timeframes."
+        "Documented incident response procedures with automated monitoring. Security incidents are communicated transparently to affected parties within regulatory timeframes. Runbooks cover common scenarios from service degradation to full breach response."
       ]
     }
   ],

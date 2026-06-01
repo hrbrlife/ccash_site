@@ -2,7 +2,7 @@
   "hash": "ccash-v1.0.0",
   "hashShort": "v1.0.0",
   "date": "2026-06-01",
-  "message": "feat: CCASH website launch with legal framework and platform documentation",
-  "tag": "v1.0.0",
+  "message": "ccash initial release",
+  "tag": "",
   "buildNumber": 1
 }

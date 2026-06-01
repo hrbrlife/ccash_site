@@ -1,23 +1,46 @@
-<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;">
-  <div style="background:var(--bg-card);border:1px solid var(--border-subtle);border-radius:8px;padding:20px;">
-    <h4 style="font-size:0.9rem;margin-bottom:8px;">Q2 2026</h4>
-    <ul style="font-size:0.85rem;color:var(--text-secondary);padding-left:16px;">
-      <li>Website launch</li>
-      <li>Knowledge base</li>
-    </ul>
-  </div>
-  <div style="background:var(--bg-card);border:1px solid var(--border-subtle);border-radius:8px;padding:20px;">
-    <h4 style="font-size:0.9rem;margin-bottom:8px;">Q3 2026</h4>
-    <ul style="font-size:0.85rem;color:var(--text-secondary);padding-left:16px;">
-      <li>First platform deployments</li>
-      <li>Platform expansion</li>
-    </ul>
-  </div>
-  <div style="background:var(--bg-card);border:1px solid var(--border-subtle);border-radius:8px;padding:20px;">
-    <h4 style="font-size:0.9rem;margin-bottom:8px;">Q4 2026</h4>
-    <ul style="font-size:0.85rem;color:var(--text-secondary);padding-left:16px;">
-      <li>Ecosystem expansion</li>
-      <li>Multi-jurisdiction support</li>
-    </ul>
-  </div>
+{{/* 
+  Partial (converted from shortcode): roadmap-cards
+  Renders roadmap milestone cards for the KB index from data/roadmap.yaml
+*/}}
+{{ $lang := .Language.Lang }}
+{{ $roadmap := .Site.Data.roadmap }}
+{{ $cats := .Site.Data.categories }}
+
+<div class="kb-temporal-filters">
+    <button class="kb-temporal-tag active" data-temporal="all">{{ if eq $lang "fr" }}Toutes les phases{{ else }}All Phases{{ end }}</button>
+    <button class="kb-temporal-tag" data-temporal="completed">✓ {{ if eq $lang "fr" }}Terminé{{ else }}Completed{{ end }}</button>
+    <button class="kb-temporal-tag" data-temporal="beta">● Beta</button>
+    <button class="kb-temporal-tag" data-temporal="public">○ {{ if eq $lang "fr" }}Lancement{{ else }}Public Launch{{ end }}</button>
+    <button class="kb-temporal-tag" data-temporal="future">◇ {{ if eq $lang "fr" }}Futur{{ else }}Future{{ end }}</button>
+</div>
+<div class="kb-grid kb-roadmap-grid">
+    {{ range $roadmap.phases }}
+    {{ $phase := . }}
+    {{ range .milestones }}
+    {{ $m := . }}
+    {{ $status := $m.status }}
+    {{ $statusDef := index $cats.roadmap_statuses $status }}
+    {{ $statusIcon := $statusDef.icon }}
+    {{ $statusClass := $statusDef.css_class }}
+    {{/* Map status to temporal value for filtering */}}
+    {{ $temporal := "future" }}
+    {{ if eq $status "completed" }}{{ $temporal = "completed" }}
+    {{ else if eq $status "in-progress" }}{{ $temporal = "beta" }}
+    {{ else if eq $status "upcoming" }}{{ $temporal = "public" }}
+    {{ else }}{{ $temporal = "future" }}{{ end }}
+    {{ $tags := delimit $m.tags " " }}
+    <a href="{{ "knowledge/roadmap/#{{ $m.id }}" | relURL }}" class="kb-card kb-card-roadmap" data-category="roadmap" data-temporal="{{ $temporal }}" data-tags="{{ $tags }}">
+        <span class="kb-roadmap-status {{ $statusClass }}">{{ $statusIcon }}</span>
+        <span class="kb-card-category">{{ $m.category }}</span>
+        <h3>{{ index $m.title $lang }}</h3>
+        <p>{{ index $m.description $lang }}</p>
+        <div class="kb-card-tags">
+            <span class="kb-tag temporal{{ if eq $statusClass "current" }} current{{ end }}">{{ $statusDef.en }}</span>
+            {{ range $m.tags }}
+            <span class="kb-tag category">{{ . | humanize | title }}</span>
+            {{ end }}
+        </div>
+    </a>
+    {{ end }}
+    {{ end }}
 </div>

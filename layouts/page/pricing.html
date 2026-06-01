@@ -1,0 +1,123 @@
+{{ define "main" }}
+
+<section class="page-hero">
+    <span class="section-label">Pricing</span>
+    <h1 class="section-title">Framework Tiers</h1>
+    <p class="section-desc">Simple, transparent pricing for legal infrastructure, compliance operations, and the CCASH application platform. Choose the tier that fits your operational scale.</p>
+    <div class="trust-badges light">
+        <span class="trust-badge">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" /></svg>
+            Self-Hosted
+        </span>
+        <span class="trust-badge">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21" /></svg>
+            Go + HTMX Stack
+        </span>
+        <span class="trust-badge">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+            No Vendor Lock-In
+        </span>
+        <span class="trust-badge">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z" /></svg>
+            Source Available
+        </span>
+    </div>
+</section>
+
+<div class="pricing-container">
+    <section class="content-section" style="padding-top: 0;">
+        <div class="content-container" style="max-width: var(--max-width);">
+            <div class="feature-grid three-col" style="margin-top: -60px;">
+                <div class="feature-card" style="background: var(--bg-card);">
+                    <span class="icon-wrapper" style="margin-bottom: 16px;"><svg class="feature-icon"><use href="#icon-legal"></use></svg></span>
+                    <h3>Entity Framework</h3>
+                    <p>Legal entity formation, operating agreements, governance documents, and compliance templates. Everything you need to establish and run a regulated entity.</p>
+                    <div style="margin-top: 20px; padding-top: 20px; border-top: 1px solid var(--border);">
+                        <span style="font-family: var(--font-display); font-size: 2rem; color: var(--brand-gold);">$0</span>
+                        <span style="color: var(--slate); font-size: 0.85rem;"> / entity + filing costs</span>
+                    </div>
+                </div>
+                <div class="feature-card" style="background: var(--bg-card);">
+                    <span class="icon-wrapper" style="margin-bottom: 16px;"><svg class="feature-icon"><use href="#icon-check"></use></svg></span>
+                    <h3>Compliance Operations</h3>
+                    <p>KYC/KYB workflows, document management, audit trail, and regulatory reporting. Configured to your jurisdiction and operational requirements.</p>
+                    <div style="margin-top: 20px; padding-top: 20px; border-top: 1px solid var(--border);">
+                        <span style="font-family: var(--font-display); font-size: 2rem; color: var(--brand-gold);">$0</span>
+                        <span style="color: var(--slate); font-size: 0.85rem;"> / operator / month</span>
+                    </div>
+                </div>
+                <div class="feature-card" style="background: var(--bg-card);">
+                    <span class="icon-wrapper" style="margin-bottom: 16px;"><svg class="feature-icon"><use href="#icon-settings"></use></svg></span>
+                    <h3>Application Platform</h3>
+                    <p>Full Go + HTMX application stack with modular architecture, API-first design, and automated deployment. Deploy on your own infrastructure.</p>
+                    <div style="margin-top: 20px; padding-top: 20px; border-top: 1px solid var(--border);">
+                        <span style="font-family: var(--font-display); font-size: 2rem; color: var(--brand-gold);">$0</span>
+                        <span style="color: var(--slate); font-size: 0.85rem;"> / deployment / month</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="fees-section">
+        <div class="fees-container">
+            <div class="fees-grid">
+                <div class="fees-content">
+                    <span class="section-label">Transparent Pricing</span>
+                    <h2 class="section-title">Pay Only for<br>What You Use</h2>
+                    <p class="section-desc">CCASH is source-available and self-hosted. The framework, compliance operations, and application platform are free. You pay only for third-party costs — entity filing fees, KYC provider integrations, and infrastructure you choose to run.</p>
+                </div>
+                <div class="fees-summary">
+                    <div class="fee-highlight">
+                        <div class="value">$0</div>
+                        <div class="label">Framework license</div>
+                    </div>
+                    <div class="fee-highlight">
+                        <div class="value">$0</div>
+                        <div class="label">Per-operator fee</div>
+                    </div>
+                    <div class="fee-highlight">
+                        <div class="value green">100%</div>
+                        <div class="label">You control your data</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="structure-section" style="background: var(--bg-secondary);">
+        <div class="structure-container">
+            <div class="structure-grid">
+                <div class="structure-content">
+                    <span class="section-label">No Surprises</span>
+                    <h2 class="section-title">What You Need<br>to Run CCASH</h2>
+                    <p class="section-desc">CCASH is designed to run on modest infrastructure. Here's what you'll need to operate a deployment:</p>
+                </div>
+                <div class="structure-cards">
+                    <div class="structure-card">
+                        <h4>Infrastructure</h4>
+                        <p>One Linux server (bare metal, VPS, or VM) with Docker. 2+ CPU cores, 4GB+ RAM, 50GB+ storage. No cloud dependencies required.</p>
+                    </div>
+                    <div class="structure-card">
+                        <h4>Third-Party Services</h4>
+                        <p>Optional integrations with KYC providers, document verification services, and filing agents. Costs vary by provider and volume.</p>
+                    </div>
+                    <div class="structure-card">
+                        <h4>Legal Counsel</h4>
+                        <p>Entity formation requires local legal counsel for filing and registration. CCASH provides templates and frameworks; your counsel handles jurisdiction-specific work.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <h2>Ready to Get Started?</h2>
+        <p>Deploy CCASH on your infrastructure and take control of your legal and compliance operations.</p>
+        <a href="mailto:legal@cca.sh?subject=CCASH%20Deployment%20Inquiry" class="btn btn-primary">
+            Contact Us
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </section>
+</div>
+{{ end }}
