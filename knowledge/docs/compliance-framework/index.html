@@ -408,7 +408,7 @@
             <li><strong>Accreditation Tier:</strong> The receiver must meet the offering's accreditation requirements. A <span class="glossary-term" data-term="reg-d">Reg D 506(c)</span> offering requires the receiver to be an <span class="glossary-term" data-term="accredited-investor">Accredited Investor</span> or above.</li>
             <li><strong>Investor Count:</strong> The transfer must not cause the offering to exceed its <code>max_investors</code> limit (relevant when the receiver is a new investor, not an existing holder).</li>
         </ol>
-        <p>These checks are enforced by the SPL-2022 <span class="glossary-term" data-term="transfer-hook">Transfer Hook</span> - a program extension that the Solana runtime invokes on every token transfer. Non-compliant transfers are not logged and ignored; they are <strong>rejected</strong>. The tokens do not move. See the <a href="/knowledge/docs/transfer-rules/">Transfer Rules documentation</a> for the complete enforcement mechanism.</p>
+        <p>These checks are enforced by the platform's compliance system at the transfer layer. Non-compliant transfers are not logged and ignored; they are <strong>rejected</strong>. The tokens do not move. See the <a href="/knowledge/docs/transfer-rules/">Transfer Rules documentation</a> for the complete enforcement mechanism.</p>
         <h2>Regulatory Reporting</h2>
         <p>Compliance is not just enforcement - it is reporting. The platform generates the following regulatory filings and reports, automated where possible, human-reviewed where required:</p>
         <table>

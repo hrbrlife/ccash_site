@@ -8,7 +8,7 @@
     <title>Architecture | CCASH</title>
     
     <meta name="description" content="Architecture of the CCASH platform — legal entity structure, technology stack, and security architecture for regulated financial services.">
-    <meta name="keywords" content="architecture, technical, legal architecture, Go, HTMX, Melusina, encrypted SQLite, Solana, CCASH"><meta name="author" content="CCASH Legal &amp; Platform">
+    <meta name="keywords" content="architecture, technical, legal architecture, Go, HTMX, Melusina, encrypted SQLite, Ed25519, CCASH"><meta name="author" content="CCASH Legal &amp; Platform">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://cca.sh/platform/architecture/">
 
@@ -336,16 +336,16 @@
         <h2>Legal Architecture</h2>
         <p>CCASH provides a legal entity framework built on established entity structures. Each operator operates within a defined legal structure with its own entity documentation, operating agreements, and governance procedures. Multi-entity configurations are supported with clearly defined relationships between entities, authority hierarchies, and governance models. Compliance policies and operational procedures are documented and maintained as part of the legal framework.</p>
 <pre><code>    &lt;h2&gt;Technology Architecture&lt;/h2&gt;
-    &lt;p&gt;The CCASH technology platform is built on a Go backend serving an HTMX frontend. The application is compiled into a single static binary with no JavaScript build step, no container runtime dependency, and no external database server. Data is stored in an encrypted SQLite database at rest, with each write operation signed using Solana Ed25519 keys for tamper evidence. The platform integrates with the Melusina operating system identity gate for cross-application authorization and envelope verification.&lt;/p&gt;
+    &lt;p&gt;The CCASH technology platform is built on a Go backend serving an HTMX frontend. The application is compiled into a single static binary with no JavaScript build step, no container runtime dependency, and no external database server. Data is stored in an encrypted SQLite database at rest, with each write operation signed using Ed25519 keys for tamper evidence. The platform integrates with the Melusina operating system identity gate for cross-application authorization and envelope verification.&lt;/p&gt;
 
     &lt;h2&gt;Security Architecture&lt;/h2&gt;
-    &lt;p&gt;Every write operation on the CCASH platform is cryptographically signed using Solana Ed25519 keys. This creates a tamper-evident audit trail where every action can be independently verified. Multi-party signing controls ensure that critical operations require authorization from multiple authorized parties. Access controls operate on least-privilege principles with role-based permissions and defined authority tiers. The encrypted SQLite database provides data-at-rest protection, and all access is logged and signed.&lt;/p&gt;
+    &lt;p&gt;Every write operation on the CCASH platform is cryptographically signed using Ed25519 keys. This creates a tamper-evident audit trail where every action can be independently verified. Multi-party signing controls ensure that critical operations require authorization from multiple authorized parties. Access controls operate on least-privilege principles with role-based permissions and defined authority tiers. The encrypted SQLite database provides data-at-rest protection, and all access is logged and signed.&lt;/p&gt;
 
     &lt;h2&gt;Deployment Model&lt;/h2&gt;
     &lt;p&gt;The CCASH platform deploys as a single static Go binary. No JavaScript build step, no container orchestration, no database configuration. The binary includes the HTMX frontend, the Go backend, and the encrypted SQLite storage layer. Deployment targets include traditional servers, virtual machines, and Sandstorm platform packages (.spk format).&lt;/p&gt;
 
     &lt;h2&gt;Audit Trail&lt;/h2&gt;
-    &lt;p&gt;Every action on the platform is recorded in the cryptographic audit trail. Each audit entry includes the action performed, the actor identity, a timestamp, and a Solana Ed25519 signature. The audit trail can be verified independently, providing complete transparency for regulatory review and auditor access.&lt;/p&gt;
+    &lt;p&gt;Every action on the platform is recorded in the cryptographic audit trail. Each audit entry includes the action performed, the actor identity, a timestamp, and a Ed25519 signature. The audit trail can be verified independently, providing complete transparency for regulatory review and auditor access.&lt;/p&gt;
 &lt;/div&gt;
 </code></pre>
 </section>
