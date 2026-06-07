@@ -1,17 +1,13 @@
 ---
-category: technology
-date: '2026-06-01'
-description: Self-executing code that automatically enforces agreement terms. CCASH
-  uses smart contracts to power community token operations.
-lastmod: '2026-06-01'
+title: "Smart Contract - Glossary"
+category: "technology"
 relatedTerms:
-- label: Tokenization
-  slug: tokenization
-- label: Transfer Hook
-  slug: transfer-hook
-tags:
-- glossary
-- technology
-title: Smart Contract - Glossary
+  - slug: audit-trail
+    label: Audit Trail
+  - slug: compliance
+    label: Compliance
+date: "2026-06-01"
+lastmod: "2026-06-06"
 ---
-A Smart Contract is self-executing code that automatically enforces the rules of an agreement. In the CCASH ecosystem, smart contracts handle token issuance, transfers, compliance checks, and governance — powering the community token economies that operators launch on the platform.
+
+A Smart Contract is self-executing code that automatically enforces the rules of an agreement. In the CCASH ecosystem, programmatic rules handle transaction compliance checks — sanctions screening, velocity limits, and approval gates — before any money movement executes. Compliance rules are encoded so violations are structurally impossible rather than caught after the fact.

@@ -1,8 +1,8 @@
 ---
 layout: "page"
-title: "For Celebrities &amp; Sports Clubs"
-description: "Fan tokens, exclusive access tokens, and digital collectibles. Connect directly with your audience through token-gated experiences. Start on CCASH. Graduate to your own platform."
-keywords: ["celebrity", "sports club", "fan tokens", "collectibles", "community", "graduation", "CCASH"]
+title: "For VASPs"
+description: "Launch your VASP on CCASH. Multi-currency fiat, stablecoin, and crypto. Travel Rule compliance, audit trails, operator-facing tools. Graduate to your own."
+keywords: ["VASP", "virtual asset service provider", "crypto exchange", "digital assets", "crypto custody", "Travel Rule", "compliance", "graduation", "CCASH"]
 ogImage: "/og-solutions.png"
 stylesheets:
   - "/css/main.css"
@@ -17,24 +17,27 @@ sitemap:
 
 <section class="page-hero bg-soft">
     <span class="section-label">Solutions</span>
-    <h1 class="section-title">For Celebrities &amp; Sports Clubs</h1>
-    <p class="section-desc">Your fans are your economy. Create fan tokens, exclusive access passes, and digital collectibles — all under your brand. Start on CCASH's proven platform. Graduate to your own self-hosted instance with your community intact.</p>
+    <h1 class="section-title">For Virtual Asset Service Providers</h1>
+    <p class="section-desc">Run your VASP on CCASH's proven platform. Crypto exchanges, digital asset custodians, and on/off-ramp operators — multi-currency wallets, Travel Rule handoff surfaces, compliance review dashboards, and cryptographically signed audit trails. Start on shared infrastructure. Graduate to your own.</p>
 </section>
 
 <section class="content-section">
     <div class="content-container">
-        <h2>The Graduation Path for Fan Economies</h2>
-        <p>Celebrities and sports clubs have something most brands don't: genuine fan loyalty. CCASH helps you turn that loyalty into a token-powered economy that you control — not a third-party platform that owns your fan relationships.</p>
-        <p><strong>Start on the shared platform.</strong> Launch fan tokens in days. Token-gated exclusive content, meet-and-greet access, digital collectibles, voting on club decisions, season ticket tokens — whatever connects your fans to your brand. We run the infrastructure. You focus on your audience.</p>
-        <p><strong>Graduate when you're ready.</strong> Your own self-hosted CCASH instance. Your brand, your fan data, your revenue. No platform taking a cut of your fan relationships. No risk of policy changes disrupting your community. You own the entire stack.</p>
+        <h2>The Graduation Path for VASPs</h2>
+        <p>Virtual Asset Service Providers — crypto exchanges, custodians, and on/off-ramp operators — operate in one of the most compliance-intensive environments in financial services. CCASH gives you a platform that handles the complexity so you can focus on your clients.</p>
+        <p><strong>Start on the shared platform.</strong> Multi-currency wallets spanning fiat (USD, EUR, GBP, JPY, INR), stablecoins (USDT, USDC), and crypto (BTC, ETH). Every transaction classified by risk tier — high-risk currencies and methods automatically gated with additional OTP verification. Travel Rule envelope handoff surfaces. Sanctions screening verdicts surfaced for operator review. Cryptographically signed audit trail — every state change carries a verifiable signature.</p>
+        <p><strong>Graduate when you're ready.</strong> Your own self-hosted CCASH instance. Your brand, your infrastructure, your client data. Full cryptographic audit history transfers with you. No lock-in. No platform risk.</p>
 
         <h2>What You Can Do</h2>
         <ul>
-            <li>Launch fan tokens for your community</li>
-            <li>Token-gated exclusive content and experiences</li>
-            <li>Digital collectibles and memorabilia tokens</li>
-            <li>Fan voting and governance on club/artist decisions</li>
-            <li>Season ticket and membership tokens</li>
+            <li>Multi-currency wallets — fiat, stablecoin, and crypto in one console</li>
+            <li>Send, receive, and swap across currencies with atomic settlement</li>
+            <li>Travel Rule compliance — envelope handlers for cross-VASP transfers</li>
+            <li>Risk-tiered approval gates — crypto transactions gated by currency risk and amount</li>
+            <li>Sanctions screening verdicts surfaced for operator review — OFAC sanctions lists</li>
+            <li>Cryptographically signed audit trail — every action independently verifiable</li>
+            <li>No stored payment instruments — one-time settlement instructions, 48h expiry</li>
+            <li>Four-eyes control on all high-value transfers</li>
             <li>Graduate to your own branded, self-hosted platform</li>
         </ul>
     </div>

@@ -12,16 +12,16 @@ ogImage: "/og-faq.png"
 faqSchema: true
 faqItems:
   - question: "What is the graduation model?"
-    answer: "CCASH is built around a simple idea: start on our proven shared platform to launch your community token economy. When you grow, you graduate to your own self-hosted instance — your brand, your infrastructure, your data. No lock-in, no platform risk. Your community and audit history transfer cleanly."
+    answer: "CCASH is built around a simple idea: start on our proven shared platform to launch your money-services operation. When you grow, you graduate to your own self-hosted instance — your brand, your infrastructure, your data. No lock-in, no platform risk. Your data and audit history transfer cleanly."
     category: "general"
   - question: "Can I run CCASH on my own infrastructure?"
-    answer: "Yes. CCASH is designed for the graduation model. Start on our shared platform to validate your token economy. When you're ready, deploy your own self-hosted instance on your own infrastructure. Your data, your community, your audit trail — everything transfers cleanly."
+    answer: "Yes. CCASH is designed for the graduation model. Start on our shared platform to validate your operation. When you're ready, deploy your own self-hosted instance on your own infrastructure. Your data, your client records, your audit trail — everything transfers cleanly."
     category: "general"
   - question: "What is CCASH?"
-    answer: "CCASH provides a complete legal infrastructure and technology platform for regulated financial services. We offer entity framework, compliance operations, and a full Go + HTMX application platform for financial service operators."
+    answer: "CCASH provides a complete legal infrastructure and technology platform for money-services operations. We offer entity framework, compliance operations, and a full Go + HTMX application platform for financial service operators."
     category: "general"
   - question: "What legal infrastructure does CCASH provide?"
-    answer: "CCASH provides entity formation and governance frameworks, compliance operations support, and regulatory documentation. Our infrastructure is designed for regulated financial services in applicable jurisdictions."
+    answer: "CCASH provides entity formation and governance frameworks, compliance operations support, and regulatory documentation. Our infrastructure is designed for money-services operations in applicable jurisdictions."
     category: "general"
   - question: "What technology platform does CCASH offer?"
     answer: "CCASH provides a Go + HTMX application platform with tenant isolation, signed writes, encrypted SQLite storage, comprehensive audit trails, and multi-party control for critical operations."
@@ -48,3 +48,9 @@ sitemap:
   priority: 0.7
   changefreq: "monthly"
 ---
+
+<section class="page-hero bg-soft">
+    <span class="section-label">Knowledge Base</span>
+    <h1 class="section-title">Frequently Asked Questions</h1>
+    <p class="section-desc">Common questions about the CCASH platform — what it is, how it works, and how to get started. From legal infrastructure to technology platform to the graduation model.</p>
+</section>

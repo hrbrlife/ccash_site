@@ -17,11 +17,13 @@
                 {{ range . }}
                 {{ $slug := .slug }}
                 {{ $label := .label }}
+                {{ if and $slug $label }}
                 {{ $term := site.GetPage (printf "knowledge/glossary/%s" $slug) }}
                 {{ if $term }}
                 <a href="{{ $term.RelPermalink }}" class="related-term-link">{{ $label }}</a>
                 {{ else }}
                 <a href="{{ printf "knowledge/glossary/%s/" $slug | relURL }}" class="related-term-link">{{ $label }}</a>
+                {{ end }}
                 {{ end }}
                 {{ end }}
             </div>

@@ -4,8 +4,6 @@ category: "technology"
 relatedTerms:
   - slug: powerbox
     label: Powerbox
-  - slug: nft-hierarchy
-    label: NFT Hierarchy
 date: "2026-06-01"
 lastmod: "2026-06-01"
 ---

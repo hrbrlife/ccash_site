@@ -14,24 +14,28 @@
                 <a href="{{ "knowledge/docs/getting-started/" | relURL }}" class="docs-link">Quick Start Guide</a>
                 <a href="{{ "knowledge/docs/platform-overview/" | relURL }}" class="docs-link">Platform Overview</a>
                 <a href="{{ "knowledge/docs/hybrid-architecture/" | relURL }}" class="docs-link">Hybrid Architecture</a>
-                <h4>Token Standard</h4>
-                <a href="{{ "knowledge/docs/token-standard/" | relURL }}" class="docs-link">SPL Token Implementation</a>
-                <a href="{{ "knowledge/docs/metadata/" | relURL }}" class="docs-link">Token Metadata</a>
-                <a href="{{ "knowledge/docs/compliance-extensions/" | relURL }}" class="docs-link">Compliance Extensions</a>
-                <h4>API Reference</h4>
-                <a href="{{ "knowledge/docs/api-reference/" | relURL }}" class="docs-link">API Overview</a>
-                <a href="{{ "knowledge/docs/authentication/" | relURL }}" class="docs-link">Authentication</a>
-                <a href="{{ "knowledge/docs/investors-api/" | relURL }}" class="docs-link">Investors API</a>
-                <a href="{{ "knowledge/docs/cap-table-api/" | relURL }}" class="docs-link">Cap Table API</a>
-                <a href="{{ "knowledge/docs/distributions-api/" | relURL }}" class="docs-link">Distributions API</a>
+                <h4>Money Services</h4>
+                <a href="{{ "knowledge/docs/wallets/" | relURL }}" class="docs-link">Multi-Currency Wallets</a>
+                <a href="{{ "knowledge/docs/money-movement/" | relURL }}" class="docs-link">Send, Receive &amp; Swap</a>
+                <a href="{{ "knowledge/docs/travel-cheques/" | relURL }}" class="docs-link">Travel Cheques</a>
+                <a href="{{ "knowledge/docs/approvals/" | relURL }}" class="docs-link">Approval Gates</a>
+                <a href="{{ "knowledge/docs/back-office/" | relURL }}" class="docs-link">Back Office</a>
+                <h4>Platform Operations</h4>
+                <a href="{{ "knowledge/docs/roles/" | relURL }}" class="docs-link">User Roles &amp; Permissions</a>
+                <a href="{{ "knowledge/docs/whitelabel-deployment/" | relURL }}" class="docs-link">Whitelabel Deployment</a>
+                <a href="{{ "knowledge/docs/client-series/" | relURL }}" class="docs-link">Client Series Model</a>
+                <a href="{{ "knowledge/docs/configuration/" | relURL }}" class="docs-link">Configuration</a>
+                <a href="{{ "knowledge/docs/security/" | relURL }}" class="docs-link">Security</a>
                 <h4>Compliance</h4>
                 <a href="{{ "knowledge/docs/compliance-framework/" | relURL }}" class="docs-link">Compliance Framework</a>
-                <a href="{{ "knowledge/docs/kyc-integration/" | relURL }}" class="docs-link">KYC Integration</a>
-                <a href="{{ "knowledge/docs/transfer-rules/" | relURL }}" class="docs-link">Transfer Rules</a>
-                <h4>Deployment</h4>
-                <a href="{{ "knowledge/docs/deployment/" | relURL }}" class="docs-link">Deployment Guide</a>
-                <a href="{{ "knowledge/docs/configuration/" | relURL }}" class="docs-link">Configuration</a>
-                <a href="{{ "knowledge/docs/security/" | relURL }}" class="docs-link">Security Setup</a>
+                <a href="{{ "knowledge/docs/compliance-basics/" | relURL }}" class="docs-link">Compliance Basics</a>
+                <a href="{{ "knowledge/docs/compliance-basics/" | relURL }}" class="docs-link">Compliance Basics</a>
+                <h4>Reference</h4>
+                <a href="{{ "knowledge/docs/api-reference/" | relURL }}" class="docs-link">API Reference</a>
+                <a href="{{ "knowledge/docs/authentication/" | relURL }}" class="docs-link">Authentication</a>
+                <a href="{{ "knowledge/docs/metadata/" | relURL }}" class="docs-link">Platform Configuration</a>
+                <a href="{{ "knowledge/docs/graduation-model/" | relURL }}" class="docs-link">Graduation Model</a>
+                <a href="{{ "knowledge/docs/self-hosting-guide/" | relURL }}" class="docs-link">Self-Hosting Guide</a>
             </nav>
         </aside>
         <main class="docs-content">
@@ -50,7 +54,7 @@
                         <span class="icon-wrapper"><svg><use href="#icon-lightning"></use></svg></span>
                         <span class="text">
                             <strong>API Reference</strong>
-                            <small>Explore our REST APIs</small>
+                            <small>Explore platform APIs</small>
                         </span>
                     </a>
                 </div>
@@ -66,43 +70,43 @@
                     <a href="{{ "knowledge/docs/hybrid-architecture/" | relURL }}" class="docs-card">
                         <span class="docs-card-icon">🔗</span>
                         <h4>Hybrid Architecture</h4>
-                        <p>How blockchain and traditional finance systems interoperate.</p>
+                        <p>How legal and technology layers interoperate.</p>
                     </a>
-                    <a href="{{ "knowledge/docs/token-standard/" | relURL }}" class="docs-card">
-                        <span class="docs-card-icon">🪙</span>
-                        <h4>Token Standard</h4>
-                        <p>SPL token implementation with compliance extensions.</p>
+                    <a href="{{ "knowledge/docs/wallets/" | relURL }}" class="docs-card">
+                        <span class="docs-card-icon">💳</span>
+                        <h4>Multi-Currency Wallets</h4>
+                        <p>Fiat, stablecoin, and crypto wallets in one console.</p>
                     </a>
                     <a href="{{ "knowledge/docs/compliance-framework/" | relURL }}" class="docs-card">
                         <span class="docs-card-icon">⚖️</span>
                         <h4>Compliance Framework</h4>
-                        <p>On-chain transfer restrictions and regulatory hooks.</p>
+                        <p>KYC, AML, sanctions screening, and audit trail.</p>
                     </a>
                 </div>
             </section>
             <section class="docs-section">
-                <h3>API Reference</h3>
-                <p>Our REST API enables programmatic access to core platform functionality.</p>
+                <h3>Money Movement</h3>
+                <p>The platform provides capability-based APIs for wallets, transfers, and compliance operations.</p>
                 <div class="docs-api-preview">
                     <div class="docs-api-header">
                         <span class="docs-api-method get">GET</span>
-                        <code>/api/v1/investors/{id}</code>
+                        <code>/api/v1/wallets</code>
                     </div>
-                    <p class="docs-api-desc">Retrieve investor details including KYC status and holdings.</p>
-                </div>
-                <div class="docs-api-preview">
-                    <div class="docs-api-header">
-                        <span class="docs-api-method get">GET</span>
-                        <code>/api/v1/offerings/{id}/cap-table</code>
-                    </div>
-                    <p class="docs-api-desc">Get current cap table for an offering with ownership percentages.</p>
+                    <p class="docs-api-desc">List wallets and balances across all currencies.</p>
                 </div>
                 <div class="docs-api-preview">
                     <div class="docs-api-header">
                         <span class="docs-api-method post">POST</span>
-                        <code>/api/v1/distributions</code>
+                        <code>/api/v1/transfers/send</code>
                     </div>
-                    <p class="docs-api-desc">Create and execute a distribution to token holders.</p>
+                    <p class="docs-api-desc">Initiate an outbound transfer with risk-tiered approval gate.</p>
+                </div>
+                <div class="docs-api-preview">
+                    <div class="docs-api-header">
+                        <span class="docs-api-method post">POST</span>
+                        <code>/api/v1/swap</code>
+                    </div>
+                    <p class="docs-api-desc">Execute a currency swap with quoted FX rate and atomic settlement.</p>
                 </div>
                 <a href="{{ "knowledge/docs/api-reference/" | relURL }}" class="docs-section-link">View Full API Reference →</a>
             </section>

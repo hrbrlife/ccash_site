@@ -2,11 +2,7 @@
 title: "Scaling - Glossary"
 description: "The growth path from initial deployment to full-scale operation on the CCASH platform."
 category: "structure"
-relatedTerms:
-  - slug: "entity-compartment"
-    label: "Entity Compartment"
-  - slug: "operating-entity"
-    label: "Operating Entity"
+relatedTerms: []
 date: "2026-06-01"
 ---
 

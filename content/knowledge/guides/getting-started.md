@@ -1,18 +1,18 @@
 ---
 title: "Getting Started with CCASH"
 type: "guide"
-description: "Step-by-step guide to getting started on CCASH - for issuers launching tokenized offerings, investors accessing opportunities."
+description: "Step-by-step guide to getting started on CCASH — for MSBs, PSPs, VASPs, corporate treasury operators, and introducers."
 ogImage: "/og-image.png"
-keywords: ["getting", "started", "CCASH", "step-by-step", "guide", "issuers", "launching", "tokenized"]
+keywords: ["getting", "started", "CCASH", "step-by-step", "guide", "MSB", "PSP", "VASP", "onboarding"]
 stylesheets:
   - "/css/main.css"
   - "/css/pages/glossary.css"
   - "/css/pages/guides.css"
 scripts:
   - "/js/pages/knowledge-guides-getting-started.js"
-guideMeta: "Complete onboarding guide for issuers, investors, and brokers"
+guideMeta: "Complete onboarding guide for money-services operators, corporate treasury, and introducers"
 date: "2026-02-24"
-lastmod: "2026-02-24"
+lastmod: "2026-06-06"
 sitemap:
   priority: 0.6
   changefreq: "monthly"
@@ -22,213 +22,167 @@ ogtype: "article"
             <h4>In This Guide</h4>
             <ul>
                 <li><a href="#overview">Platform Overview</a></li>
-                <li><a href="#issuers">For Issuers</a></li>
-                <li><a href="#investors">For Investors</a></li>
-                <li><a href="#brokers">For Brokers</a></li>
+                <li><a href="#operators">For Operators (MSB / PSP / VASP)</a></li>
+                <li><a href="#treasury">For Corporate Treasury</a></li>
+                <li><a href="#introducers">For Introducers &amp; Partners</a></li>
                 <li><a href="#verification">Verification Process</a></li>
                 <li><a href="#support">Getting Help</a></li>
             </ul>
         </nav>
         <section id="overview" class="guide-section">
             <h2>Platform Overview</h2>
-            <p>CCASH is a compliant platform for issuing, investing in, and distributing <span class="glossary-term" data-term="security-token">security tokens</span>. We combine blockchain efficiency with traditional finance compliance to offer the best of both worlds.</p>
+            <p>CCASH is a whitelabel money-services platform — software that runs MSB, PSP, VASP and corporate-treasury operations, deployable on shared infrastructure or self-hosted. Launch as a Client Series operating as an Agent MSB under CCASH's US FinCEN registration. Graduate to your own self-hosted instance or your own license.</p>
             <h3>What We Offer</h3>
             <ul>
-                <li><strong>Issuers:</strong> Tokenize assets, raise capital globally, manage cap tables automatically</li>
-                <li><strong>Investors:</strong> Access curated offerings, choose your custody model, receive automated distributions</li>
-                <li><strong>Brokers:</strong> Expand your product offering, earn competitive commissions, serve global clients</li>
+                <li><strong>Operators:</strong> Multi-currency wallets, send/receive/swap, travel cheques, KYC/AML, and compliance operations — all under your brand</li>
+                <li><strong>Treasury:</strong> Multi-currency cash management, FX and swap, approval gates, four-eyes control, full reconciliation</li>
+                <li><strong>Introducers:</strong> Refer clients, earn revenue share, no license needed</li>
             </ul>
             <h3>Key Features</h3>
             <ul>
-                <li><strong>Compliant by design:</strong> Built-in compliance workflows with full verification and audit trail</li>
+                <li><strong>Compliance surfaces:</strong> Operator-facing KYC/KYB intake and review, sanctions screening verdicts, transaction review, Travel Rule handoff, and cryptographically signed audit trail</li>
                 <li><strong>Self-hosted sovereignty:</strong> Deploy on your own infrastructure with full data control</li>
-                <li><strong>Legal frameworks:</strong> <span class="glossary-term" data-term="series-llc">Series LLC</span> and DAO LLC structures for legal isolation</li>
+                <li><strong>Legal frameworks:</strong> Montana Series LLC structure with dual-entity model for every client</li>
                 <li><strong>Grain architecture:</strong> OS-level isolation for every platform component</li>
             </ul>
         </section>
-        <section id="issuers" class="guide-section">
-            <h2>For Issuers</h2>
-            <p>Launch a tokenized securities offering in weeks, not months. Here's how to get started:</p>
+        <section id="operators" class="guide-section">
+            <h2>For Operators (MSB / PSP / VASP)</h2>
+            <p>Launch a money-services operation in weeks, not months. Here's how to get started:</p>
             <div class="step-card">
                 <div class="step-number">1</div>
                 <div class="step-content">
-                    <h4>Create Your Issuer Account</h4>
-                    <p>Sign up at <a href="/signup/?type=issuer">cca.sh/get-started</a> and select "Issuer." Provide basic company information to start the process.</p>
+                    <h4>Initial Inquiry</h4>
+                    <p>Contact us at <a href="mailto:legal@cca.sh">legal@cca.sh</a>. Tell us about your proposed operation — business model, target currencies, expected volume, and jurisdictions.</p>
                 </div>
             </div>
             <div class="step-card">
                 <div class="step-number">2</div>
                 <div class="step-content">
-                    <h4>Complete Issuer Verification</h4>
-                    <p>Submit company documentation: formation documents, ownership structure, authorized representatives. Our team reviews within 48 hours.</p>
+                    <h4>Eligibility &amp; KYB</h4>
+                    <p>We complete Know Your Business verification: formation documents, ownership structure, authorized representatives, and beneficial ownership. Fit-and-proper screening for principals.</p>
                 </div>
             </div>
             <div class="step-card">
                 <div class="step-number">3</div>
                 <div class="step-content">
-                    <h4>Structure Your Offering</h4>
-                    <p>Work with our team to define: asset type, raise amount, token economics, investor eligibility, and geographic scope. We'll set up your <span class="glossary-term" data-term="series-llc">Series LLC</span>.</p>
+                    <h4>Risk Assessment &amp; Structure</h4>
+                    <p>Risk classification, enhanced due diligence where applicable. Your Client Series (C-###) is designated. Dual-entity structure established: Series within CCASH's LLC plus your own Partner LLC.</p>
                 </div>
             </div>
             <div class="step-card">
                 <div class="step-number">4</div>
                 <div class="step-content">
-                    <h4>Legal Documentation</h4>
-                    <p>We provide templates for: Private Placement Memorandum (PPM), subscription agreements, operating agreement. Review with your counsel and customize as needed.</p>
+                    <h4>Legal &amp; Compliance Setup</h4>
+                    <p>Articles of Amendment filed (Montana SOS). ABN filing. FinCEN agent designation. Operating account. Whitelabel Services Agreement executed. AML program documentation.</p>
                 </div>
             </div>
             <div class="step-card">
                 <div class="step-number">5</div>
                 <div class="step-content">
                     <h4>Platform Deployment</h4>
-                    <p>We deploy the CCASH platform on your infrastructure with configured compliance rules, credential management, and operational workflows.</p>
+                    <p>Your branded CCASH instance is provisioned and configured. Currencies, fees, approval tiers, and site profile set up. Compliance workflows configured.</p>
                 </div>
             </div>
             <div class="step-card">
                 <div class="step-number">6</div>
                 <div class="step-content">
-                    <h4>Launch & Raise Capital</h4>
-                    <p>Your offering goes live. Investors are verified through our KYC process, subscriptions are processed, and tokens are distributed.</p>
+                    <h4>Training &amp; Go-Live</h4>
+                    <p>Compliance training, operational procedure review, sailor-beware acknowledgments. CCO signs off. Your platform goes live.</p>
                 </div>
             </div>
             <div class="requirement-box">
-                <h4>Issuer Requirements</h4>
+                <h4>Operator Requirements</h4>
                 <ul>
-                    <li>Registered legal entity (any jurisdiction)</li>
-                    <li>Asset with clear ownership/rights</li>
-                    <li>Minimum offering size: $500,000</li>
+                    <li>Registered legal entity</li>
+                    <li>Clear business model and source of funds</li>
+                    <li>Principals pass fit-and-proper screening</li>
                     <li>Commitment to regulatory compliance</li>
                 </ul>
             </div>
         </section>
-        <section id="investors" class="guide-section">
-            <h2>For Investors</h2>
-            <p>Access institutional-quality tokenized securities. Here's your path to investing:</p>
+        <section id="treasury" class="guide-section">
+            <h2>For Corporate Treasury</h2>
+            <p>Multi-currency treasury management with approval gates and four-eyes control:</p>
             <div class="step-card">
                 <div class="step-number">1</div>
                 <div class="step-content">
-                    <h4>Create Your Investor Account</h4>
-                    <p>Sign up at <a href="/signup/?type=investor">cca.sh/get-started</a> and select "Investor." Provide contact information and country of residence.</p>
+                    <h4>Contact Us</h4>
+                    <p>Reach out at <a href="mailto:legal@cca.sh">legal@cca.sh</a>. Describe your treasury structure — entities, currencies, approval requirements, reporting needs.</p>
                 </div>
             </div>
             <div class="step-card">
                 <div class="step-number">2</div>
                 <div class="step-content">
-                    <h4>Complete Identity Verification</h4>
-                    <p>Standard <span class="glossary-term" data-term="kyc">KYC</span> process: government ID, proof of address, selfie verification. Typically completed in minutes.</p>
+                    <h4>KYB &amp; Structure</h4>
+                    <p>Entity verification, beneficial ownership, and risk assessment. Your Client Series and treasury configuration are established.</p>
                 </div>
             </div>
             <div class="step-card">
                 <div class="step-number">3</div>
                 <div class="step-content">
-                    <h4>Verify Investor Status</h4>
-                    <p><strong>US Investors:</strong> Provide <span class="glossary-term" data-term="qualified-investor">qualified investor</span> documentation (income/net worth verification or professional certification).<br>
-                    <strong>Non-US:</strong> Confirm <span class="glossary-term" data-term="professional-investor">professional/qualified investor</span> status per your jurisdiction.</p>
+                    <h4>Configuration</h4>
+                    <p>Multi-currency wallets provisioned. Approval tiers set. Four-eyes rules configured. User roles assigned. Reporting templates set up.</p>
                 </div>
             </div>
             <div class="step-card">
                 <div class="step-number">4</div>
                 <div class="step-content">
-                    <h4>Configure Your Workspace</h4>
-                    <p>Your platform instance is provisioned with your credentials and capabilities. Configure your operational preferences, notification settings, and integration points.</p>
-                </div>
-            </div>
-            <div class="step-card">
-                <div class="step-number">5</div>
-                <div class="step-content">
-                    <h4>Browse & Invest</h4>
-                    <p>View available offerings, review documentation, and subscribe. Minimum investment varies by offering (typically $150,000+).</p>
-                </div>
-            </div>
-            <div class="step-card">
-                <div class="step-number">6</div>
-                <div class="step-content">
-                    <h4>Begin Operations</h4>
-                    <p>Your platform is live. Participants can access their dashboards, workflows execute as configured, and compliance operations run automatically with full audit trail.</p>
+                    <h4>Go Live</h4>
+                    <p>Training complete. Platform activated. Begin treasury operations with full approval gates and audit trail.</p>
                 </div>
             </div>
             <div class="requirement-box">
-                <h4>Investor Requirements</h4>
+                <h4>Treasury Requirements</h4>
                 <ul>
-                    <li><strong>US investors:</strong> Must be accredited (income $200K+ or net worth $1M+)</li>
-                    <li><strong>Non-US:</strong> Must qualify as professional/qualified investor</li>
-                    <li><strong>Minimum investment:</strong> $150,000 per offering</li>
-                    <li>Valid government ID and proof of address</li>
+                    <li>Registered legal entity</li>
+                    <li>Clear treasury structure and authorized signatories</li>
+                    <li>Principals complete identity verification</li>
                 </ul>
             </div>
         </section>
-        <section id="brokers" class="guide-section">
-            <h2>For Brokers</h2>
-            <p>Expand your offering with tokenized securities. White-label capabilities and competitive commissions:</p>
+        <section id="introducers" class="guide-section">
+            <h2>For Introducers &amp; Partners</h2>
+            <p>Refer clients to CCASH and earn revenue share. No license needed:</p>
             <div class="step-card">
                 <div class="step-number">1</div>
                 <div class="step-content">
-                    <h4>Apply as a Broker Partner</h4>
-                    <p>Sign up at <a href="/signup/?type=broker">cca.sh/get-started</a> and select "Broker." Provide your firm details and regulatory status.</p>
+                    <h4>Apply as a Partner</h4>
+                    <p>Contact us at <a href="mailto:legal@cca.sh">legal@cca.sh</a>. Tell us about your network and the types of operators you can introduce.</p>
                 </div>
             </div>
             <div class="step-card">
                 <div class="step-number">2</div>
                 <div class="step-content">
-                    <h4>Due Diligence Review</h4>
-                    <p>We verify your firm's regulatory standing, AML policies, and client base. Approval typically within 5 business days.</p>
+                    <h4>Due Diligence</h4>
+                    <p>We verify your identity and standing. Introducer agreement executed.</p>
                 </div>
             </div>
             <div class="step-card">
                 <div class="step-number">3</div>
                 <div class="step-content">
-                    <h4>Platform Integration</h4>
-                    <p>Access broker dashboard for client management, offering distribution, and commission tracking. API available for deeper integration.</p>
+                    <h4>Start Referring</h4>
+                    <p>Introduce qualified operators. They complete CCASH's standard onboarding. You earn referral fees on completed onboardings.</p>
                 </div>
-            </div>
-            <div class="step-card">
-                <div class="step-number">4</div>
-                <div class="step-content">
-                    <h4>Onboard Your Clients</h4>
-                    <p>Invite clients to platform. They complete KYC; you manage the relationship. Your branding, our infrastructure.</p>
-                </div>
-            </div>
-            <div class="step-card">
-                <div class="step-number">5</div>
-                <div class="step-content">
-                    <h4>Earn Commissions</h4>
-                    <p><strong>Primary:</strong> 6% on capital raised through your network (100% to you).<br>
-                    <strong>Secondary:</strong> ⅔ of 0.5% trading fee on secondary market activity.</p>
-                </div>
-            </div>
-            <div class="requirement-box">
-                <h4>Broker Requirements</h4>
-                <ul>
-                    <li>Licensed securities broker/dealer or equivalent</li>
-                    <li>Established AML/KYC procedures</li>
-                    <li>Professional investor client base</li>
-                    <li>Good regulatory standing</li>
-                </ul>
             </div>
         </section>
         <section id="verification" class="guide-section">
             <h2>Verification Process</h2>
             <h3>Identity Verification (All Users)</h3>
-            <p>Our <span class="glossary-term" data-term="kyc">KYC</span> process verifies you are who you claim to be:</p>
+            <p>Our KYC process verifies you are who you claim to be:</p>
             <ul>
                 <li>Government-issued photo ID (passport, driver's license, national ID)</li>
-                <li>Proof of address (utility bill, bank statement, less than 3 months old)</li>
-                <li>Liveness check (selfie matching ID photo)</li>
+                <li>Proof of address (utility bill, financial statement, less than 3 months old)</li>
+                <li>Biometric verification (via integrated identity infrastructure)</li>
             </ul>
             <p>Most verifications complete automatically in under 5 minutes.</p>
-            <h3>Qualified Investor Verification (US)</h3>
-            <p>For <span class="glossary-term" data-term="reg-d">regulatory exemption compliance framework</span> offerings, we must verify accreditation:</p>
-            <ul>
-                <li><strong>Income method:</strong> Tax returns or written verification from CPA/attorney</li>
-                <li><strong>Net worth method:</strong> Statements showing $1M+ (excluding primary residence)</li>
-                <li><strong>Professional:</strong> Series 7, 65, or 82 license verification</li>
-            </ul>
-            <h3>Entity Verification</h3>
+            <h3>Entity Verification (KYB)</h3>
             <p>For companies, trusts, and funds:</p>
             <ul>
                 <li>Formation documents</li>
                 <li>Beneficial ownership (25%+ owners)</li>
                 <li>Authorized representative verification</li>
+                <li>Source of funds documentation</li>
             </ul>
         </section>
         <section id="support" class="guide-section">
@@ -237,20 +191,19 @@ ogtype: "article"
             <ul>
                 <li><a href="/knowledge/faq/">FAQ</a> - Answers to common questions</li>
                 <li><a href="/knowledge/glossary/">Glossary</a> - Key terms explained</li>
-                <li><a href="/knowledge/docs/">Documentation</a> - Technical guides and API reference</li>
+                <li><a href="/knowledge/docs/">Documentation</a> - Technical guides and reference</li>
             </ul>
             <h3>Contact Support</h3>
             <ul>
-                <li><strong>Email:</strong> support@cca.sh</li>
+                <li><strong>Email:</strong> legal@cca.sh</li>
                 <li><strong>Response time:</strong> Within 24 hours (business days)</li>
-                <li><strong>Dedicated support:</strong> Available for verified issuers and brokers</li>
             </ul>
             <h3>Schedule a Call</h3>
-            <p>For issuers exploring offerings or brokers considering partnership, schedule a consultation through our <a href="/company/contact/">contact page</a>.</p>
+            <p>For operators exploring the platform or partners considering introduction arrangements, reach out through our <a href="/company/contact/">contact page</a>.</p>
         </section>
         <div class="cta-box">
             <h3>Ready to get started?</h3>
-            <p>Create your account and begin your journey with CCASH.</p>
-            <a href="/signup/" class="btn">Create Account</a>
+            <p>Contact us and begin your journey with CCASH.</p>
+            <a href="/company/contact/" class="btn">Contact Us</a>
         </div>
     </div>

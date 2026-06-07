@@ -1,26 +1,28 @@
 ---
 title: "Authentication - Documentation"
 type: "doc"
-description: "CCASH authentication model — Ed25519 signatures, NFT hierarchy, and capability-based access for community token operations."
+description: "CCASH authentication model — Ed25519 signatures, authority hierarchy, and capability-based access for money-services operations."
 ogImage: "/og-docs.png"
 stylesheets:
   - "/css/main.css"
   - "/css/pages/docs.css"
 date: "2026-06-01"
-lastmod: "2026-06-01"
+lastmod: "2026-06-06"
 ---
 
 ## Authentication
 
-CCASH uses a multi-layer authentication model rooted in public-key cryptography. Every action on the platform is authenticated through a combination of cryptographic signatures, NFT authority verification, and capability grants.
+CCASH uses a multi-layer authentication model rooted in public-key cryptography. Every action on the platform is authenticated through a combination of cryptographic signatures, role-based authority verification, and capability grants.
 
 ### Ed25519 Signatures
 
 Every write operation on the CCASH platform is signed using an Ed25519 key pair. The signature proves that the request originated from the holder of the private key. The signed request includes the action parameters, a timestamp to prevent replay, and a sequence number for ordering.
 
-### NFT Authority
+Every state-changing audit row carries a `SignerPubkey` — a base58-encoded Ed25519 public key. No unsigned path exists. No grandfathered exceptions.
 
-In addition to cryptographic signatures, actions require proof of role authorization via the NFT hierarchy. A user must hold the appropriate NFT for the action they're requesting — for example, only a License NFT holder can create new community tokens; only a Share NFT holder can participate in governance.
+### Authority Verification
+
+In addition to cryptographic signatures, actions require proof of role authorization. A user must hold the appropriate authority credential for the action they're requesting. The platform enforces a 4-layer authority hierarchy — from root authority down through per-user credentials — and every operation traces its authority back through this chain.
 
 ### Capability-Based Access
 
@@ -28,8 +30,8 @@ The Powerbox mediates inter-component authentication. When one grain needs to ca
 
 ### Session Management
 
-User sessions are managed through Sandstorm's web session mechanism. Each session carries the user's identity, their NFT holdings, and the capabilities they've been granted. Sessions expire after inactivity and require re-authentication for sensitive operations.
+User sessions carry the user's identity, their authority credentials, and the capabilities they've been granted. Sessions expire after inactivity and require re-authentication for sensitive operations. Per-tab unlock: the browser builds a canonical payload, the user signs it with their wallet, and the grain verifies before serving any protected surface.
 
 ### Multi-Party Authorization
 
-Critical operations — governance execution, compliance overrides, system parameter changes — require threshold signing. A minimum number of authorized parties must each sign before the operation can execute. No single party can act alone.
+Critical operations — high-value transactions, compliance overrides, system parameter changes — require threshold signing. A minimum number of authorized parties must each sign before the operation can execute, with the second payload chain-committed to the first. No single party can act alone.

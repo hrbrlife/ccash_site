@@ -14,12 +14,12 @@ lastmod: "2026-06-01"
 
 Use this checklist to prepare for graduating from CCASH's shared platform to your own self-hosted instance.
 
-### Community Readiness
+### Operational Readiness
 
-- [ ] Your community has been active for at least 3-6 months
+- [ ] Your operation has been active for at least 3-6 months
 - [ ] You have consistent monthly engagement metrics
-- [ ] Your token economy model is proven and stable
-- [ ] Community members are aware of the upcoming transition
+- [ ] Your operation model is proven and stable
+- [ ] Your clients are aware of the upcoming transition
 
 ### Technical Readiness
 
@@ -30,8 +30,8 @@ Use this checklist to prepare for graduating from CCASH's shared platform to you
 
 ### Data Readiness
 
-- [ ] Your community records are complete and verified
-- [ ] Token balances are accurate
+- [ ] Your client records are complete and verified
+- [ ] Wallet balances are accurate
 - [ ] Audit trail is continuous with no gaps
 - [ ] Compliance records are export-ready
 
@@ -41,16 +41,16 @@ Use this checklist to prepare for graduating from CCASH's shared platform to you
 2. Receive your graduation kit (deployment scripts, configuration, migration tools)
 3. Deploy your self-hosted instance (CCASH provides support)
 4. Verify the deployment meets all requirements
-5. Migrate community data, token records, and audit history
+5. Migrate client data, transaction records, and audit history
 6. Verify data integrity — balances match, audit trail is continuous
-7. Cut over your community to the self-hosted instance
+7. Cut over your client base to the self-hosted instance
 8. Update your DNS and branding
 
 ### Post-Graduation
 
 - [ ] Your self-hosted instance is running and verified
-- [ ] Your community is active on the new instance
+- [ ] Your operation is active on the new instance
 - [ ] You have access to ongoing CCASH platform updates
-- [ ] You can route regulated operations through CCASH if needed
+- [ ] You can route money-services operations through CCASH if needed
 
 Need help? Contact the CCASH team for deployment support.

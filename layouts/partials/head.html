@@ -5,7 +5,13 @@
     <!-- Primary Meta Tags -->
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else if .Title }}{{ .Title }} | {{ .Site.Params.siteName }}{{ else }}{{ .Site.Title }}{{ end }}</title>
     {{ with .Params.description | default .Site.Params.description }}
-    <meta name="description" content="{{ . }}">
+    {{- $desc := . -}}
+    {{- if gt (len $desc) 160 -}}
+      {{- $desc = substr $desc 0 155 -}}
+      {{- $desc = replaceRE "\\s+\\S*$" "" $desc -}}
+      {{- $desc = print $desc "…" -}}
+    {{- end -}}
+    <meta name="description" content="{{ $desc }}">
     {{ end }}
     {{- with .Params.keywords -}}
     {{- $kw := . -}}
@@ -234,9 +240,14 @@
     <script src="{{ strings.TrimLeft "/" . | relURL }}?v={{ $cacheBust }}"></script>
     {{ end }}
 
-    <!-- Stylesheets -->
+    <!-- Stylesheets (from page frontmatter) -->
     {{ range .Params.stylesheets }}
     <link rel="stylesheet" href="{{ strings.TrimLeft "/" . | relURL }}?v={{ $cacheBust }}">
+    {{ end }}
+
+    <!-- Glossary term pages — inject glossary-term.css automatically -->
+    {{ if eq .Layout "glossary-term" }}
+    <link rel="stylesheet" href="{{ "css/pages/glossary-term.css" | relURL }}?v={{ $cacheBust }}">
     {{ end }}
 
     <!-- Design System Fonts -->

@@ -52,5 +52,5 @@ sitemap:
 <section class="cta-section">
     <h2>Ready to grow?</h2>
     <p>Talk to our team about your growth timeline.</p>
-    <a href="{{ "company/contact/" | relURL }}" class="btn btn-primary">Contact Us</a>
+    <a href="/company/contact/" class="btn btn-primary">Contact Us</a>
 </section>

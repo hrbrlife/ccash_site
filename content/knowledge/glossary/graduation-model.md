@@ -9,11 +9,9 @@ relatedTerms:
   slug: shared-platform
 - label: Self Hosted
   slug: self-hosted
-- label: Community Token
-  slug: community-token
 tags:
 - glossary
 - platform
 title: Graduation Model - Glossary
 ---
-The Graduation Model is CCASH's core value proposition. Start your community token economy on our proven shared infrastructure — no development required, no infrastructure to manage. When your community grows, you graduate to your own self-hosted CCASH instance. Your brand, your data, your infrastructure. No lock-in, no platform risk. Your community, token data, and audit history transfer cleanly.
+The Graduation Model is CCASH's core value proposition. Start your money-services operation money-services operation on our proven shared infrastructure — no development required, no infrastructure to manage. When your money-services operation grows, you graduate to your own self-hosted CCASH instance. Your brand, your data, your infrastructure. No lock-in, no platform risk. Your money-services operation, operational data, and audit history transfer cleanly.

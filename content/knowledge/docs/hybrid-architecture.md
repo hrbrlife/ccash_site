@@ -1,7 +1,7 @@
 ---
 title: "Hybrid Architecture - Documentation"
 type: "doc"
-description: "CCASH's hybrid architecture — combining legal entity frameworks with capability-secured technology for community token economies."
+description: "CCASH's hybrid architecture — combining legal entity frameworks with capability-secured technology for money-services operations."
 ogImage: "/og-platform.png"
 stylesheets:
   - "/css/main.css"
@@ -16,7 +16,7 @@ CCASH operates at two layers simultaneously — legal infrastructure and technol
 
 ### Legal Layer
 
-The legal layer provides the entity structures, compliance frameworks, and governance documentation that underpin every community token economy. On the shared platform, token economies operate under CCASH's MSB registration. After graduation, the same legal frameworks can be adapted to the operator's own regulatory standing.
+The legal layer provides the entity structures, compliance frameworks, and governance documentation that underpin every money-services operation. On the shared platform, operations operate under CCASH's MSB registration. After graduation, the same legal frameworks can be adapted to the operator's own regulatory standing.
 
 ### Technology Layer
 
@@ -28,7 +28,7 @@ The legal and technology layers are not independent — they reinforce each othe
 
 ### Shared Platform Architecture
 
-On the shared platform, multiple community token economies operate on CCASH's infrastructure. Each economy is legally isolated through Series LLC architecture and technically isolated through grain boundaries. No economy can access another's data, capabilities, or compliance configuration.
+On the shared platform, multiple money-services operations operate on CCASH's infrastructure. Each economy is legally isolated through Series LLC architecture and technically isolated through grain boundaries. No economy can access another's data, capabilities, or compliance configuration.
 
 ### Self-Hosted Architecture
 

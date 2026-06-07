@@ -5,10 +5,10 @@ description: A multi-party cryptographic scheme requiring multiple signers to pr
   a valid signature.
 lastmod: '2026-06-01'
 relatedTerms:
-- label: Master NFT
-  slug: master-nft
 - label: Custody
   slug: custody
+- label: Multi-Party Control
+  slug: multi-party-control
 tags:
 - glossary
 - technology

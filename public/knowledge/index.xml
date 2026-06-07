@@ -1,20 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Knowledge Base on CCASH — Tokenize Your Community</title><link>https://cca.sh/knowledge/</link><description>Recent content in Knowledge Base on CCASH — Tokenize Your Community</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://cca.sh/knowledge/index.xml" rel="self" type="application/rss+xml"/><item><title>Choosing Your Token Model - Guide</title><link>https://cca.sh/knowledge/guides/choosing-your-model/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://cca.sh/knowledge/guides/choosing-your-model/</guid><description>&lt;h2 id="choosing-your-token-model">Choosing Your Token Model&lt;/h2>
-&lt;p>Not every community needs the same token model. This guide helps you choose the right model for your audience and goals.&lt;/p>
-&lt;h3 id="fan-token">Fan Token&lt;/h3>
-&lt;p>&lt;strong>Best for:&lt;/strong> Celebrities, musicians, sports clubs, artists, public figures&lt;/p>
-&lt;p>Fan tokens create a direct economic relationship between public figures and their audience. Holders get exclusive access, voting rights, and digital collectibles. The token becomes a symbol of fandom and a gateway to the inner circle.&lt;/p></description></item><item><title>Designing Token Utility - Guide</title><link>https://cca.sh/knowledge/guides/token-utility-design/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://cca.sh/knowledge/guides/token-utility-design/</guid><description>&lt;h2 id="designing-token-utility">Designing Token Utility&lt;/h2>
-&lt;p>Token utility is what your token actually does. Without clear utility, a token is just a number on a screen. This guide helps you design utility that drives engagement and creates lasting value.&lt;/p>
-&lt;h3 id="the-utility-spectrum">The Utility Spectrum&lt;/h3>
-&lt;p>Token utility ranges from simple to sophisticated:&lt;/p>
-&lt;p>&lt;strong>Simple&lt;/strong> — Token gates access to existing content or experiences. Low complexity, easy to implement, clear value proposition.&lt;/p>
-&lt;p>&lt;strong>Moderate&lt;/strong> — Token enables voting, governance, or community decision-making. Requires more community buy-in but creates deeper engagement.&lt;/p></description></item><item><title>FAQ</title><link>https://cca.sh/knowledge/faq/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://cca.sh/knowledge/faq/</guid><description/></item><item><title>Graduation Checklist - Guide</title><link>https://cca.sh/knowledge/guides/graduation-checklist/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://cca.sh/knowledge/guides/graduation-checklist/</guid><description>&lt;h2 id="graduation-checklist">Graduation Checklist&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Knowledge Base on CCASH — Whitelabel Money Services Platform</title><link>https://cca.sh/knowledge/</link><description>Recent content in Knowledge Base on CCASH — Whitelabel Money Services Platform</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://cca.sh/knowledge/index.xml" rel="self" type="application/rss+xml"/><item><title>FAQ</title><link>https://cca.sh/knowledge/faq/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://cca.sh/knowledge/faq/</guid><description>&lt;section class="page-hero bg-soft">
+ &lt;span class="section-label">Knowledge Base&lt;/span>
+ &lt;h1 class="section-title">Frequently Asked Questions&lt;/h1>
+ &lt;p class="section-desc">Common questions about the CCASH platform — what it is, how it works, and how to get started. From legal infrastructure to technology platform to the graduation model.&lt;/p>
+&lt;/section></description></item><item><title>Graduation Checklist - Guide</title><link>https://cca.sh/knowledge/guides/graduation-checklist/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://cca.sh/knowledge/guides/graduation-checklist/</guid><description>&lt;h2 id="graduation-checklist">Graduation Checklist&lt;/h2>
 &lt;p>Use this checklist to prepare for graduating from CCASH&amp;rsquo;s shared platform to your own self-hosted instance.&lt;/p>
-&lt;h3 id="community-readiness">Community Readiness&lt;/h3>
+&lt;h3 id="operational-readiness">Operational Readiness&lt;/h3>
 &lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Your community has been active for at least 3-6 months&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Your operation has been active for at least 3-6 months&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> You have consistent monthly engagement metrics&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Your token economy model is proven and stable&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Community members are aware of the upcoming transition&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Your operation model is proven and stable&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Your clients are aware of the upcoming transition&lt;/li>
 &lt;/ul>
 &lt;h3 id="technical-readiness">Technical Readiness&lt;/h3>
 &lt;ul>
@@ -25,8 +20,8 @@
 &lt;/ul>
 &lt;h3 id="data-readiness">Data Readiness&lt;/h3>
 &lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Your community records are complete and verified&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Token balances are accurate&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Your client records are complete and verified&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Wallet balances are accurate&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> Audit trail is continuous with no gaps&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> Compliance records are export-ready&lt;/li>
 &lt;/ul>
@@ -36,50 +31,44 @@
 &lt;li>Receive your graduation kit (deployment scripts, configuration, migration tools)&lt;/li>
 &lt;li>Deploy your self-hosted instance (CCASH provides support)&lt;/li>
 &lt;li>Verify the deployment meets all requirements&lt;/li>
-&lt;li>Migrate community data, token records, and audit history&lt;/li>
+&lt;li>Migrate client data, transaction records, and audit history&lt;/li>
 &lt;li>Verify data integrity — balances match, audit trail is continuous&lt;/li>
-&lt;li>Cut over your community to the self-hosted instance&lt;/li>
+&lt;li>Cut over your client base to the self-hosted instance&lt;/li>
 &lt;li>Update your DNS and branding&lt;/li>
 &lt;/ol>
 &lt;h3 id="post-graduation">Post-Graduation&lt;/h3>
 &lt;ul>
 &lt;li>&lt;input disabled="" type="checkbox"> Your self-hosted instance is running and verified&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Your community is active on the new instance&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Your operation is active on the new instance&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> You have access to ongoing CCASH platform updates&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> You can route regulated operations through CCASH if needed&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> You can route money-services operations through CCASH if needed&lt;/li>
 &lt;/ul>
-&lt;p>Need help? Contact the CCASH team for deployment support.&lt;/p></description></item><item><title>Launching Your Token to Your Community - Guide</title><link>https://cca.sh/knowledge/guides/community-launch/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://cca.sh/knowledge/guides/community-launch/</guid><description>&lt;h2 id="launching-your-token-to-your-community">Launching Your Token to Your Community&lt;/h2>
-&lt;p>You&amp;rsquo;ve chosen your token model and deployed on CCASH. Now it&amp;rsquo;s time to launch to your community. A successful launch turns interest into participation.&lt;/p>
-&lt;h3 id="before-launch">Before Launch&lt;/h3>
-&lt;p>&lt;strong>Tell your community what&amp;rsquo;s coming.&lt;/strong> Announce the token economy before it launches. Build anticipation. Explain what the token does, why it matters, and how to get it.&lt;/p>
-&lt;p>&lt;strong>Set expectations.&lt;/strong> Be clear about what the token enables — access, voting, rewards — and what it doesn&amp;rsquo;t do. Transparency builds trust.&lt;/p></description></item><item><title>Roadmap</title><link>https://cca.sh/knowledge/roadmap/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://cca.sh/knowledge/roadmap/</guid><description/></item><item><title>Getting Started with CCASH</title><link>https://cca.sh/knowledge/guides/getting-started/</link><pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate><guid>https://cca.sh/knowledge/guides/getting-started/</guid><description>&lt;nav class="guide-nav">
+&lt;p>Need help? Contact the CCASH team for deployment support.&lt;/p></description></item><item><title>Roadmap</title><link>https://cca.sh/knowledge/roadmap/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://cca.sh/knowledge/roadmap/</guid><description>&lt;section class="page-hero bg-soft">
+ &lt;span class="section-label">Knowledge Base&lt;/span>
+ &lt;h1 class="section-title">Platform Roadmap&lt;/h1>
+ &lt;p class="section-desc">What has shipped and what's coming next on the CCASH platform — from shared platform infrastructure to self-hosted graduation tooling.&lt;/p>
+&lt;/section>
+&lt;section class="content-section">
+ &lt;div class="content-container">
+ &lt;h2>Shipped&lt;/h2>
+ &lt;ul>
+ &lt;li>&lt;strong>v0.7.1 — Core operator console (May 2026).&lt;/strong> Go + HTMX application platform with multi-currency wallets (USD, EUR, GBP, JPY, INR fiat; USDT, USDC stablecoin; BTC, ETH crypto), send/receive/swap wizards with risk-tiered OTP approval gates, travel-cheque lifecycle (issue, redeem, convert, cancel), contacts directory, filterable transaction history, cryptographic audit trail, and seven user roles.&lt;/li>
+ &lt;li>&lt;strong>v0.7.0 — Whitelabel oversight role (April 2026).&lt;/strong> Aggregate operational visibility for whitelabel brand teams with PII-discipline enforced by architectural tests.&lt;/li>
+ &lt;li>&lt;strong>Site-profile brand parameterization (April 2026).&lt;/strong> Same binary boots as any operator brand by dropping a site-profile configuration.&lt;/li>
+ &lt;li>&lt;strong>Legal framework v1 (May 2026).&lt;/strong> Entity formation documents, governance policies, compliance procedures, and operational agreements ratified.&lt;/li>
+ &lt;li>&lt;strong>Website launch (June 2026).&lt;/strong> Full public website with product pages, knowledge base, glossary, and documentation.&lt;/li>
+ &lt;/ul>
+ &lt;p>See the &lt;a href="https://cca.sh/changelog/">Changelog&lt;/a> for the full release history.&lt;/p></description></item><item><title>Getting Started with CCASH</title><link>https://cca.sh/knowledge/guides/getting-started/</link><pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate><guid>https://cca.sh/knowledge/guides/getting-started/</guid><description>&lt;nav class="guide-nav">
  &lt;h4>In This Guide&lt;/h4>
  &lt;ul>
  &lt;li>&lt;a href="#overview">Platform Overview&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#issuers">For Issuers&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#investors">For Investors&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#brokers">For Brokers&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#operators">For Operators (MSB / PSP / VASP)&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#treasury">For Corporate Treasury&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#introducers">For Introducers &amp;amp; Partners&lt;/a>&lt;/li>
  &lt;li>&lt;a href="#verification">Verification Process&lt;/a>&lt;/li>
  &lt;li>&lt;a href="#support">Getting Help&lt;/a>&lt;/li>
  &lt;/ul>
  &lt;/nav>
  &lt;section id="overview" class="guide-section">
  &lt;h2>Platform Overview&lt;/h2>
- &lt;p>CCASH is a compliant platform for issuing, investing in, and distributing &lt;span class="glossary-term" data-term="security-token">security tokens&lt;/span>. We combine blockchain efficiency with traditional finance compliance to offer the best of both worlds.&lt;/p>
- &lt;h3>What We Offer&lt;/h3>
- &lt;ul>
- &lt;li>&lt;strong>Issuers:&lt;/strong> Tokenize assets, raise capital globally, manage cap tables automatically&lt;/li>
- &lt;li>&lt;strong>Investors:&lt;/strong> Access curated offerings, choose your custody model, receive automated distributions&lt;/li>
- &lt;li>&lt;strong>Brokers:&lt;/strong> Expand your product offering, earn competitive commissions, serve global clients&lt;/li>
- &lt;/ul>
- &lt;h3>Key Features&lt;/h3>
- &lt;ul>
- &lt;li>&lt;strong>Compliant by design:&lt;/strong> Built-in compliance workflows with full verification and audit trail&lt;/li>
- &lt;li>&lt;strong>Self-hosted sovereignty:&lt;/strong> Deploy on your own infrastructure with full data control&lt;/li>
- &lt;li>&lt;strong>Legal frameworks:&lt;/strong> &lt;span class="glossary-term" data-term="series-llc">Series LLC&lt;/span> and DAO LLC structures for legal isolation&lt;/li>
- &lt;li>&lt;strong>Grain architecture:&lt;/strong> OS-level isolation for every platform component&lt;/li>
- &lt;/ul>
- &lt;/section>
- &lt;section id="issuers" class="guide-section">
- &lt;h2>For Issuers&lt;/h2>
- &lt;p>Launch a tokenized securities offering in weeks, not months. Here's how to get started:&lt;/p></description></item></channel></rss>
+ &lt;p>CCASH is a whitelabel money-services platform — software that runs MSB, PSP, VASP and corporate-treasury operations, deployable on shared infrastructure or self-hosted. Launch as a Client Series operating as an Agent MSB under CCASH's US FinCEN registration. Graduate to your own self-hosted instance or your own license.&lt;/p></description></item></channel></rss>

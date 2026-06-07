@@ -1,12 +1,12 @@
 baseURL = 'https://cca.sh/'
 languageCode = 'en'
-title = 'CCASH — Tokenize Your Community'
+title = 'CCASH — Whitelabel Money Services Platform'
 disableHugoGeneratorInject = true
 canonifyURLs = false
 enableRobotsTXT = true
 
 [params]
-  description = "Tokenize your community. Start on a proven platform. Graduate to your own self-hosted instance. For family offices, creators, celebrities, sports clubs, lifestyle brands, and retail destinations."
+  description = "CCASH — whitelabel money-services platform. Launch under US FinCEN registration with built-in compliance. Graduate to your own infrastructure when ready."
   author = "CCASH"
   ogImage = "/og-image.png"
   siteName = "CCASH"

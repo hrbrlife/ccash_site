@@ -5,8 +5,6 @@ category: "compliance"
 relatedTerms:
   - slug: "four-eyes"
     label: "Four-Eyes"
-  - slug: "compliance-framework"
-    label: "Compliance Framework"
 date: "2026-06-01"
 ---
 

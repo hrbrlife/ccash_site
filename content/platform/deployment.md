@@ -1,7 +1,7 @@
 ---
 layout: "page"
 title: "Deployment"
-description: "Deployment model for the CCASH platform — single static Go binary, no JavaScript build step, mobile-first HTML and CSS, encrypted SQLite, and Sandstorm .spk packaging."
+description: "Deployment model for the CCASH platform — single static Go binary, no JS build step, mobile-first HTML/CSS, encrypted SQLite, Sandstorm .spk packaging."
 keywords: ["deployment", "technical", "setup", "configuration", "Go", "binary", "Sandstorm", "CCASH"]
 ogImage: "/og-image.png"
 stylesheets:
@@ -13,7 +13,7 @@ sitemap:
   changefreq: "yearly"
 ---
 
-<p class="lead">Deploy your own self-hosted CCASH instance — the final step in graduating from the shared platform to full sovereignty over your community token economy.</p>
+<p class="lead">Deploy your own self-hosted CCASH instance — the final step in graduating from the shared platform to full sovereignty over your money-services operation.</p>
 
 <section class="page-hero bg-soft">
     <span class="section-label">Platform</span>

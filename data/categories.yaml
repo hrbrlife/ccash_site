@@ -103,13 +103,13 @@ content_categories:
     en: "General"
     fr: "Général"
     color: "var(--slate)"
-  for-issuers:
-    en: "For Issuers"
-    fr: "Pour les émetteurs"
+  for-operators:
+    en: "For Operators"
+    fr: "Pour les opérateurs"
     color: "var(--brand-gold)"
-  for-investors:
-    en: "For Investors"
-    fr: "Pour les investisseurs"
+  for-treasury:
+    en: "For Treasury"
+    fr: "Pour la trésorerie"
     color: "var(--brand-teal)"
   product:
     en: "Product"
@@ -177,13 +177,13 @@ faq_categories:
     en: "General"
     fr: "Général"
     icon: "💬"
-  for-issuers:
-    en: "For Issuers"
-    fr: "Pour les émetteurs"
+  for-operators:
+    en: "For Operators"
+    fr: "Pour les opérateurs"
     icon: "🏢"
-  for-investors:
-    en: "For Investors"
-    fr: "Pour les investisseurs"
+  for-treasury:
+    en: "For Treasury"
+    fr: "Pour la trésorerie"
     icon: "💼"
   compliance:
     en: "Compliance"

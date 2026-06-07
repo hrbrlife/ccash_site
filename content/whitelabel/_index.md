@@ -1,8 +1,8 @@
 ---
 layout: "whitelabel"
 title: "Legal Framework"
-description: "Launch your community token economy under your own brand. CCASH provides the legal framework and technology platform behind the scenes. Graduate to self-hosted when you grow."
-keywords: ["whitelabel", "brand", "community tokens", "graduation", "self-hosted", "CCASH"]
+description: "Launch your money-services operation under your own brand. CCASH provides the legal framework and technology platform. Graduate to self-hosted when ready."
+keywords: ["whitelabel", "brand", "money-services platform", "graduation", "self-hosted", "CCASH"]
 ogImage: "/og-whitelabel.png"
 stylesheets:
   - "/css/main.css"
@@ -17,8 +17,8 @@ sitemap:
 
 <section class="page-hero bg-soft">
     <span class="section-label">Legal Framework</span>
-    <h1 class="section-title">Your brand. Your community. Our platform.</h1>
-    <p class="section-desc">Launch your community token economy under your own brand using CCASH's proven platform. Your community sees your brand. We provide the infrastructure. Graduate to your own self-hosted instance when you're ready.</p>
+    <h1 class="section-title">Your brand. Your operation. Our platform.</h1>
+    <p class="section-desc">Launch your money-services operation under your own brand using CCASH's proven platform. Your clients see your brand. We provide the infrastructure. Graduate to your own self-hosted instance when you're ready.</p>
 </section>
 
 <section class="content-section">
@@ -50,5 +50,5 @@ sitemap:
 <section class="cta-section">
     <h2>Ready to launch?</h2>
     <p>Contact us to start deploying your CCASH-powered operation.</p>
-    <a href="{{ "company/contact/" | relURL }}" class="btn btn-primary">Get Started</a>
+    <a href="/company/contact/" class="btn btn-primary">Get Started</a>
 </section>

@@ -2,11 +2,7 @@
 title: "Four-Eyes Principle - Glossary"
 description: "A governance requirement that certain critical actions must be approved by two distinct authorized signers before execution."
 category: "compliance"
-relatedTerms:
-  - slug: "governance-roles"
-    label: "Governance Roles"
-  - slug: "platform-disclaimer"
-    label: "Platform Disclaimer"
+relatedTerms: []
 date: "2026-06-01"
 ---
 

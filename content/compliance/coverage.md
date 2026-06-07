@@ -1,7 +1,7 @@
 ---
 layout: "page"
 title: "Jurisdictional Coverage"
-description: "Jurisdictional coverage for community tokenization on CCASH — supporting your path from the shared platform to your own self-hosted operation."
+description: "Jurisdictional coverage for CCASH money-services operations — US federal and Montana, with FinCEN MSB registration."
 keywords: ["coverage", "jurisdictions", "licensing", "CCASH"]
 ogImage: "/og-image.png"
 stylesheets:
@@ -21,7 +21,7 @@ sitemap:
 <section class="content-section">
     <div class="content-container">
         <h2>How Coverage Works</h2>
-        <p>CCASH's legal infrastructure provides a baseline framework for regulated financial services. Jurisdictional coverage is maintained through a combination of the legal entity structure and partner network routing.</p>
+        <p>CCASH's legal infrastructure provides a baseline framework for money-services operations. Jurisdictional coverage is maintained through a combination of the legal entity structure and partner network routing.</p>
         <ul>
             <li><strong>Direct Coverage:</strong> The legal entity structure provides coverage in applicable jurisdictions through entity formation and registration</li>
             <li><strong>Partner Network Routing:</strong> For additional jurisdictions, transactions route through partner entities who maintain the applicable local coverage</li>

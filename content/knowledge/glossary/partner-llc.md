@@ -2,11 +2,7 @@
 title: "Operating Entity - Glossary"
 description: "An operator's standalone entity within the CCASH legal infrastructure that holds their brand, intellectual property, and operational assets."
 category: "structure"
-relatedTerms:
-  - slug: "entity-compartment"
-    label: "Entity Compartment"
-  - slug: "governance-roles"
-    label: "Governance Roles"
+relatedTerms: []
 date: "2026-06-01"
 ---
 

@@ -31,9 +31,10 @@ show_menu() {
     echo "3) Build for production"
     echo "4) Build and check output"
     echo "5) Clean build directory"
-    echo "6) Exit"
+    echo "6) Deploy to CCA.sh (ws4 / public_static)"
+    echo "7) Exit"
     echo ""
-    read -p "Enter choice [1-6]: " choice
+    read -p "Enter choice [1-7]: " choice
 }
 
 # Main loop
@@ -85,6 +86,13 @@ while true; do
             echo ""
             ;;
         6)
+            echo ""
+            echo "🚀 Deploying to CCA.sh (ws4 / public_static)..."
+            echo ""
+            ./deploy-cca.sh
+            echo ""
+            ;;
+        7)
             echo ""
             echo "👋 Goodbye!"
             exit 0

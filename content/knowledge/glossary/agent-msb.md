@@ -1,13 +1,15 @@
 ---
-title: "Operator - Glossary"
-description: "An operator deploying the CCASH legal infrastructure and technology platform to serve customers under their own brand."
+title: "Agent MSB - Glossary"
+description: "An agent of a FinCEN-registered MSB, designated under 31 CFR §1022.380(d), conducting money-services activities under the principal's registration."
 category: "governance"
 relatedTerms:
-  - slug: "regulated-operator"
-    label: "Regulated Operator"
+  - slug: "msb"
+    label: "Money Services Business (MSB)"
   - slug: "client-series"
-    label: "Entity Compartment"
+    label: "Client Series"
+  - slug: "fincen"
+    label: "FinCEN"
 date: "2026-06-01"
 ---
 
-<section class="term-section"><h2>Full Definition</h2><p>An operator is a participant that deploys the CCASH legal infrastructure and technology platform to serve customers under their own brand. Operators establish their operating entities within the CCASH framework and deploy branded instances of the technology platform. Each operator operates within defined governance roles and complies with the CCASH compliance framework policies.</p></section>
+<section class="term-section"><h2>Full Definition</h2><p>An <strong>Agent MSB</strong> is a legal designation under 31 CFR §1022.380(d) where a business conducts money-services activities on behalf of a principal FinCEN-registered MSB. In the CCASH model, each whitelabel client launches as a Client Series (C-###) designated as an Agent MSB under CCASH's principal FinCEN registration. The Agent MSB operates under its own brand (DBA) while the principal MSB maintains the FinCEN registration, agent list, and AML program oversight. Agents can graduate to their own independent FinCEN registration (Path B — legal graduation).</p></section>

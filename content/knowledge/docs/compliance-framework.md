@@ -1,64 +1,62 @@
 ---
 title: "Compliance Framework - Documentation"
-description: "KYC credential NFTs, ComplianceConfig PDAs, transfer enforcement, regulatory reporting, and the 7-year audit trail - compliance as code, not as afterthought."
+description: "KYC/KYB intake, sanctions screening, transaction review, Travel Rule, four-eyes control, and 7-year signed audit trail — compliance for money-services."
 ogImage: "/og-image.png"
-keywords: ["compliance", "KYC", "regulatory reporting", "audit trail", "qualified investor", "regulatory exemption"]
+keywords: ["compliance", "KYC", "AML", "sanctions screening", "audit trail", "Travel Rule", "four-eyes", "MSB compliance"]
 stylesheets:
   - "/css/main.css"
   - "/css/pages/glossary.css"
   - "/css/pages/docs.css"
-heroDesc: "Compliance encoded in smart contracts and enforced at the protocol level - because paper policies don't stop non-compliant transfers."
+heroDesc: "Compliance enforced at every layer — because paper policies don't stop non-compliant transactions."
 draft: false
 date: "2026-02-24"
-lastmod: "2026-02-24"
+lastmod: "2026-06-06"
 sitemap:
   priority: 0.5
   changefreq: "monthly"
 ogtype: "article"
 ---
 <p class="lead">The CCASH compliance framework travels with you — from the shared platform to your own self-hosted instance. Compliance is built in at every stage of the graduation journey.</p>
-<h2>KYC Credential System</h2>
-        <p>Every investor on the CCASH platform carries a <span class="glossary-term" data-term="kyc">KYC</span> Credential NFT - an on-chain attestation of their verified identity, classification, and regulatory status. This NFT contains <strong>zero personally identifiable information</strong>. No names, no addresses, no document images. Only cryptographic proofs and classification flags that the <span class="glossary-term" data-term="smart-contract">smart contract</span> needs to enforce compliance rules.</p>
-        <p>The KYC Credential NFT metadata structure:</p>
-        <pre><code>KYC NFT Metadata (on-chain, no PII):
-├── investor_class: enum { Accredited, Professional, QualifiedPurchaser, Retail }
-├── jurisdiction_hash: [u8; 32]   // SHA256 of ISO country code, anonymized
-├── reg_exemption: enum { RegD506b, RegD506c, RegS, RegA, RegCF }
-├── verification_level: enum { Basic, Enhanced, InstitutionalEDD }
-├── issued_by: Pubkey             // Licensed KYC provider's license NFT
-├── issued_at: i64                // Unix timestamp
-├── expires_at: i64               // Credential expiration
-├── aml_clear: bool               // Anti-money laundering clearance
-└── pep_clear: bool               // Politically exposed person clearance</code></pre>
-        <p>The <code>investor_class</code> determines which offerings an investor can access. An <span class="glossary-term" data-term="qualified-investor">Qualified Investor</span> can participate in <span class="glossary-term" data-term="reg-d">regulatory exemption compliance framework</span> and compliance framework offerings. A <span class="glossary-term" data-term="professional-investor">Professional Investor</span> can access institutional tranches. A Retail investor is limited to <span class="glossary-term" data-term="reg-d">Reg A</span> and Reg CF offerings. The smart contract checks this on every mint, every transfer, every distribution claim.</p>
-        <p>The <code>jurisdiction_hash</code> is a SHA-256 hash of the investor's ISO country code - anonymized so that the blockchain reveals nothing about the investor's location, but the <span class="glossary-term" data-term="transfer-hook">Transfer Hook</span> can still enforce jurisdiction whitelists by comparing hashes.</p>
-        <p>Credentials expire. When <code>expires_at</code> passes, the investor's KYC is no longer valid, and the smart contract will reject any new minting or transfer operations until a fresh credential is issued. The platform does not wait for expiration to bite - the KYC Grain tracks expiration windows and triggers re-verification workflows proactively.</p>
-        <h2>Compliance Configuration</h2>
-        <p>Every offering on the platform carries a <code>ComplianceConfig</code> <span class="glossary-term" data-term="pda">PDA</span> - a Program Derived Address account that encodes the regulatory constraints for that specific offering. This is compliance as data, stored on-chain, immutable once set (modifiable only by the Issuer with Platform Operator approval):</p>
-        <pre><code>ComplianceConfig PDA Fields:
-├── offering_id: Pubkey            // The offering this config governs
-├── allowed_jurisdictions: Vec&lt;[u8; 32]&gt;  // SHA256 hashes of allowed ISO codes
-├── min_investment: u64            // Minimum investment amount (in cents)
-├── lock_up_days: u32              // Mandatory holding period before transfer
-├── max_investors: u32             // Maximum number of investors (e.g., 2000 for regulatory exemption)
-├── accreditation_required: bool   // Whether accredited status is mandatory
-├── reg_exemption: enum            // Which regulatory exemption applies
-├── features: u64                  // Bitmask for feature flags (pause, etc.)
-└── version: u8                    // PDA version for migration support</code></pre>
-        <p>The <code>max_investors</code> field is critical for <span class="glossary-term" data-term="reg-d">regulatory exemption</span> offerings - compliance framework limits non-qualified investors to 35, while the total investor count must remain under SEC thresholds. The smart contract tracks the current investor count in the <code>OfferingState</code> PDA and rejects any mint that would exceed the limit.</p>
-        <p>The <code>lock_up_days</code> field enforces mandatory holding periods. For regulatory exemption securities, this is typically 6-12 months. The <code>transfer_with_compliance</code> instruction checks the investor's <code>locked_until</code> timestamp against the current slot time - if the lock-up hasn't expired, the transfer is rejected at the protocol level.</p>
-        <h2>Transfer Enforcement</h2>
-        <p>Every token transfer on the platform passes through compliance enforcement. There are no unverified transfers. The <code>transfer_with_compliance</code> instruction performs the following checks before allowing any movement of <span class="glossary-term" data-term="security-token">security tokens</span>:</p>
-        <ol>
-            <li><strong>KYC Validity:</strong> Both the sender and receiver must hold valid, unexpired KYC Credential NFTs. If either credential has expired or been revoked, the transfer is rejected.</li>
-            <li><strong>Lock-Up Period:</strong> The sender's <code>locked_until</code> timestamp must be in the past. If the mandatory holding period hasn't elapsed, the transfer is rejected.</li>
-            <li><strong>Jurisdiction Whitelist:</strong> The receiver's <code>jurisdiction_hash</code> must appear in the offering's <code>allowed_jurisdictions</code> list. A <span class="glossary-term" data-term="reg-s">international framework</span> offering restricted to non-US investors will reject any transfer to a US-jurisdiction wallet.</li>
-            <li><strong>Accreditation Tier:</strong> The receiver must meet the offering's accreditation requirements. A <span class="glossary-term" data-term="reg-d">regulatory exemption compliance framework</span> offering requires the receiver to be an <span class="glossary-term" data-term="qualified-investor">Qualified Investor</span> or above.</li>
-            <li><strong>Investor Count:</strong> The transfer must not cause the offering to exceed its <code>max_investors</code> limit (relevant when the receiver is a new investor, not an existing holder).</li>
-        </ol>
-        <p>These checks are enforced by the platform's compliance system at the transfer layer. Non-compliant transfers are not logged and ignored; they are <strong>rejected</strong>. The tokens do not move. See the <a href="/knowledge/docs/transfer-rules/">Transfer Rules documentation</a> for the complete enforcement mechanism.</p>
+<h2>KYC / KYB Verification</h2>
+        <p>Every client on the CCASH platform completes identity verification before any transaction can occur. The platform supports configurable verification tiers:</p>
+        <ul>
+            <li><strong>Basic verification</strong> — Email and identity document. For low-value, low-risk activity.</li>
+            <li><strong>Standard verification</strong> — Identity document upload plus biometric verification (via integrated identity infrastructure). For standard money-services operations.</li>
+            <li><strong>Enhanced due diligence (EDD)</strong> — Full KYC/KYB with source of funds, beneficial ownership, and background checks. Required for high-risk verticals and high-value transactions.</li>
+        </ul>
+        <p>Verification credentials carry cryptographic proofs — <strong>zero personally identifiable information</strong> is exposed in transit. The platform verifies identity status without revealing the underlying data.</p>
+        <p>Credentials expire. When the expiry date passes, the platform rejects new transactions until a fresh verification is completed. The system tracks expiration windows and triggers re-verification workflows proactively.</p>
+        <h2>Sanctions Screening</h2>
+        <p>The platform integrates with dedicated compliance screening infrastructure that screens identities and transactions against OFAC sanctions lists. The platform surfaces screening verdicts at key checkpoints:</p>
+        <ul>
+            <li><strong>Onboarding</strong> — Client identity intake submitted for screening before account activation; verdict surfaced for operator review</li>
+            <li><strong>Transaction initiation</strong> — Sender and receiver screened on every money-movement instruction; the platform receives and enforces the screening verdict</li>
+            <li><strong>Ongoing review</strong> — Periodic re-screening of the client base against updated lists; results surfaced in the compliance dashboard</li>
+        </ul>
+        <p>Sanctions hits are surfaced in the compliance review queue for operator action. No automated override.</p>
+        <h2>Transaction Review &amp; Risk Classification</h2>
+        <p>Every transaction passes through a risk-tiered classification that surfaces operator-facing review responsibilities:</p>
+        <ul>
+            <li><strong>Low risk</strong> — Standard fiat transfers below threshold. Standard verification.</li>
+            <li><strong>Medium risk</strong> — Transfers above $1,000 or involving higher-risk corridors. Enhanced verification.</li>
+            <li><strong>High risk</strong> — Transfers above $10,000, crypto currencies, or flagged corridors. Multi-factor verification plus four-eyes approval required.</li>
+        </ul>
+        <p>Risk classification considers: transaction amount, currency pair, sender/receiver jurisdictions, and client risk rating. The platform flags unusual patterns — velocity spikes, structuring attempts, high-risk geography shifts — for operator review.</p>
+        <h2>Travel Rule Compliance</h2>
+        <p>Cross-border transfers carry Travel Rule envelope data as required under 31 CFR §1022.380. The platform's envelope handlers attach originator and beneficiary information to every qualifying transfer. For VASP-to-VASP transfers, the envelope protocol ensures both sides exchange the required identity information before settlement.</p>
+        <p>Travel Rule data is cryptographically signed, logged to the audit trail, and retained for the regulatory period.</p>
+        <h2>Four-Eyes Control</h2>
+        <p>Critical operations require <strong>two distinct signers</strong> with cryptographic signature verification:</p>
+        <ul>
+            <li>High-value transactions above threshold</li>
+            <li>KYC final approval</li>
+            <li>Sanctions-hit override decisions</li>
+            <li>Refunds over threshold</li>
+            <li>SAR filing decisions</li>
+        </ul>
+        <p>The operator drafts. The client approves. Both signatures are chain-committed — the second signer verifies the first signature before adding their own. No single party can act alone on protected operations.</p>
         <h2>Regulatory Reporting</h2>
-        <p>Compliance is not just enforcement - it is reporting. The platform generates the following regulatory filings and reports, automated where possible, human-reviewed where required:</p>
+        <p>The platform generates the following regulatory reports, automated where possible, human-reviewed where required:</p>
         <table>
             <thead>
                 <tr>
@@ -70,63 +68,47 @@ ogtype: "article"
             </thead>
             <tbody>
                 <tr>
-                    <td><strong>Form D</strong></td>
-                    <td>SEC (EDGAR)</td>
-                    <td>Per offering + annual amendment</td>
-                    <td>Notice of exempt offering. Generated as XML validated against the SEC EDGAR schema. Filed within 15 days of first sale.</td>
-                </tr>
-                <tr>
-                    <td><strong>Blue Sky Filings</strong></td>
-                    <td>State regulators</td>
-                    <td>Per state, per offering</td>
-                    <td>State-level securities exemption filings. The platform tracks per-state exemptions and investor counts to ensure <span class="glossary-term" data-term="compliance">compliance</span> with each state's requirements.</td>
-                </tr>
-                <tr>
-                    <td><strong><span class="glossary-term" data-term="aml">AML</span>/SAR</strong></td>
+                    <td><strong>Suspicious Activity Report (SAR)</strong></td>
                     <td>FinCEN</td>
                     <td>As needed</td>
-                    <td>Suspicious Activity Reports. Automated flagging based on transaction patterns, with human compliance officer review before filing.</td>
+                    <td>Automated flagging based on transaction patterns, with human compliance officer review before filing. Tipping-off discipline enforced.</td>
                 </tr>
                 <tr>
-                    <td><strong>K-1</strong></td>
-                    <td>IRS</td>
-                    <td>Annual</td>
-                    <td>Partner's share of income for LLC pass-through taxation. Generated from on-chain <span class="glossary-term" data-term="distributions">distribution</span> records and <span class="glossary-term" data-term="cap-table">cap table</span> snapshots at tax year end.</td>
+                    <td><strong>Currency Transaction Report (CTR)</strong></td>
+                    <td>FinCEN</td>
+                    <td>Per transaction</td>
+                    <td>Filed for cash transactions exceeding $10,000. Generated from platform transaction records.</td>
                 </tr>
                 <tr>
-                    <td><strong><span class="glossary-term" data-term="reg-s">international framework</span> Compliance</strong></td>
-                    <td>SEC</td>
-                    <td>Ongoing</td>
-                    <td>Non-US investor tracking, flowback restrictions, and distribution compliance period monitoring.</td>
+                    <td><strong>Agent List</strong></td>
+                    <td>FinCEN</td>
+                    <td>Annual (Jan 1)</td>
+                    <td>Updated list of Agent MSBs operating under CCASH's FinCEN registration, retained ≥ 5 years.</td>
                 </tr>
                 <tr>
-                    <td><strong>Cap Table Snapshots</strong></td>
+                    <td><strong>Transaction Ledger Export</strong></td>
                     <td>Internal / Auditors</td>
                     <td>On demand</td>
-                    <td>Ownership snapshots pulled directly from on-chain state. Immutable, verifiable, and exportable in standard formats.</td>
+                    <td>Complete transaction history pulled from the cryptographically signed ledger. Immutable, verifiable, exportable.</td>
                 </tr>
             </tbody>
         </table>
-        <p>The Regulatory Reporting Grain (a compliance-grain in Go) automates the generation of these reports. Form D XML is validated against the SEC EDGAR schema before submission. Blue Sky filings track per-state investor counts. AML/SAR flagging uses rule-based detection with human review - the system flags, a compliance officer decides.</p>
         <h2>Audit Trail</h2>
-        <p>Every action across every grain and smart contract is logged. This is not optional, not configurable, not something that can be turned off for performance reasons. The audit trail is the regulatory backbone of the platform:</p>
+        <p>Every action across the platform is logged. This is not optional, not configurable, not something that can be turned off:</p>
         <pre><code>AuditEvent {
     id,                    // Unique event identifier
     timestamp,             // Precise event time
     severity,              // info, warning, critical
     category,              // auth, transfer, compliance, governance
-    actor_id,              // Wallet address
-    actor_type,            // NFT role (Operator, Trustee, Broker, etc.)
+    actor_id,              // Actor identity
+    actor_role,            // admin, collaborator, auditor, client, etc.
     action,                // What was done
     resource,              // What it was done to
-    resource_type,         // Offering, investor, distribution, etc.
     success,               // Whether the action succeeded
     error_message,         // Why it failed (if applicable)
-    grain_id,              // Which grain processed the action
-    offering_id,           // Which offering was affected
-    series_id,             // Which Series LLC
+    signer_pubkey,         // Ed25519 public key of the signer
     metadata               // Additional context (JSON)
 }</code></pre>
-        <p><strong>Seven-year retention</strong> - required by SEC regulations for broker-dealer records and investment adviser records. Every audit event is written to the grain's append-only journal, encrypted at rest with AES-256, and replicated for durability. After the 7-year period, automated purge with legal hold override ensures data is retained only as long as required.</p>
-        <p>The audit trail is not just for regulators. It is the system's memory. Grain journals support deterministic replay - given the same sequence of audit events, the grain reconstructs the identical state. This is how disaster recovery works: restore the journal, replay the events, verify the state. No backup snapshots needed. The log <em>is</em> the truth.</p>
+        <p><strong>Seven-year retention</strong> — required under the Bank Secrecy Act for MSB records. Every audit event is written to an append-only journal, encrypted at rest with AES-256. After the retention period, automated purge with legal-hold override ensures data is retained only as long as required.</p>
+        <p>The audit trail is not just for regulators. It is the system's memory. Append-only journals support deterministic replay — given the same sequence of events, the system reconstructs identical state. This is how disaster recovery works: restore the journal, replay the events, verify the state. The log <em>is</em> the truth.</p>
     </div>

@@ -32,7 +32,7 @@
     <div class="kb-glossary-featured">
         <h4>{{ if eq $lang "fr" }}Termes Populaires{{ else }}Popular Terms{{ end }}</h4>
         <div class="kb-glossary-terms">
-            {{ $popular := slice "kyc" "nft-hierarchy" "grain" "threshold-signing" "security-token" "smart-contract" "escrow" "compliance" "cap-table" }}
+            {{ $popular := slice "kyc" "msb" "grain" "threshold-signing" "agent-msb" "smart-contract" "escrow" "compliance" "four-eyes" }}
             {{ range $popular }}
             {{ $slug := . }}
             {{ range $glossaryPages }}

@@ -2,11 +2,7 @@
 title: "Series LLC - Glossary"
 description: "An LLC structure that allows creation of legally separate compartments with segregated assets and liabilities."
 category: "structure"
-relatedTerms:
-  - slug: "entity-compartment"
-    label: "Entity Compartment"
-  - slug: "operating-entity"
-    label: "Operating Entity"
+relatedTerms: []
 date: "2026-06-01"
 ---
 

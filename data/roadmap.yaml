@@ -15,10 +15,10 @@ hero:
     en: "CCASH Roadmap"
     fr: "Feuille de route CCASH"
   description:
-    en: "Building a complete legal infrastructure and technology platform for regulated financial services. Track our progress from alpha to production."
+    en: "Building a complete legal infrastructure and technology platform for money-services operations. Track our progress from alpha to production."
     fr: "Construire une infrastructure juridique et une plateforme technologique complètes pour les services financiers réglementés. Suivez notre progression de l'alpha à la production."
   subtitle:
-    en: "Building a complete legal infrastructure and technology platform for regulated financial services. Track our progress from alpha to production."
+    en: "Building a complete legal infrastructure and technology platform for money-services operations. Track our progress from alpha to production."
     fr: "Construire une infrastructure juridique et une plateforme technologique complètes pour les services financiers réglementés. Suivez notre progression de l'alpha à la production."
 
 vision:
@@ -29,9 +29,9 @@ vision:
     en: "Legal Infrastructure for the Next Generation of Financial Services"
     fr: "Infrastructure juridique pour la prochaine génération de services financiers"
   paragraphs:
-    - en: "CCASH is building the legal, compliance, and technology stack that regulated financial services operators need to launch and scale. We combine entity frameworks, compliance operations, and a Go + HTMX application platform into a unified offering."
+    - en: "CCASH is building the legal, compliance, and technology stack that money-services operators need to launch and scale. We combine entity frameworks, compliance operations, and a Go + HTMX application platform into a unified offering."
       fr: "CCASH construit la pile juridique, de conformité et technologique dont les opérateurs de services financiers réglementés ont besoin pour lancer et développer leurs activités. Nous combinons des cadres d'entités juridiques, des opérations de conformité et une plateforme d'application Go + HTMX en une offre unifiée."
-    - en: "Every milestone on this roadmap brings us closer to a world where regulated operators can deploy complete financial infrastructure in days, not months — with full legal protection, compliance automation, and sovereign control over their data and operations."
+    - en: "Every milestone on this roadmap brings us closer to a world where MSB operators can deploy complete financial infrastructure in days, not months — with full legal protection, compliance automation, and sovereign control over their data and operations."
       fr: "Chaque jalon de cette feuille de route nous rapproche d'un monde où les opérateurs réglementés peuvent déployer une infrastructure financière complète en jours, pas en mois — avec une protection juridique complète, une automatisation de la conformité et un contrôle souverain sur leurs données et opérations."
 
 phases:
@@ -50,7 +50,7 @@ phases:
           en: "Legal Entity Framework"
           fr: "Cadre d'entité juridique"
         description:
-          en: "Entity formation, operating agreements, and governance structures for regulated operators."
+          en: "Entity formation, operating agreements, and governance structures for MSB operators."
           fr: "Formation d'entités, conventions d'exploitation et structures de gouvernance pour les opérateurs réglementés."
         status: "completed"
         category: "legal"
@@ -224,8 +224,8 @@ phases:
           en: "Multi-Jurisdiction Compliance"
           fr: "Conformité multi-juridiction"
         description:
-          en: "Expanded compliance coverage for EU, UK, APAC, and additional US state regulations."
-          fr: "Couverture de conformité élargie pour l'UE, le RU, l'APAC et des réglementations supplémentaires des États américains."
+          en: "Expanded compliance coverage for additional US state regulations."
+          fr: "Couverture de conformité élargie pour des réglementations supplémentaires des États américains."
         status: "upcoming"
         category: "legal"
         tags: ["legal", "compliance", "expansion"]
@@ -318,8 +318,8 @@ phases:
           en: "Global Standard"
           fr: "Standard mondial"
         description:
-          en: "Become the reference implementation for regulated financial services infrastructure."
-          fr: "Devenir l'implémentation de référence pour l'infrastructure des services financiers réglementés."
+          en: "Become the reference implementation for money-services operations infrastructure."
+          fr: "Devenir l'implémentation de référence pour l'infrastructure des opérations de services monétaires."
         status: "future"
         category: "product"
         tags: ["product", "milestone"]
@@ -331,10 +331,10 @@ cta:
     en: "Join Us on the Journey"
     fr: "Rejoignez-nous dans cette aventure"
   text:
-    en: "Be part of the next generation of regulated financial services infrastructure."
+    en: "Be part of the next generation of money-services operations infrastructure."
     fr: "Faites partie de la prochaine génération d'infrastructure de services financiers réglementés."
   subtitle:
-    en: "Be part of the next generation of regulated financial services infrastructure."
+    en: "Be part of the next generation of money-services operations infrastructure."
     fr: "Faites partie de la prochaine génération d'infrastructure de services financiers réglementés."
   buttons:
     - href: "/company/contact/"

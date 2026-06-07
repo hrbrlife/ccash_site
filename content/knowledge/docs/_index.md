@@ -27,3 +27,15 @@ keywords:
   - "technical reference"
 ogImage: "/og-image.png"
 ---
+
+<section class="page-hero bg-soft">
+    <span class="section-label">Knowledge Base</span>
+    <h1 class="section-title">Documentation</h1>
+    <p class="section-desc">Platform documentation covering the CCASH technology stack, architecture, and operator workflows — from platform overview to deployment guides.</p>
+</section>
+
+<section class="content-section">
+    <div class="content-container">
+        <p>The CCASH documentation covers the full platform surface: platform overview and architecture, multi-currency wallets and money movement, approval gates and multi-party control, compliance framework and Travel Rule integration, back-office surfaces, whitelabel deployment via site profiles, the graduation model, and self-hosting guides. Start with <a href="/knowledge/docs/platform-overview/">Platform Overview</a> or jump directly to any topic below.</p>
+    </div>
+</section>

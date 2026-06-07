@@ -2,7 +2,7 @@
 category: compliance
 date: '2026-06-01'
 description: Adherence to legal and regulatory requirements. CCASH provides built-in
-  compliance infrastructure for every community token economy.
+  compliance infrastructure for every money-services operation money-services operation.
 lastmod: '2026-06-01'
 relatedTerms:
 - label: KYC
@@ -16,4 +16,4 @@ tags:
 - compliance
 title: Compliance - Glossary
 ---
-Compliance means adhering to the legal and regulatory requirements that apply to your operations. CCASH provides built-in compliance infrastructure — identity verification, transaction monitoring, audit trails, and reporting — for every community token economy on the platform, whether on the shared platform or a self-hosted instance.
+Compliance means adhering to the legal and regulatory requirements that apply to your operations. CCASH provides built-in compliance infrastructure — identity verification, transaction monitoring, audit trails, and reporting — for every money-services operation money-services operation on the platform, whether on the shared platform or a self-hosted instance.

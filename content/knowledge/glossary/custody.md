@@ -12,4 +12,4 @@ tags:
 - finance
 title: Custody - Glossary
 ---
-Custody is the safekeeping of assets on behalf of token holders. CCASH provides custody infrastructure through its capability-secured grain architecture, with multi-party controls and cryptographic audit trails. Whether on the shared platform or a self-hosted instance, asset custody follows the same security model.
+Custody is the safekeeping of assets on behalf of wallet holders. CCASH provides custody infrastructure through its capability-secured grain architecture, with multi-party controls and cryptographic audit trails. Whether on the shared platform or a self-hosted instance, asset custody follows the same security model.

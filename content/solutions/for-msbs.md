@@ -1,8 +1,8 @@
 ---
 layout: "page"
-title: "For Creators &amp; Influencers"
-description: "Turn your audience into a community economy. Create tokens for paid subscriptions, exclusive content, and community rewards. Start on CCASH. Graduate to your own platform."
-keywords: ["creator", "influencer", "community tokens", "subscription", "audience monetization", "CCASH"]
+title: "For MSBs"
+description: "Launch your MSB on CCASH. Multi-currency wallets, payments, FX, and compliance. Start as an Agent MSB under FinCEN registration. Graduate to your own license."
+keywords: ["MSB", "money services business", "FinCEN", "money transmitter", "payments", "FX", "compliance", "graduation", "CCASH"]
 ogImage: "/og-solutions.png"
 stylesheets:
   - "/css/main.css"
@@ -17,24 +17,27 @@ sitemap:
 
 <section class="page-hero bg-soft">
     <span class="section-label">Solutions</span>
-    <h1 class="section-title">For Creators &amp; Influencers</h1>
-    <p class="section-desc">Your audience is your asset. Turn followers into a token-powered community economy. Start monetizing on CCASH's proven platform today. Graduate to your own self-hosted platform when you're ready.</p>
+    <h1 class="section-title">For Money Services Businesses</h1>
+    <p class="section-desc">Launch your MSB on CCASH's proven platform. Multi-currency wallets, send and receive, FX, travel cheques, and full compliance operations — all under your brand. Start as an Agent MSB under CCASH's US FinCEN registration. Graduate to your own self-hosted instance or your own license.</p>
 </section>
 
 <section class="content-section">
     <div class="content-container">
-        <h2>The Graduation Path for Creators</h2>
-        <p>Financial influencers, bloggers, newsletter writers, and content creators build real audiences. The problem: most monetization platforms take a cut, control the relationship, and lock you in. CCASH flips the model.</p>
-        <p><strong>Start on the shared platform.</strong> Launch your community token in days, not months. Tokens for paid subscriptions, exclusive content access, voting on topics, community rewards — whatever model fits your audience. We handle the infrastructure.</p>
-        <p><strong>Graduate when you grow.</strong> Your own self-hosted CCASH instance. Your brand, your community, your data. No platform taking a percentage. No risk of policy changes cutting your revenue. You own the entire stack.</p>
+        <h2>The Graduation Path for MSBs</h2>
+        <p>Money Services Businesses face a hard problem: building a compliant platform from scratch takes years and costs millions. Renting a platform locks you in. CCASH gives you a third path — start on proven shared infrastructure, graduate when you're ready.</p>
+        <p><strong>Start as a Client Series.</strong> Launch under CCASH's US FinCEN MSB registration as an Agent MSB. Multi-currency wallets across fiat, stablecoin, and crypto. Send, receive, swap, and travel-cheque issuance. Operator-facing KYC/AML review surfaces and Travel Rule handoff interfaces. Your brand on the front. CCASH infrastructure behind the scenes.</p>
+        <p><strong>Graduate on your terms.</strong> Two paths. Path A — deploy your own self-hosted CCASH instance on your infrastructure while staying on CCASH's FinCEN registration. Path B — obtain your own FinCEN MSB registration and state money-transmitter licenses. Either way: your data, your clients, your audit trail transfer cleanly. No lock-in.</p>
 
         <h2>What You Can Do</h2>
         <ul>
-            <li>Launch a community token for your audience</li>
-            <li>Token-gated content, channels, and experiences</li>
-            <li>Subscription and membership models powered by tokens</li>
-            <li>Community voting and governance on your direction</li>
-            <li>Graduate to your own branded, self-hosted platform</li>
+            <li>Multi-currency wallets — fiat, stablecoin, and crypto in one console</li>
+            <li>Send, receive, and swap with risk-tiered OTP approval gates</li>
+            <li>Travel-cheque issuance and redemption</li>
+            <li>KYC/AML review surfaces — sanctions screening verdicts integrated for operator review</li>
+            <li>Four-eyes control on high-value money movement</li>
+            <li>Cryptographically signed audit trail — every action verifiable</li>
+            <li>Seven user roles: admin, collaborator, auditor, client, client assistant, client view-only, whitelabel oversight</li>
+            <li>Graduate to your own self-hosted instance or your own MSB license</li>
         </ul>
     </div>
 </section>

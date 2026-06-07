@@ -2,11 +2,7 @@
 title: "Platform Ecosystem - Glossary"
 description: "The complete network of operators, legal infrastructure, technology platform, and governance framework that constitutes CCASH."
 category: "structure"
-relatedTerms:
-  - slug: "entity-compartment"
-    label: "Entity Compartment"
-  - slug: "operating-entity"
-    label: "Operating Entity"
+relatedTerms: []
 date: "2026-06-01"
 ---
 

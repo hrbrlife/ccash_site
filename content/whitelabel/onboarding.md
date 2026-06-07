@@ -13,7 +13,7 @@ sitemap:
   changefreq: "monthly"
 ---
 
-<p class="lead">Your path from initial inquiry to a live community token platform — start on CCASH's shared infrastructure or deploy your own self-hosted instance.</p>
+<p class="lead">Your path from initial inquiry to a live money-services platform — start on CCASH's shared infrastructure or deploy your own self-hosted instance.</p>
 
 <section class="page-hero bg-soft">
     <span class="section-label">Onboarding</span>

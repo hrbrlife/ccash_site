@@ -1,8 +1,8 @@
 ---
 layout: "page"
 title: "Platform"
-description: "CCASH is a tokenization platform built on the graduation model. Launch your community token economy on shared infrastructure. Graduate to your own self-hosted instance when you grow."
-keywords: ["platform", "tokenization", "community tokens", "graduation", "self-hosted", "Go", "HTMX", "CCASH"]
+description: "CCASH — whitelabel money-services platform. Launch on shared infrastructure as an Agent MSB, then graduate to self-hosted or your own license."
+keywords: ["platform", "money services", "graduation", "self-hosted", "Go", "HTMX", "CCASH"]
 ogImage: "/og-platform.png"
 stylesheets:
   - "/css/main.css"
@@ -27,17 +27,17 @@ sitemap:
 
         <div class="concept-box">
             <h4>Shared Platform</h4>
-            <p>Launch your community token economy on CCASH's proven shared infrastructure. No development required, no infrastructure to manage. Fan tokens, loyalty tokens, membership tokens, community tokens — launch in days, not months. We handle security, compliance, and operations. You focus on your community.</p>
+            <p>Launch your money-services operation on CCASH's proven shared infrastructure. No development required, no infrastructure to manage. Multi-currency wallets, payments, FX, and compliance — launch in weeks, not months. We handle security, compliance, and operations. You focus on your operation.</p>
         </div>
 
         <div class="concept-box">
             <h4>Growth Phase</h4>
-            <p>As your community grows, add features, onboard members, and iterate on your token model. The platform scales with you — multi-token support, community governance tools, analytics and insights, member management. Your community, your rules, your direction.</p>
+            <p>As your operation grows, add features, onboard members, and iterate on your service model. The platform scales with you — multi-currency support, governance tools, analytics and insights, member management. Your operation, your rules, your direction.</p>
         </div>
 
         <div class="concept-box">
             <h4>Self-Hosted Instance</h4>
-            <p>When you're ready, deploy your own self-hosted CCASH instance on your infrastructure. Your brand, your data, your terms. Your community data, token history, and audit trail transfer cleanly. No lock-in, no platform risk, no ongoing platform fees. The same CCASH platform, now under your complete control.</p>
+            <p>When you're ready, deploy your own self-hosted CCASH instance on your infrastructure. Your brand, your data, your terms. Your client data, transaction history, and audit trail transfer cleanly. No lock-in, no platform risk, no ongoing platform fees. The same CCASH platform, now under your complete control.</p>
         </div>
 
         <h2>Platform Principles</h2>
@@ -52,7 +52,7 @@ sitemap:
 </section>
 
 <section class="cta-section">
-    <h2>Ready to tokenize your community?</h2>
+    <h2>Ready to launch your money-services operation?</h2>
     <p>Start on the shared platform. Graduate when you're ready.</p>
     <a href="mailto:legal@cca.sh?subject=CCASH%20Inquiry" class="btn btn-primary">Get Started</a>
 </section>

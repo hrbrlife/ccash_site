@@ -7,7 +7,7 @@ stylesheets:
   - "/css/main.css"
   - "/css/pages/glossary.css"
   - "/css/pages/docs.css"
-heroDesc: "CCASH gives you a proven platform to launch your community token economy. Start on shared infrastructure. Graduate to your own self-hosted instance. No lock-in, no platform risk."
+heroDesc: "CCASH gives you a proven platform to launch your money-services operation. Start on shared infrastructure. Graduate to your own self-hosted instance. No lock-in, no platform risk."
 draft: false
 date: "2026-05-15"
 lastmod: "2026-05-15"
@@ -17,8 +17,8 @@ sitemap:
 ogtype: "article"
 ---
 <h2>Welcome to CCASH</h2>
-        <p><strong>CCASH gives you a proven platform to launch your community token economy.</strong> Start on our shared platform to validate your model. Graduate to your own self-hosted instance when you grow — your brand, your infrastructure, your data. No lock-in, no platform risk.</p>
-        <p>CCASH is a legal infrastructure and technology platform for regulated financial services. It provides entity frameworks, compliance operations, and a Go + HTMX application platform — all designed to deploy on your own infrastructure. CCASH enables regulated operators to establish and run compliant financial services with full control over their data and operations.</p>
+        <p><strong>CCASH gives you a proven platform to launch your money-services operation.</strong> Start on our shared platform to validate your model. Graduate to your own self-hosted instance when you grow — your brand, your infrastructure, your data. No lock-in, no platform risk.</p>
+        <p>CCASH is a legal infrastructure and technology platform for money-services operations. It provides entity frameworks, compliance operations, and a Go + HTMX application platform — all designed to deploy on your own infrastructure. CCASH enables MSB, PSP, VASP, and corporate-treasury operators to establish and run compliant money-services operations with full control over their data and operations.</p>
         <p>This guide walks you through deploying and configuring the platform: from infrastructure setup to your first operational workflow. If you want the full architectural picture first, start with the <a href="/knowledge/docs/platform-overview/">Platform Overview</a>.</p>
         <h3>What You Need</h3>
         <ul>
@@ -59,8 +59,8 @@ ogtype: "article"
         <p>Deploy the CCASH platform on your chosen infrastructure. The platform runs on standard Linux distributions and requires no specialized hardware. Setup involves provisioning your server, configuring networking and DNS, and installing the CCASH platform components.</p>
         <p>During setup, the platform provisions a root grain that serves as your administrative entry point. This grain establishes the foundational capability hierarchy and provides the tools for further configuration.</p>
         <h2>Step 2: Configure Entity Framework</h2>
-        <p>CCASH provides pre-built legal entity frameworks that you can configure for your operational needs. The platform supports Series LLC and DAO LLC structures, each providing legal isolation between operational compartments.</p>
-        <p>Configuration includes defining your entity structure, establishing governance rules, and setting up participant roles. Each role receives specific capabilities through the NFT authority hierarchy.</p>
+        <p>CCASH provides pre-built legal entity frameworks that you can configure for your operational needs. The platform supports Montana Series LLC structures, providing legal isolation between operational compartments through dedicated Client Series cells.</p>
+        <p>Configuration includes defining your entity structure, establishing governance rules, and setting up participant roles. Each role receives specific capabilities through the cryptographic authority hierarchy.</p>
         <h2>Step 3: Configure Compliance Workflows</h2>
         <p>Set up your compliance operations including identity verification procedures, document management, and audit trail configuration. Compliance workflows are configurable to meet your regulatory requirements.</p>
         <p>The compliance framework includes:</p>
@@ -80,7 +80,7 @@ ogtype: "article"
         <p>Every action on CCASH passes through multiple authentication layers. No single layer is sufficient — all must agree before any operation proceeds:</p>
         <ol>
             <li><strong>Cryptographic Signature</strong> - Proves identity via cryptographic key. The foundation of the authentication model.</li>
-            <li><strong>NFT Verification</strong> - Proves role authorization. Your credential must hold the correct NFT for the action you are requesting.</li>
+            <li><strong>Role Verification</strong> - Proves role authorization. Your credential must hold the correct authority for the action you are requesting.</li>
             <li><strong>Grain Session</strong> - Proves component access. OS-level isolation ensures you can only reach grains you have been granted access to.</li>
             <li><strong>Powerbox Capability</strong> - Proves inter-grain authority. A claim token becomes a sturdyRef, granting persistent cross-session access to specific capabilities.</li>
         </ol>

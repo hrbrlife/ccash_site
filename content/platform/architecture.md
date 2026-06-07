@@ -1,7 +1,7 @@
 ---
 layout: "page"
 title: "Architecture"
-description: "Architecture of the CCASH platform — legal entity structure, technology stack, and security architecture for regulated financial services."
+description: "Architecture of the CCASH platform — legal entity structure, technology stack, and security architecture for money-services operations."
 keywords: ["architecture", "technical", "legal architecture", "Go", "HTMX", "Melusina", "encrypted SQLite", "Ed25519", "CCASH"]
 ogImage: "/og-image.png"
 stylesheets:

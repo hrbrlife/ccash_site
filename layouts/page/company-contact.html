@@ -18,8 +18,8 @@
                 </div>
                 <div class="contact-card">
                     <span class="icon-wrapper"><svg><use href="#icon-message"></use></svg></span>
-                    <h3>Telegram</h3>
-                    <p>Join our community or DM us directly</p>
+                    <h3>GitHub</h3>
+                    <p>Open-source platform and documentation</p>
                     <a href="https://github.com/ccash" target="_blank">github.com/ccash</a>
                 </div>
                 <div class="contact-divider"></div>
@@ -32,7 +32,7 @@
                 </div>
                 <div class="contact-hours">
                     <h4>Response Time</h4>
-                    <p>We typically respond within 24 hours during business days (Monday - Friday, 9:00–18:00 CET).</p>
+                    <p>We typically respond within 24 hours during business days (Monday - Friday, 9:00–17:00 Mountain Time).</p>
                 </div>
             </div>
             <div class="contact-form-card">
@@ -41,15 +41,17 @@
                         <h2>Send Us a Message</h2>
                         <p>Fill out the form and we'll get back to you shortly</p>
                     </div>
-                    <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                    <form id="contact-form" action="mailto:legal@cca.sh" method="POST" enctype="text/plain" onsubmit="return confirm('This will open your email client to send a message to legal@cca.sh. Continue?');">
                         <div class="form-group">
                             <label for="topic">How can we help?</label>
                             <select id="topic" name="topic" required>
                                 <option value="">Select a topic</option>
-                                <option value="issuer">I want to issue securities</option>
-                                <option value="investor">I'm interested in investing</option>
-                                <option value="broker">Broker partnership inquiry</option>
-                                <option value="institution">Institutional services</option>
+                                <option value="msb">Launch an MSB operation</option>
+                                <option value="psp">Launch a PSP operation</option>
+                                <option value="vasp">Launch a VASP / digital asset operation</option>
+                                <option value="treasury">Corporate treasury / family office</option>
+                                <option value="introducer">Introducer / referral partnership</option>
+                                <option value="service-provider">Service provider / trust company</option>
                                 <option value="media">Press / Media inquiry</option>
                                 <option value="technical">Technical question</option>
                                 <option value="other">Other</option>
@@ -94,25 +96,25 @@
     <div class="quick-connect-container">
         <h2>Looking for Something Specific?</h2>
         <div class="quick-connect-grid">
-            <a href="{{ "signup/?type=issuer" | relURL }}" class="quick-link">
+            <a href="{{ "solutions/for-msbs/" | relURL }}" class="quick-link">
                 <span class="icon-wrapper"><svg><use href="#icon-building"></use></svg></span>
                 <span class="text">
-                    <strong>Launch a Token</strong>
-                    <small>Start your issuance journey</small>
+                    <strong>Launch an MSB</strong>
+                    <small>Start your money-services operation</small>
                 </span>
             </a>
-            <a href="{{ "signup/?type=investor" | relURL }}" class="quick-link">
+            <a href="{{ "solutions/for-psps/" | relURL }}" class="quick-link">
                 <span class="icon-wrapper"><svg><use href="#icon-briefcase"></use></svg></span>
                 <span class="text">
-                    <strong>Invest in Opportunities</strong>
-                    <small>Access tokenized securities</small>
+                    <strong>Launch a PSP</strong>
+                    <small>Payment service provider platform</small>
                 </span>
             </a>
-            <a href="{{ "signup/?type=broker" | relURL }}" class="quick-link">
+            <a href="{{ "solutions/for-vasps/" | relURL }}" class="quick-link">
                 <span class="icon-wrapper"><svg><use href="#icon-handshake"></use></svg></span>
                 <span class="text">
-                    <strong>Become a Partner</strong>
-                    <small>Broker referral program</small>
+                    <strong>Launch a VASP</strong>
+                    <small>Digital asset service provider</small>
                 </span>
             </a>
             <a href="{{ "knowledge/faq/" | relURL }}" class="quick-link">

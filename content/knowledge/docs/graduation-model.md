@@ -18,16 +18,16 @@ CCASH offers a different path.
 
 ### Phase 1: Shared Platform
 
-You launch your community token economy on CCASH's proven shared infrastructure. This phase is designed to remove every barrier to entry:
+You launch your money-services operation on CCASH's proven shared infrastructure. This phase is designed to remove every barrier to entry:
 
-- **No infrastructure to build.** CCASH provides the servers, compliance infrastructure, banking relationships, and blockchain integration.
-- **No upfront investment.** Pay a predictable monthly fee based on your community size and transaction volume.
+- **No infrastructure to build.** CCASH provides the servers, compliance infrastructure, payment-provider relationships, and blockchain integration.
+- **No upfront infrastructure cost.** Pay a predictable monthly fee based on your client base size and transaction volume.
 - **No technical skills required.** The platform handles token creation, deployment, and day-to-day operations.
-- **Focus on your community.** Your job is to grow your audience, engage your members, and build your token economy.
+- **Focus on your client base.** Your job is to grow your audience, engage your members, and build your operation.
 
 ### Phase 2: Growth
 
-As your community grows, the platform scales with you. Add new token types, expand your membership tiers, implement community governance, and deploy new features — all on the same shared infrastructure. You prove your model before you commit to infrastructure.
+As your client base grows, the platform scales with you. Add new token types, expand your membership tiers, implement governance, and deploy new features — all on the same shared infrastructure. You prove your model before you commit to infrastructure.
 
 ### Phase 3: Graduation
 
@@ -35,12 +35,12 @@ When you're ready, you deploy your own self-hosted CCASH instance:
 
 - **Your brand.** Your instance carries your brand, not CCASH's.
 - **Your infrastructure.** Run on your own servers, cloud, or hosting provider.
-- **Your data.** Your community records, token history, and audit trail transfer completely.
+- **Your data.** Your client records, token history, and audit trail transfer completely.
 - **Your terms.** No ongoing platform fees. No third-party dependency. No lock-in.
 
 ### What Graduation Is Not
 
-Graduation is not offboarding. You don't leave CCASH — you take the platform with you. Your instance runs the same software, benefits from ongoing updates, and can still route regulated operations through CCASH's infrastructure if you choose. You simply own your own deployment.
+Graduation is not offboarding. You don't leave CCASH — you take the platform with you. Your instance runs the same software, benefits from ongoing updates, and can still route money-services operations through CCASH's infrastructure if you choose. You simply own your own deployment.
 
 ### The Inviolable Promise
 

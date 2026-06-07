@@ -2,11 +2,7 @@
 title: "Governance Roles - Glossary"
 description: "The defined roles and responsibilities within the CCASH governance framework, including supervisory and operational functions."
 category: "structure"
-relatedTerms:
-  - slug: "operating-entity"
-    label: "Operating Entity"
-  - slug: "framework-agreement"
-    label: "Framework Agreement"
+relatedTerms: []
 date: "2026-06-01"
 ---
 

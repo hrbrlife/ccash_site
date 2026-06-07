@@ -7,7 +7,7 @@ stylesheets:
   - "/css/main.css"
   - "/css/pages/glossary.css"
   - "/css/pages/docs.css"
-heroDesc: "The three-pillar architecture that powers regulated financial infrastructure — without compromise."
+heroDesc: "The three-pillar architecture that powers money-services infrastructure — capability-secured grain design, journal-based storage, and cryptographic authority."
 draft: false
 date: "2026-05-15"
 lastmod: "2026-05-15"
@@ -111,7 +111,7 @@ ogtype: "article"
             <tbody>
                 <tr>
                     <td><strong>Credential Layer</strong></td>
-                    <td>Token balances, NFT authority, compliance flags, operation records</td>
+                    <td>Wallet balances, authority credentials, compliance flags, operation records</td>
                     <td>Names, addresses, document images, phone numbers, emails — <em>zero PII, ever</em></td>
                 </tr>
                 <tr>
@@ -126,7 +126,7 @@ ogtype: "article"
                 </tr>
             </tbody>
         </table>
-        <p>Every grain journal is encrypted at rest with AES-256. GDPR right-to-erasure is handled via cryptographic shredding — delete the encryption key, and the data is gone. Append-only journals enable deterministic replay for audit and disaster recovery. Seven-year retention for regulatory compliance, with automated purge after expiration.</p>
+        <p>Every grain journal is encrypted at rest with AES-256. right-to-erasure is handled via cryptographic shredding — delete the encryption key, and the data is gone. Append-only journals enable deterministic replay for audit and disaster recovery. Seven-year retention for regulatory compliance, with automated purge after expiration.</p>
         <h2>Authentication Layers</h2>
         <p>Multiple layers of authentication, each building on the last. No single layer is sufficient — all must agree before any operation proceeds:</p>
         <ol>

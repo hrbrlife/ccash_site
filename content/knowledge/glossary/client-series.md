@@ -2,11 +2,7 @@
 title: "Entity Compartment - Glossary"
 description: "A legally separate compartment within the CCASH legal infrastructure that holds an operator's customer records, transactions, and assets."
 category: "structure"
-relatedTerms:
-  - slug: "operating-entity"
-    label: "Operating Entity"
-  - slug: "ecosystem"
-    label: "Platform Ecosystem"
+relatedTerms: []
 date: "2026-06-01"
 ---
 

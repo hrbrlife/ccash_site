@@ -1,8 +1,8 @@
 ---
 layout: "page"
 title: "Solutions"
-description: "CCASH helps you tokenize your community. Start on a proven shared platform. Graduate to your own self-hosted platform. For family offices, creators, celebrities, sports clubs, lifestyle brands, and retail destinations."
-keywords: ["CCASH", "tokenization", "community tokens", "fan tokens", "graduation", "self-hosted platform"]
+description: "CCASH — whitelabel MSB, PSP, VASP & corporate-treasury platform. Launch as a Client Series under US FinCEN registration. Graduate to your own license."
+keywords: ["CCASH", "MSB platform", "PSP platform", "VASP platform", "corporate treasury", "graduation", "self-hosted platform", "FinCEN MSB"]
 ogImage: "/og-solutions.png"
 stylesheets:
   - "/css/main.css"
@@ -17,8 +17,8 @@ sitemap:
 
 <section class="page-hero bg-soft">
     <span class="section-label">Solutions</span>
-    <h1 class="section-title">Tokenize your community. Own your platform.</h1>
-    <p class="section-desc">CCASH gives you a proven tokenization platform to start with. When you're ready, you graduate to your own self-hosted instance — full control, your brand, your rules. No lock-in, no platform risk.</p>
+    <h1 class="section-title">Launch your money-services operation. Own your platform.</h1>
+    <p class="section-desc">CCASH gives you a proven platform to start with — multi-currency wallets, payments, FX, custody, and compliance. When you're ready, graduate to your own self-hosted instance or your own license. No lock-in, no platform risk.</p>
 </section>
 
 <section class="content-section">
@@ -26,40 +26,40 @@ sitemap:
         <h2>Who CCASH Serves</h2>
 
         <div class="concept-box">
-            <h4>Family Offices &amp; Treasury Groups</h4>
-            <p>Tokenize deal flow, manage treasury assets, and create tokenized investment vehicles for family members and trusted partners. Start on CCASH's shared platform. Graduate to your own sovereign instance when your operations demand it.</p>
+            <h4>Money Services Businesses (MSBs)</h4>
+            <p>Run send, receive, FX, and custody operations on proven infrastructure. Launch as a Client Series operating as an Agent MSB under CCASH's US FinCEN registration. Graduate to your own self-hosted instance — or your own MSB license — when your volume demands it.</p>
         </div>
 
         <div class="concept-box">
-            <h4>Financial Influencers &amp; Bloggers</h4>
-            <p>Turn your audience into a community economy. Create tokens for paid subscriptions, exclusive content, voting on topics, and community rewards. Start monetizing your audience day one. Own the entire platform when you grow.</p>
+            <h4>Payment Service Providers (PSPs)</h4>
+            <p>Multi-currency wallets, payment processing, FX and settlement — all with risk-tiered approval gates and four-eyes control. Start on CCASH's shared platform. Graduate to your own infrastructure when you scale.</p>
         </div>
 
         <div class="concept-box">
-            <h4>Celebrities &amp; Public Figures</h4>
-            <p>Fan tokens, exclusive access tokens, digital collectibles, and community membership. Connect directly with your audience through token-gated experiences. Start with CCASH's proven infrastructure. Graduate to your own branded platform.</p>
+            <h4>Virtual Asset Service Providers (VASPs)</h4>
+            <p>Crypto exchanges, digital asset custodians, and on/off-ramp operators. Multi-currency wallets across fiat, stablecoin, and crypto. Travel Rule handoff surfaces, compliance review dashboards, and cryptographically signed audit trails.</p>
         </div>
 
         <div class="concept-box">
-            <h4>Sports Clubs &amp; Lifestyle Brands</h4>
-            <p>Fan membership tokens, season ticket tokens, loyalty programs, and brand community economies. Deepen engagement with your most loyal supporters. Start on CCASH. Own your community platform long-term.</p>
+            <h4>Family Offices &amp; Corporate Treasury</h4>
+            <p>Multi-currency cash management, internal transfers, FX and swap, approval gates, four-eyes control, and full reconciliation. Start on CCASH's shared platform. Graduate to your own self-hosted instance when your operations demand full sovereignty.</p>
         </div>
 
         <div class="concept-box">
-            <h4>Shopping Centres &amp; Retail Destinations</h4>
-            <p>Retail loyalty tokens, cross-tenant reward programs, visitor engagement tokens, and community-driven retail experiences. Transform casual visitors into loyal community members. Start on the shared platform. Graduate to your own.</p>
+            <h4>Introducers &amp; Service Providers</h4>
+            <p>Referral partners and trust companies — introduce clients to CCASH, earn revenue share, or run your own whitelabel instance. No license needed to refer. Full platform support for your network.</p>
         </div>
 
         <h2>The Graduation Model</h2>
         <p>CCASH operates on a simple principle: <strong>you should not have to build infrastructure to get started, and you should not be locked in once you grow.</strong></p>
-        <p><strong>Phase 1 — Launch:</strong> Start on CCASH's shared platform. We handle the infrastructure, security, and compliance. You focus on your community.</p>
-        <p><strong>Phase 2 — Grow:</strong> Build your token economy. Add features, onboard members, iterate on your model. The platform scales with you.</p>
-        <p><strong>Phase 3 — Graduate:</strong> Deploy your own self-hosted CCASH instance. Your brand, your infrastructure, your data, your rules. Full sovereignty. We help you make the transition.</p>
+        <p><strong>Phase 1 — Launch:</strong> Start on CCASH's shared platform as a Client Series under CCASH's US FinCEN MSB registration. We handle the infrastructure, security, and compliance. You focus on your operation.</p>
+        <p><strong>Phase 2 — Grow:</strong> Build your client base. Add currencies, expand services, iterate on your offering. The platform scales with you.</p>
+        <p><strong>Phase 3 — Graduate:</strong> Deploy your own self-hosted CCASH instance. Your brand, your infrastructure, your data, your rules — or obtain your own MSB license. Full sovereignty. We help you make the transition.</p>
     </div>
 </section>
 
 <section class="cta-section">
-    <h2>Ready to tokenize your community?</h2>
-    <p>Start on the shared platform. Graduate when you're ready.</p>
+    <h2>Ready to launch your money-services operation?</h2>
+    <p>Start on the shared platform. Graduate when you're ready. No lock-in.</p>
     <a href="mailto:legal@cca.sh?subject=CCASH%20Inquiry" class="btn btn-primary">Get Started</a>
 </section>

@@ -1,47 +1,49 @@
 ---
 title: "Metadata - Documentation"
 type: "doc"
-description: "CCASH metadata structure — token metadata, entity metadata, and compliance metadata for community token economies."
+description: "CCASH platform configuration — site profile, entity metadata, and compliance configuration for money-services operations."
 ogImage: "/og-docs.png"
 stylesheets:
   - "/css/main.css"
   - "/css/pages/docs.css"
 date: "2026-06-01"
-lastmod: "2026-06-01"
+lastmod: "2026-06-06"
 ---
 
-## Metadata
+## Platform Configuration
 
-CCASH uses structured metadata to describe tokens, entities, and compliance configurations. Metadata is stored on-chain where it forms part of the tamper-evident record, and in grain journal stores for operational use.
+CCASH uses structured metadata to describe platform configuration, entities, and compliance settings. Configuration is stored in the `site-profile.json` and in grain journal stores for operational use.
 
-### Token Metadata
+### Site Profile
 
-Each community token carries metadata that describes its identity and rules:
+The `site-profile.json` file parameterizes a CCASH instance for a specific operator brand. The same binary boots as any operator name by dropping this file into the grain:
 
-- **Name** — Human-readable token name (e.g., "Fan Token", "Loyalty Points")
-- **Symbol** — Short ticker symbol (e.g., "FAN", "LOYAL")
-- **Decimals** — Number of decimal places for token amounts
-- **Total Supply** — Maximum token supply (fixed or dynamic)
-- **Metadata URI** — Pointer to off-chain metadata (image, description, links)
+- **Brand name** — The operator's brand as displayed throughout the console
+- **Currencies** — Default production currencies (USD, EUR, GBP, JPY, INR fiat; USDT, USDC stablecoin; BTC, ETH crypto) plus test assets (devnet) for demos
+- **Fees** — Fee schedules for transactions, swaps, and travel cheques
+- **Approval tiers** — Risk thresholds for Low / Medium / High classification (default: high ≥ $10,000, medium ≥ $1,000)
+- **Travel-cheque issuer** — Legal entity name printed on issued instruments
+- **FAQ** — Operator-customizable FAQ entries
 
 ### Entity Metadata
 
 Operating compartments carry entity metadata that describes their legal structure and configuration:
 
-- **Entity Type** — Series LLC, DAO LLC, or other structure
-- **Jurisdiction** — Governing law and regulatory framework
-- **Governance Model** — Founder-led, council, or token-weighted
-- **Compliance Profile** — KYC requirements, transaction limits, restricted jurisdictions
+- **Entity Type** — Montana Series LLC structure
+- **Jurisdiction** — US federal and Montana law
+- **Governance Model** — Admin-managed with client-approval gates
+- **Compliance Profile** — KYC requirements, transaction limits, risk classification
 
-### Compliance Metadata
+### Compliance Configuration
 
-Compliance configurations are stored as metadata that the transfer hook reads before every transaction:
+Compliance parameters are configured per operation:
 
 - **Velocity Limits** — Maximum transfer volume per time window
-- **Whitelist** — Approved addresses for holding and transferring
+- **Approval Tiers** — Risk thresholds and required OTP channels per tier
+- **Currency Risk** — High-risk currency classifications (e.g., BTC, ETH, USDT, USDC)
+- **Method Risk** — High-risk payment method classifications (swift, card, westernUnion)
 - **Geography** — Permitted and restricted jurisdictions
-- **Freeze Status** — Whether transfers are currently halted
 
-### Metadata Governance
+### Configuration Governance
 
-Token and compliance metadata can be updated through governance actions. On the shared platform, CCASH facilitates metadata updates. After graduation, the self-hosted instance owner has full control over all metadata.
+Platform configuration can be updated by administrators. On the shared platform, CCASH facilitates configuration changes. After graduation, the self-hosted instance owner has full control over all configuration.
